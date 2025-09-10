@@ -32,6 +32,10 @@ test = """
 FeynHiggs FeynHiggs-2.19.0/example/SLHA/TestEXTPAR.spc
 """
 
+cmake-test = """
+FeynHiggs ./example/SLHA/TestEXTPAR.spc &> TestEXTPAR.out
+"""
+
 [tasks.start]
 depends-on = ["download", "build"]
 
