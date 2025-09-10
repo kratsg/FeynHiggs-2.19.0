@@ -44,4 +44,17 @@ curl = ">=8.14.1,<9"
 sed = ">=4.9,<5"
 gawk = ">=5.3.1,<6"
 tar = ">=1.35,<2"
+
+# Linux gets gdb
+[target.linux-64.dependencies]
 gdb = ">=16.3,<17"
+
+[target.linux-aarch64.dependencies]
+gdb = ">=16.3,<17"
+
+# macOS gets lldb
+[target.osx-64.dependencies]
+lldb = ">=21.1.0,<22"
+
+[target.osx-arm64.dependencies]
+lldb = ">=21.1.0,<22"
