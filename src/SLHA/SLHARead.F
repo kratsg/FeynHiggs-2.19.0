@@ -129,7 +129,7 @@ read(tok, *, err=997, end=997)
      &    rnmix, rumix, rvmix, rhmix, ramix, rlmix,
      &    vckmi, vckm, umnsi, umns,
      &    msl2i, mse2i, msq2i, msu2i, msd2i,
-     &    msl2, mse2, msq2, msu2, msd2, 
+     &    msl2, mse2, msq2, msu2, msd2,
      &    tei, tui, tdi, te, tu, td,
      &    snmix, slmix, usmix, tsmix, ssmix, samix,
      &    hcmix, nnmix, nhmix, namix,
@@ -726,7 +726,7 @@ tecys	Scan val, n, (id(i), i = 1, n)
 	integer si, di, c
 
 	SLHATokens = 0
-	di = 0
+	di = 1
 	do si = 1, len(s)
 	  c = ichar(s(si:si))
 	  if( c .eq. ichar('#') ) goto 1
@@ -746,8 +746,9 @@ tecys	Scan val, n, (id(i), i = 1, n)
 	  endif
 	enddo
 
-1	do di = di + 1, len(s)
+1	do while (di <= len(s))
 	  d(di:di) = ' '
+	  di = di + 1
 	enddo
 	end
 
