@@ -21,6 +21,12 @@ make install && \
 mv $CONDA_PREFIX/lib64/libFH.a $CONDA_PREFIX/lib64/
 """
 
+cmake-build = """
+cmake -DCMAKE_INSTALL_PREFIX="$CONDA_PREFIX" -S . -B build && \
+cmake build -LH && \
+cmake --build build --clean-first --parallel "$(nproc --ignore=4)"
+"""
+
 test = """
 FeynHiggs FeynHiggs-2.19.0/example/SLHA/TestEXTPAR.spc
 """
@@ -32,6 +38,7 @@ depends-on = ["download", "build"]
 [dependencies]
 cxx-compiler = ">=1.11.0,<2"
 fortran-compiler = ">=1.11.0,<2"
+cmake = ">=4.1.1,<5"
 make = ">=4.4.1,<5"
 curl = ">=8.14.1,<9"
 sed = ">=4.9,<5"
