@@ -15,6 +15,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 set(CMAKE_Fortran_MODULE_DIRECTORY ${CMAKE_BINARY_DIR}/fortran_modules)
 
+add_compile_definitions(_GNU_SOURCE)
+
 # Options (corresponding to configure script options)
 option(ENABLE_SLHAPARA "Enable output of sfermion and *ino masses in the SLHA" OFF)
 option(ENABLE_FULL_G_2 "Compile in the full 2-loop corrections to (g_mu - 2)_SUSY" OFF)
