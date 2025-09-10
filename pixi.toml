@@ -24,7 +24,8 @@ mv $CONDA_PREFIX/lib64/libFH.a $CONDA_PREFIX/lib64/
 cmake-build = """
 cmake -DCMAKE_INSTALL_PREFIX="$CONDA_PREFIX" -S . -B build && \
 cmake build -LH && \
-cmake --build build --clean-first --parallel "$(nproc --ignore=4)"
+cmake --build build --clean-first --parallel "$(nproc --ignore=4)" &&\
+cmake --install build
 """
 
 test = """
