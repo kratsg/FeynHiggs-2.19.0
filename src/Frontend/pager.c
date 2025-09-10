@@ -8,7 +8,6 @@
 
 
 #include <stdio.h>
-#define _XOPEN_SOURCE // putenv is a feature
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/wait.h>
