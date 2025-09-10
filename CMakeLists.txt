@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.16)
-project(FeynHiggs 
+cmake_minimum_required(VERSION 3.20...4.1)
+project(FeynHiggs
     VERSION 2.19.0
     LANGUAGES C CXX Fortran
 )
@@ -120,12 +120,12 @@ function(set_feynhiggs_compile_options target)
         SLHAPARA=${SLHAPARA}
         GM2FULL=${GM2FULL}
     )
-    
+
     # Fortran-specific definitions
     target_compile_definitions(${target} PRIVATE
         $<$<COMPILE_LANGUAGE:Fortran>:U77EXT=0>
     )
-    
+
     # Architecture flags
     if(FORCE_32BIT)
         target_compile_options(${target} PRIVATE -m32)
@@ -134,7 +134,7 @@ function(set_feynhiggs_compile_options target)
         target_compile_options(${target} PRIVATE -m64)
         target_link_options(${target} PRIVATE -m64)
     endif()
-    
+
     # Native optimization with proper compiler detection
     if(USE_NATIVE)
         target_compile_options(${target} PRIVATE
@@ -143,13 +143,13 @@ function(set_feynhiggs_compile_options target)
             $<$<NOT:$<OR:$<C_COMPILER_ID:AppleClang>,$<CXX_COMPILER_ID:AppleClang>>>:-march=native>
         )
     endif()
-    
+
     # Fortran-specific flags based on compiler
     if(CMAKE_Fortran_COMPILER_ID STREQUAL "GNU")
         target_compile_options(${target} PRIVATE
             $<$<COMPILE_LANGUAGE:Fortran>:-ffixed-line-length-none>
         )
-        
+
         # Use -std=legacy only for older code compatibility
         if(CMAKE_Fortran_COMPILER_VERSION VERSION_LESS "10.0")
             target_compile_options(${target} PRIVATE
@@ -160,12 +160,12 @@ function(set_feynhiggs_compile_options target)
                 $<$<COMPILE_LANGUAGE:Fortran>:-std=legacy -fallow-argument-mismatch>
             )
         endif()
-        
+
         target_compile_options(${target} PRIVATE
             $<$<COMPILE_LANGUAGE:Fortran>:-fPIE>
             $<$<AND:$<COMPILE_LANGUAGE:Fortran>,$<CONFIG:Debug>>:-Wall -Wno-unused-dummy-argument -Wno-tabs -Wno-integer-division -Wno-real-q-constant -ffpe-trap=invalid,overflow,zero>
         )
-        
+
         # Quad precision flags - check compiler version compatibility
         if(USE_QUAD AND CMAKE_Fortran_COMPILER_VERSION VERSION_LESS "12.0")
             target_compile_options(${target} PRIVATE
@@ -174,12 +174,12 @@ function(set_feynhiggs_compile_options target)
         elseif(USE_QUAD)
             message(WARNING "gfortran ${CMAKE_Fortran_COMPILER_VERSION} may not support -freal-8-real-${QUADSIZE}")
         endif()
-        
+
     elseif(CMAKE_Fortran_COMPILER_ID STREQUAL "Intel" OR CMAKE_Fortran_COMPILER_ID STREQUAL "IntelLLVM")
         target_compile_options(${target} PRIVATE
             $<$<COMPILE_LANGUAGE:Fortran>:-debug -extend_source -warn truncated_source -warn nouncalled -assume bscc>
         )
-        
+
         if(USE_QUAD)
             target_compile_options(${target} PRIVATE
                 $<$<COMPILE_LANGUAGE:Fortran>:-r16>
@@ -188,26 +188,26 @@ function(set_feynhiggs_compile_options target)
                 $<$<COMPILE_LANGUAGE:Fortran>:DBLE=QEXT DIMAG=QIMAG DCONJG=QCONJG DCMPLX=QCMPLX>
             )
         endif()
-        
+
     elseif(CMAKE_Fortran_COMPILER_ID STREQUAL "PGI" OR CMAKE_Fortran_COMPILER_ID STREQUAL "NVHPC")
         target_compile_options(${target} PRIVATE
             $<$<COMPILE_LANGUAGE:Fortran>:-Mextend -g77libs>
             $<$<AND:$<COMPILE_LANGUAGE:Fortran>,$<CONFIG:Debug>>:-Minform=inform -Ktrap=fp>
         )
-        
+
         if(USE_NATIVE)
             target_compile_options(${target} PRIVATE
                 $<$<COMPILE_LANGUAGE:Fortran>:-Mvect=simd>
             )
         endif()
     endif()
-    
+
     # C/C++ flags
     target_compile_options(${target} PRIVATE
         $<$<COMPILE_LANGUAGE:C>:-fomit-frame-pointer -ffast-math -Wall>
         $<$<COMPILE_LANGUAGE:CXX>:-fomit-frame-pointer -ffast-math -Wall>
     )
-    
+
     # System-specific linking
     if(CMAKE_SYSTEM_NAME STREQUAL "Darwin")
         target_link_options(${target} PRIVATE -Wl,-no_compact_unwind)
@@ -222,14 +222,14 @@ function(set_feynhiggs_compile_options target)
             target_link_options(${target} PRIVATE -static-libgfortran)
         endif()
     endif()
-    
+
     # Static linking (not supported on macOS)
     if(BUILD_STATIC AND NOT APPLE)
         target_link_options(${target} PRIVATE -static)
     elseif(BUILD_STATIC AND APPLE)
         message(WARNING "Static linking requested but not supported on macOS")
     endif()
-    
+
     # Include directories
     target_include_directories(${target} PRIVATE
         ${CMAKE_SOURCE_DIR}/src/include
