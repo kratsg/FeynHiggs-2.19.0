@@ -1,0 +1,4 @@
+(dhb1*((I*CB*MUEC + I*SB*Af[4, 3, 3])*USf[2, 2, 4, 3]*USfC[1, 1, 4, 3] + 
+    ((-I)*CB*MUE - I*SB*AfC[4, 3, 3])*USf[2, 1, 4, 3]*USfC[1, 2, 4, 3]))/
+  Sqrt[2] + (hb*(I*SB*dAf1[4, 3, 3]*USf[2, 2, 4, 3]*USfC[1, 1, 4, 3] - 
+    I*SB*Conjugate[dAf1[4, 3, 3]]*USf[2, 1, 4, 3]*USfC[1, 2, 4, 3]))/Sqrt[2]

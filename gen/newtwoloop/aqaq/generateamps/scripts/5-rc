@@ -1,0 +1,76 @@
+#! /bin/sh -x
+
+test $# -ne 1 && {
+  cat << _EOF_
+Usage:  $0 se
+computes the renormalization constants for the 'se' 2L self-energies
+_EOF_
+  exit 1
+}
+
+in=m/$1/4-simp.1
+test -f $in || exit 1
+out=m/$1/5-rc
+rm -f $out*
+
+rcdir=m/rc
+psdir=$rcdir/d
+mkdir -p $psdir
+
+time math -run rcdir=\"$rcdir\" \
+          -run psdir=\"$psdir/\" << \_EOF_ > $out.log
+AppendTo[$Echo, "stdout"];
+
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FeynArts-3.9"}]]; (* FeynArts path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FormCalc-9.7"}]]; (* FormCalc path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-Projekte", "FC2L", "aqaqnew"}]];
+
+model = {"MSSMCT","Nc"};
+
+<< packages`RenConst`;
+glamp = Identity;
+
+rcs = {dMWsq1MW2, dMZsq1MZ2};
+CalcRenConst[rcs];
+
+Uninstall[$ReadFormHandle];
+_EOF_
+
+time math -run se=\"$1\" \
+          -run in=\"$in\" \
+          -run out=\"$out\" \
+          -run rcdir=\"$rcdir\" \
+          -run psdir=\"$psdir/\" << \_EOF_ >> $out.log
+AppendTo[$Echo, "stdout"];
+
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FeynArts-3.9"}]]; (* FeynArts path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FormCalc-9.7"}]]; (* FormCalc path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-Projekte", "FC2L", "aqaqnew"}]];
+
+<< packages`RenConst`;
+ct["h0"] := dTh02;
+ct["HH"] := dTHH2;
+ct["A0"] := dTA02;
+ct["h0h0"] := -dMHiggsZ2gl[1, 1];
+ct["h0HH"] := -dMHiggsZ2gl[1, 2];
+ct["HHHH"] := -dMHiggsZ2gl[2, 2];
+ct["h0A0"] := -dMHiggsZ2gl[1, 3];
+ct["HHA0"] := -dMHiggsZ2gl[2, 3];
+ct["A0A0"] := -dMHiggsZ2gl[3, 3];
+ct["HmHp"] := -dMHiggsZ2gl[5, 5];
+_ct = 0
+
+amp = Get[in] + ct[se];
+rcs = FindRenConst[amp];
+rcs = CalcRenConst[rcs];
+
+Put[rcs, out];
+
+Uninstall[$ReadFormHandle];
+_EOF_
+
+gzip $out.log
+find $psdir -name \*.ps -execdir gzip -f {} \;
+
+test -f $out
+

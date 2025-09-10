@@ -1,0 +1,3067 @@
+(MB^4*DiagMark[M0, MB]*(g[hBBL, 1]^4 + g[hBBR, 1]^4)*
+   SumOver[Index[Colour, 3], Nc]*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]])/
+  (64*Pi^4) + (MB^4*DiagMark[M0, MB]*(g[hBBL, 1]^2*g[hBBL, 4]^2 + 
+    g[hBBR, 1]^2*g[hBBR, 4]^2)*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]])/(64*Pi^4) - 
+ (MB^2*DiagMark[M0, MB]*g[hBBL, 1]*g[hBBR, 1]*
+   (g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + g[hBBR, 1]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^3*Df[k3, MB]] + 
+    M0^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]]))/(64*Pi^4) - 
+ (MB^2*DiagMark[M0, MB]*g[hBBL, 4]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + 
+    g[hBBR, 1]^2)*g[hBBR, 4]*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^3*Df[k3, MB]] + M0^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]]))/
+  (64*Pi^4) + (MB^2*DiagMark[M0, MB]*g[hBBL, 1]*g[hBBR, 1]*
+   (g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + g[hBBR, 1]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^3*Df[k3, M0]] + 
+    MB^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]]))/(64*Pi^4) + 
+ (MB^2*DiagMark[M0, MB]*g[hBBL, 4]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + 
+    g[hBBR, 1]^2)*g[hBBR, 4]*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^3*Df[k3, M0]] + MB^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]]))/
+  (64*Pi^4) + (3*MB^2*DiagMark[M0, MB]*g[hBBL, 1]*g[hBBR, 1]*
+   (g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + g[hBBR, 1]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]]))/(64*Pi^4) + 
+ (MB^2*DiagMark[M0, MB]*(g[hBBL, 4]*g[hBBR, 1]^2*(g[hBBL, 4] + g[hBBR, 4]) + 
+    g[hBBL, 1]^2*g[hBBR, 4]*(g[hBBL, 4] + g[hBBR, 4]) + 
+    g[hBBL, 1]*g[hBBR, 1]*(2*g[hBBL, 4]^2 + g[hBBL, 4]*g[hBBR, 4] + 
+      2*g[hBBR, 4]^2))*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]]))/(64*Pi^4) - 
+ (DiagMark[M0, MB]*g[hBBL, 1]^2*g[hBBR, 1]^2*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^2*Df[k3, MB]] + M0^2*T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, MB]] + 
+      M0^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]])))/(64*Pi^4) - 
+ (DiagMark[M0, MB]*g[hBBL, 1]*g[hBBL, 4]*g[hBBR, 1]*g[hBBR, 4]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, MB]] + 
+    M0^2*T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, MB]] + 
+      M0^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]])))/(64*Pi^4) + 
+ (DiagMark[M0, MB]*g[hBBL, 1]^2*g[hBBR, 1]^2*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^2*Df[k3, M0]] + MB^2*T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, M0]] + 
+      MB^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]])))/(64*Pi^4) + 
+ (DiagMark[M0, MB]*g[hBBL, 1]*g[hBBL, 4]*g[hBBR, 1]*g[hBBR, 4]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, M0]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, M0]] + 
+      MB^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]])))/(64*Pi^4) + 
+ (DiagMark[M0, MB]*g[hBBL, 1]^2*g[hBBR, 1]^2*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*(T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+      MB^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]])))/(64*Pi^4) + 
+ (DiagMark[M0, MB]*g[hBBL, 1]*g[hBBL, 4]*g[hBBR, 1]*g[hBBR, 4]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*(T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+      MB^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, M0]])))/(64*Pi^4) + 
+ (MB*MT^3*DiagMark[M0, MT, MB]*(g[HpTBR, 2]*g[hTTR, 1]^2*gC[HpTBL, 2] + 
+    g[HpTBL, 2]*g[hTTL, 1]^2*gC[HpTBR, 2])*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MT]^3*Df[k3, MB]*Df[k4, M0]])/(64*Pi^4) - 
+ (MT^2*DiagMark[M0, MT, MB]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + 
+    g[hTTR, 1]^2)*(g[HpTBL, 2]*gC[HpTBL, 2] + g[HpTBR, 2]*gC[HpTBR, 2])*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^3*Df[k3, MB]] + 
+    M0^2*T[Df[k1, MT]^3*Df[k3, MB]*Df[k4, M0]]))/(128*Pi^4) + 
+ (MT^2*DiagMark[M0, MT, MB]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + 
+    g[hTTR, 1]^2)*(g[HpTBL, 2]*gC[HpTBL, 2] + g[HpTBR, 2]*gC[HpTBR, 2])*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^3*Df[k3, M0]] + 
+    MB^2*T[Df[k1, MT]^3*Df[k3, MB]*Df[k4, M0]]))/(128*Pi^4) + 
+ (MT*DiagMark[M0, MT, MB]*(g[HpTBL, 2]*(MT*g[hTTL, 1]^2*gC[HpTBL, 2] + 
+      g[hTTR, 1]^2*(MT*gC[HpTBL, 2] + 2*MB*gC[HpTBR, 2]) + 
+      g[hTTL, 1]*g[hTTR, 1]*(MT*gC[HpTBL, 2] + 4*MB*gC[HpTBR, 2])) + 
+    g[HpTBR, 2]*(MT*g[hTTR, 1]^2*gC[HpTBR, 2] + 
+      g[hTTL, 1]^2*(2*MB*gC[HpTBL, 2] + MT*gC[HpTBR, 2]) + 
+      g[hTTL, 1]*g[hTTR, 1]*(4*MB*gC[HpTBL, 2] + MT*gC[HpTBR, 2])))*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MT^2*T[Df[k1, MT]^3*Df[k3, MB]*Df[k4, M0]]))/(128*Pi^4) - 
+ (DiagMark[M0, MT, MB]*g[hTTL, 1]*g[hTTR, 1]*(g[HpTBL, 2]*gC[HpTBL, 2] + 
+    g[HpTBR, 2]*gC[HpTBR, 2])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^2*Df[k3, MB]] + M0^2*T[Df[k1, MT]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, MB]] + 
+      M0^2*T[Df[k1, MT]^3*Df[k3, MB]*Df[k4, M0]])))/(128*Pi^4) + 
+ (DiagMark[M0, MT, MB]*g[hTTL, 1]*g[hTTR, 1]*(g[HpTBL, 2]*gC[HpTBL, 2] + 
+    g[HpTBR, 2]*gC[HpTBR, 2])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^2*Df[k3, M0]] + MB^2*T[Df[k1, MT]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, M0]] + 
+      MB^2*T[Df[k1, MT]^3*Df[k3, MB]*Df[k4, M0]])))/(128*Pi^4) + 
+ (DiagMark[M0, MT, MB]*g[hTTL, 1]*g[hTTR, 1]*(g[HpTBL, 2]*gC[HpTBL, 2] + 
+    g[HpTBR, 2]*gC[HpTBR, 2])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]*Df[k3, MB]*Df[k4, M0]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MB]*Df[k4, M0]] + 
+      MT^2*T[Df[k1, MT]^3*Df[k3, MB]*Df[k4, M0]])))/(128*Pi^4) + 
+ (MB^4*DiagMark[M0, MB]*(g[hBBL, 1]^4 + g[hBBR, 1]^4)*
+   SumOver[Index[Colour, 3], Nc]*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, M0]])/
+  (128*Pi^4) + (MB^4*DiagMark[M0, MB]*(g[hBBL, 1]^2*g[hBBL, 4]^2 + 
+    g[hBBR, 1]^2*g[hBBR, 4]^2)*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, M0]])/(128*Pi^4) - 
+ (MB^2*DiagMark[M0, MB]*g[hBBL, 1]*g[hBBR, 1]*(g[hBBL, 1] + g[hBBR, 1])^2*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, MB]^2] + 
+    M0^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, M0]]))/(128*Pi^4) - 
+ (MB^2*DiagMark[M0, MB]*g[hBBL, 4]*(g[hBBL, 1] + g[hBBR, 1])^2*g[hBBR, 4]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, MB]^2] + 
+    M0^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, M0]]))/(128*Pi^4) + 
+ (MB^2*DiagMark[M0, MB]*g[hBBL, 1]*g[hBBR, 1]*
+   (g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + g[hBBR, 1]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, M0]]))/(32*Pi^4) + 
+ (MB^2*DiagMark[M0, MB]*(g[hBBL, 1]^2*g[hBBL, 4]*g[hBBR, 4] + 
+    g[hBBL, 4]*g[hBBR, 1]^2*g[hBBR, 4] + g[hBBL, 1]*g[hBBR, 1]*
+     (g[hBBL, 4] + g[hBBR, 4])^2)*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, M0]]))/(64*Pi^4) + 
+ (DiagMark[M0, MB]*g[hBBL, 1]^2*g[hBBR, 1]^2*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*(T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+      MB^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, M0]])))/(64*Pi^4) + 
+ (DiagMark[M0, MB]*(g[hBBL, 4]^2*g[hBBR, 1]^2 + g[hBBL, 1]^2*g[hBBR, 4]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*(T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, M0]] + 
+      MB^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, M0]])))/(128*Pi^4) + 
+ (MB^2*MT^2*DiagMark[M0, MT, MB]*(g[hBBR, 1]*g[HpTBR, 2]*g[hTTR, 1]*
+     gC[HpTBL, 2] + g[hBBL, 1]*g[HpTBL, 2]*g[hTTL, 1]*gC[HpTBR, 2])*
+   SumOver[Index[Colour, 3], Nc]*T[Df[k1, MT]^2*Df[k3, MB]^2*Df[k4, M0]])/
+  (64*Pi^4) - (MB*MT*DiagMark[M0, MT, MB]*(g[hBBL, 1] + g[hBBR, 1])*
+   (g[hTTL, 1] + g[hTTR, 1])*(g[HpTBL, 2]*gC[HpTBL, 2] + 
+    g[HpTBR, 2]*gC[HpTBR, 2])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^2*Df[k3, MB]^2] + 
+    M0^2*T[Df[k1, MT]^2*Df[k3, MB]^2*Df[k4, M0]]))/(128*Pi^4) + 
+ (MT*DiagMark[M0, MT, MB]*
+   (g[hBBL, 1]*(MB*g[HpTBL, 2]*(g[hTTL, 1] + g[hTTR, 1])*gC[HpTBL, 2] + 
+      g[HpTBR, 2]*(MB*g[hTTL, 1]*gC[HpTBR, 2] + g[hTTR, 1]*
+         (2*MT*gC[HpTBL, 2] + MB*gC[HpTBR, 2]))) + 
+    g[hBBR, 1]*(MB*g[HpTBR, 2]*(g[hTTL, 1] + g[hTTR, 1])*gC[HpTBR, 2] + 
+      g[HpTBL, 2]*(MB*g[hTTR, 1]*gC[HpTBL, 2] + g[hTTL, 1]*
+         (MB*gC[HpTBL, 2] + 2*MT*gC[HpTBR, 2]))))*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*T[Df[k1, MT]^2*Df[k3, MB]^2*Df[k4, M0]]))/(128*Pi^4) + 
+ (MB*DiagMark[M0, MT, MB]*
+   (g[hBBL, 1]*(MT*g[HpTBR, 2]*(g[hTTL, 1] + g[hTTR, 1])*gC[HpTBR, 2] + 
+      g[HpTBL, 2]*(MT*g[hTTL, 1]*gC[HpTBL, 2] + g[hTTR, 1]*
+         (MT*gC[HpTBL, 2] + 2*MB*gC[HpTBR, 2]))) + 
+    g[hBBR, 1]*(MT*g[HpTBL, 2]*(g[hTTL, 1] + g[hTTR, 1])*gC[HpTBL, 2] + 
+      g[HpTBR, 2]*(MT*g[hTTR, 1]*gC[HpTBR, 2] + g[hTTL, 1]*
+         (2*MB*gC[HpTBL, 2] + MT*gC[HpTBR, 2]))))*
+   SumOver[Index[Colour, 3], Nc]*
+   (MT^2*T[Df[k1, MT]^2*Df[k3, MB]^2*Df[k4, M0]] + 
+    T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, M0]]))/(128*Pi^4) + 
+ (DiagMark[M0, MT, MB]*(g[hBBL, 1]*g[HpTBR, 2]*g[hTTL, 1]*gC[HpTBL, 2] + 
+    g[hBBR, 1]*g[HpTBL, 2]*g[hTTR, 1]*gC[HpTBR, 2])*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]*Df[k3, MB]*Df[k4, M0]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MB]*Df[k4, M0]] + 
+      MB^2*T[Df[k1, MT]^2*Df[k3, MB]^2*Df[k4, M0]]) + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, M0]]))/(128*Pi^4) + 
+ (DiagMark[M0, MT, MB]*(g[hBBL, 1]*g[HpTBR, 2]*g[hTTL, 1]*gC[HpTBL, 2] + 
+    g[hBBR, 1]*g[HpTBL, 2]*g[hTTR, 1]*gC[HpTBR, 2])*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]*Df[k3, MB]*Df[k4, M0]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*(MT^2*T[Df[k1, MT]^2*Df[k3, MB]^2*Df[k4, M0]] + 
+      T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, M0]])))/(128*Pi^4) + 
+ (MB^3*MT*DiagMark[M0, MT, MB]*(g[hBBR, 1]^2*g[HpTBR, 2]*gC[HpTBL, 2] + 
+    g[hBBL, 1]^2*g[HpTBL, 2]*gC[HpTBR, 2])*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, M0]])/(64*Pi^4) - 
+ (MB^2*DiagMark[M0, MT, MB]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + 
+    g[hBBR, 1]^2)*(g[HpTBL, 2]*gC[HpTBL, 2] + g[HpTBR, 2]*gC[HpTBR, 2])*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^3*Df[k3, MT]] + 
+    M0^2*T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, M0]]))/(128*Pi^4) + 
+ (MB*DiagMark[M0, MT, MB]*(g[hBBL, 1]^2*(MB*g[HpTBL, 2]*gC[HpTBL, 2] + 
+      g[HpTBR, 2]*(2*MT*gC[HpTBL, 2] + MB*gC[HpTBR, 2])) + 
+    g[hBBR, 1]^2*(MB*g[HpTBR, 2]*gC[HpTBR, 2] + 
+      g[HpTBL, 2]*(MB*gC[HpTBL, 2] + 2*MT*gC[HpTBR, 2])) + 
+    g[hBBL, 1]*g[hBBR, 1]*(g[HpTBR, 2]*(4*MT*gC[HpTBL, 2] + 
+        MB*gC[HpTBR, 2]) + g[HpTBL, 2]*(MB*gC[HpTBL, 2] + 
+        4*MT*gC[HpTBR, 2])))*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MB^2*T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, M0]]))/(128*Pi^4) + 
+ (MB^2*DiagMark[M0, MT, MB]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + 
+    g[hBBR, 1]^2)*(g[HpTBL, 2]*gC[HpTBL, 2] + g[HpTBR, 2]*gC[HpTBR, 2])*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^3*Df[k3, M0]] + 
+    MT^2*T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, M0]]))/(128*Pi^4) - 
+ (DiagMark[M0, MT, MB]*g[hBBL, 1]*g[hBBR, 1]*(g[HpTBL, 2]*gC[HpTBL, 2] + 
+    g[HpTBR, 2]*gC[HpTBR, 2])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^2*Df[k3, MT]] + M0^2*T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, MT]] + 
+      M0^2*T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, M0]])))/(128*Pi^4) + 
+ (DiagMark[M0, MT, MB]*g[hBBL, 1]*g[hBBR, 1]*(g[HpTBL, 2]*gC[HpTBL, 2] + 
+    g[HpTBR, 2]*gC[HpTBR, 2])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]*Df[k3, MB]*Df[k4, M0]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MB^2*(T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, M0]] + 
+      MB^2*T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, M0]])))/(128*Pi^4) + 
+ (DiagMark[M0, MT, MB]*g[hBBL, 1]*g[hBBR, 1]*(g[HpTBL, 2]*gC[HpTBL, 2] + 
+    g[HpTBR, 2]*gC[HpTBR, 2])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^2*Df[k3, M0]] + MT^2*T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, M0]] + 
+      MT^2*T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, M0]])))/(128*Pi^4) + 
+ (MT^4*DiagMark[M0, MT]*(g[hTTL, 1]^4 + g[hTTR, 1]^4)*
+   SumOver[Index[Colour, 3], Nc]*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]])/
+  (64*Pi^4) + (MT^4*DiagMark[M0, MT]*(g[hTTL, 1]^2*g[hTTL, 4]^2 + 
+    g[hTTR, 1]^2*g[hTTR, 4]^2)*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]])/(64*Pi^4) - 
+ (MT^2*DiagMark[M0, MT]*g[hTTL, 1]*g[hTTR, 1]*
+   (g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + g[hTTR, 1]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^3*Df[k3, MT]] + 
+    M0^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]]))/(64*Pi^4) - 
+ (MT^2*DiagMark[M0, MT]*g[hTTL, 4]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + 
+    g[hTTR, 1]^2)*g[hTTR, 4]*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^3*Df[k3, MT]] + M0^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]]))/
+  (64*Pi^4) + (MT^2*DiagMark[M0, MT]*g[hTTL, 1]*g[hTTR, 1]*
+   (g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + g[hTTR, 1]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^3*Df[k3, M0]] + 
+    MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]]))/(64*Pi^4) + 
+ (MT^2*DiagMark[M0, MT]*g[hTTL, 4]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + 
+    g[hTTR, 1]^2)*g[hTTR, 4]*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^3*Df[k3, M0]] + MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]]))/
+  (64*Pi^4) + (3*MT^2*DiagMark[M0, MT]*g[hTTL, 1]*g[hTTR, 1]*
+   (g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + g[hTTR, 1]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]]))/(64*Pi^4) + 
+ (MT^2*DiagMark[M0, MT]*(g[hTTL, 4]*g[hTTR, 1]^2*(g[hTTL, 4] + g[hTTR, 4]) + 
+    g[hTTL, 1]^2*g[hTTR, 4]*(g[hTTL, 4] + g[hTTR, 4]) + 
+    g[hTTL, 1]*g[hTTR, 1]*(2*g[hTTL, 4]^2 + g[hTTL, 4]*g[hTTR, 4] + 
+      2*g[hTTR, 4]^2))*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]]))/(64*Pi^4) - 
+ (DiagMark[M0, MT]*g[hTTL, 1]^2*g[hTTR, 1]^2*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^2*Df[k3, MT]] + M0^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, MT]] + 
+      M0^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]])))/(64*Pi^4) - 
+ (DiagMark[M0, MT]*g[hTTL, 1]*g[hTTL, 4]*g[hTTR, 1]*g[hTTR, 4]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MT]] + 
+    M0^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, MT]] + 
+      M0^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]])))/(64*Pi^4) + 
+ (DiagMark[M0, MT]*g[hTTL, 1]^2*g[hTTR, 1]^2*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^2*Df[k3, M0]] + MT^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, M0]] + 
+      MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]])))/(64*Pi^4) + 
+ (DiagMark[M0, MT]*g[hTTL, 1]*g[hTTL, 4]*g[hTTR, 1]*g[hTTR, 4]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, M0]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, M0]] + 
+      MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]])))/(64*Pi^4) + 
+ (DiagMark[M0, MT]*g[hTTL, 1]^2*g[hTTR, 1]^2*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+      MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]])))/(64*Pi^4) + 
+ (DiagMark[M0, MT]*g[hTTL, 1]*g[hTTL, 4]*g[hTTR, 1]*g[hTTR, 4]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+      MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, M0]])))/(64*Pi^4) + 
+ (MT^4*DiagMark[M0, MT]*(g[hTTL, 1]^4 + g[hTTR, 1]^4)*
+   SumOver[Index[Colour, 3], Nc]*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, M0]])/
+  (128*Pi^4) + (MT^4*DiagMark[M0, MT]*(g[hTTL, 1]^2*g[hTTL, 4]^2 + 
+    g[hTTR, 1]^2*g[hTTR, 4]^2)*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, M0]])/(128*Pi^4) - 
+ (MT^2*DiagMark[M0, MT]*g[hTTL, 1]*g[hTTR, 1]*(g[hTTL, 1] + g[hTTR, 1])^2*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MT]^2] + 
+    M0^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, M0]]))/(128*Pi^4) - 
+ (MT^2*DiagMark[M0, MT]*g[hTTL, 4]*(g[hTTL, 1] + g[hTTR, 1])^2*g[hTTR, 4]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MT]^2] + 
+    M0^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, M0]]))/(128*Pi^4) + 
+ (MT^2*DiagMark[M0, MT]*g[hTTL, 1]*g[hTTR, 1]*
+   (g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + g[hTTR, 1]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, M0]]))/(32*Pi^4) + 
+ (MT^2*DiagMark[M0, MT]*(g[hTTL, 1]^2*g[hTTL, 4]*g[hTTR, 4] + 
+    g[hTTL, 4]*g[hTTR, 1]^2*g[hTTR, 4] + g[hTTL, 1]*g[hTTR, 1]*
+     (g[hTTL, 4] + g[hTTR, 4])^2)*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, M0]]))/(64*Pi^4) + 
+ (DiagMark[M0, MT]*g[hTTL, 1]^2*g[hTTR, 1]^2*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+      MT^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, M0]])))/(64*Pi^4) + 
+ (DiagMark[M0, MT]*(g[hTTL, 4]^2*g[hTTR, 1]^2 + g[hTTL, 1]^2*g[hTTR, 4]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, M0]] + 
+      MT^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, M0]])))/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3]]*
+   g[hhStSt, 1, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhStSt, 1, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3]]*
+   g[hhStSt, 1, 4, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhStSt, 1, 4, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 4, 3]]*
+   g[hHpStSb, 1, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   gC[hHpStSb, 1, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, M0]])/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hhStSt, 1, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 4, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hStSt, 4, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hhStSt, 1, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[HpStSb, 2, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hhSbSb, 1, 1, Index[Sfermion, 4], 
+    Index[Sfermion, 5]]*gC[HpStSb, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3]]*
+   g[hhSbSb, 1, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhSbSb, 1, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3]]*
+   g[hhSbSb, 1, 4, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhSbSb, 1, 4, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[HpStSb, 2, Index[Sfermion, 5], 
+    Index[Sfermion, 3]]*g[hhStSt, 1, 1, Index[Sfermion, 5], 
+    Index[Sfermion, 4]]*gC[HpStSb, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hhSbSb, 1, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 4, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hSbSb, 4, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hhSbSb, 1, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hhStSt, 1, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, M0]])/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hhStSt, 1, 1, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, M0]])/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 5], 
+    Index[Sfermion, 3]]*g[hStSt, 4, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhStSt, 1, 4, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, M0]])/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hStSt, 4, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hhStSt, 1, 4, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, M0]])/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hHpStSb, 1, 2, Index[Sfermion, 4], 
+    Index[Sfermion, 5]]*gC[HpStSb, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, M0]])/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[HpStSb, 2, Index[Sfermion, 4], 
+    Index[Sfermion, 3]]*g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   gC[hHpStSb, 1, 2, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, M0]])/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 5], 
+    Index[Sfermion, 3]]*g[hHpStSb, 1, 2, Index[Sfermion, 5], 
+    Index[Sfermion, 4]]*gC[HpStSb, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, M0]])/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[HpStSb, 2, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+   gC[hHpStSb, 1, 2, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, M0]])/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hhSbSb, 1, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, M0]])/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hhSbSb, 1, 1, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, M0]])/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 5], 
+    Index[Sfermion, 3]]*g[hSbSb, 4, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhSbSb, 1, 4, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, M0]])/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hSbSb, 4, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hhSbSb, 1, 4, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, M0]])/(128*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   g[hStSt, 1, Index[Sfermion, 6], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 6]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 6], Index[Sfermion, 3]]*
+   g[hStSt, 4, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   g[hStSt, 4, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 6]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hStSt, 4, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   g[hStSt, 4, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[HpStSb, 2, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   gC[HpStSb, 2, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[HpStSb, 2, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 6], Index[Sfermion, 3]]*
+   gC[HpStSb, 2, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 6]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hStSt, 1, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 6]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hStSt, 4, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 4, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[HpStSb, 2, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 6]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   gC[HpStSb, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[HpStSb, 2, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 6], Index[Sfermion, 3]]*
+   gC[HpStSb, 2, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[HpStSb, 2, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 6]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   gC[HpStSb, 2, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 6], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 6], Index[Sfermion, 3]]*
+   g[hSbSb, 4, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   g[hSbSb, 4, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hSbSb, 4, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   g[hSbSb, 4, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[HpStSb, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 6]]*
+   gC[HpStSb, 2, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, M0]])/(256*Pi^4) - 
+ (DiagMark[M0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hSbSb, 4, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 4, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, M0]])/(256*Pi^4) + 
+ (MB^4*DiagMark[MHin, MB]*(g[hBBL, 1]^2*g[hBBL, 2]^2 + 
+    g[hBBR, 1]^2*g[hBBR, 2]^2)*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]])/(64*Pi^4) + 
+ (MB^4*DiagMark[MHin, MB]*(g[hBBL, 1]^2*g[hBBL, 3]^2 + 
+    g[hBBR, 1]^2*g[hBBR, 3]^2)*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]])/(64*Pi^4) + 
+ (MB^2*DiagMark[MHin, MB]*g[hBBL, 2]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + 
+    g[hBBR, 1]^2)*g[hBBR, 2]*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^3*Df[k3, MHin]] + 
+    MB^2*T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]]))/(64*Pi^4) + 
+ (MB^2*DiagMark[MHin, MB]*g[hBBL, 3]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + 
+    g[hBBR, 1]^2)*g[hBBR, 3]*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^3*Df[k3, MHin]] + 
+    MB^2*T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]]))/(64*Pi^4) + 
+ (MB^2*DiagMark[MHin, MB]*(g[hBBL, 2]*g[hBBR, 1]^2*
+     (g[hBBL, 2] + g[hBBR, 2]) + g[hBBL, 1]^2*g[hBBR, 2]*
+     (g[hBBL, 2] + g[hBBR, 2]) + g[hBBL, 1]*g[hBBR, 1]*
+     (2*g[hBBL, 2]^2 + g[hBBL, 2]*g[hBBR, 2] + 2*g[hBBR, 2]^2))*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]]))/(64*Pi^4) + 
+ (MB^2*DiagMark[MHin, MB]*(g[hBBL, 3]*g[hBBR, 1]^2*
+     (g[hBBL, 3] + g[hBBR, 3]) + g[hBBL, 1]^2*g[hBBR, 3]*
+     (g[hBBL, 3] + g[hBBR, 3]) + g[hBBL, 1]*g[hBBR, 1]*
+     (2*g[hBBL, 3]^2 + g[hBBL, 3]*g[hBBR, 3] + 2*g[hBBR, 3]^2))*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]]))/(64*Pi^4) - 
+ (MB^2*DiagMark[MHin, MB]*g[hBBL, 2]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + 
+    g[hBBR, 1]^2)*g[hBBR, 2]*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^3*Df[k3, MB]] + 
+    MHin^2*T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]]))/(64*Pi^4) - 
+ (MB^2*DiagMark[MHin, MB]*g[hBBL, 3]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + 
+    g[hBBR, 1]^2)*g[hBBR, 3]*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^3*Df[k3, MB]] + 
+    MHin^2*T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]]))/(64*Pi^4) + 
+ (DiagMark[MHin, MB]*g[hBBL, 1]*g[hBBL, 2]*g[hBBR, 1]*g[hBBR, 2]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, MHin]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, MHin]] + 
+      MB^2*T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]])))/(64*Pi^4) + 
+ (DiagMark[MHin, MB]*g[hBBL, 1]*g[hBBL, 3]*g[hBBR, 1]*g[hBBR, 3]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, MHin]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, MHin]] + 
+      MB^2*T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]])))/(64*Pi^4) + 
+ (DiagMark[MHin, MB]*g[hBBL, 1]*g[hBBL, 2]*g[hBBR, 1]*g[hBBR, 2]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MHin]*Df[k3, MB]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*(T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+      MB^2*T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]])))/(64*Pi^4) + 
+ (DiagMark[MHin, MB]*g[hBBL, 1]*g[hBBL, 3]*g[hBBR, 1]*g[hBBR, 3]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MHin]*Df[k3, MB]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*(T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+      MB^2*T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]])))/(64*Pi^4) - 
+ (DiagMark[MHin, MB]*g[hBBL, 1]*g[hBBL, 2]*g[hBBR, 1]*g[hBBR, 2]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, MB]] + 
+    MHin^2*T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, MB]] + 
+      MHin^2*T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]])))/(64*Pi^4) - 
+ (DiagMark[MHin, MB]*g[hBBL, 1]*g[hBBL, 3]*g[hBBR, 1]*g[hBBR, 3]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, MB]] + 
+    MHin^2*T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, MB]] + 
+      MHin^2*T[Df[k1, MB]^3*Df[k3, MHin]*Df[k4, MB]])))/(64*Pi^4) + 
+ (MB*MT^3*DiagMark[MHin, MT, MB]*(g[HpTBR, 1]*g[hTTR, 1]^2*gC[HpTBL, 1] + 
+    g[HpTBL, 1]*g[hTTL, 1]^2*gC[HpTBR, 1])*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MT]^3*Df[k3, MHin]*Df[k4, MB]])/(64*Pi^4) + 
+ (MT^2*DiagMark[MHin, MT, MB]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + 
+    g[hTTR, 1]^2)*(g[HpTBL, 1]*gC[HpTBL, 1] + g[HpTBR, 1]*gC[HpTBR, 1])*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^3*Df[k3, MHin]] + 
+    MB^2*T[Df[k1, MT]^3*Df[k3, MHin]*Df[k4, MB]]))/(128*Pi^4) - 
+ (MT^2*DiagMark[MHin, MT, MB]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + 
+    g[hTTR, 1]^2)*(g[HpTBL, 1]*gC[HpTBL, 1] + g[HpTBR, 1]*gC[HpTBR, 1])*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^3*Df[k3, MB]] + 
+    MHin^2*T[Df[k1, MT]^3*Df[k3, MHin]*Df[k4, MB]]))/(128*Pi^4) + 
+ (MT*DiagMark[MHin, MT, MB]*(g[HpTBL, 1]*(MT*g[hTTL, 1]^2*gC[HpTBL, 1] + 
+      g[hTTR, 1]^2*(MT*gC[HpTBL, 1] + 2*MB*gC[HpTBR, 1]) + 
+      g[hTTL, 1]*g[hTTR, 1]*(MT*gC[HpTBL, 1] + 4*MB*gC[HpTBR, 1])) + 
+    g[HpTBR, 1]*(MT*g[hTTR, 1]^2*gC[HpTBR, 1] + 
+      g[hTTL, 1]^2*(2*MB*gC[HpTBL, 1] + MT*gC[HpTBR, 1]) + 
+      g[hTTL, 1]*g[hTTR, 1]*(4*MB*gC[HpTBL, 1] + MT*gC[HpTBR, 1])))*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MT^2*T[Df[k1, MT]^3*Df[k3, MHin]*Df[k4, MB]]))/(128*Pi^4) + 
+ (DiagMark[MHin, MT, MB]*g[hTTL, 1]*g[hTTR, 1]*(g[HpTBL, 1]*gC[HpTBL, 1] + 
+    g[HpTBR, 1]*gC[HpTBR, 1])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^2*Df[k3, MHin]] + 
+    MB^2*T[Df[k1, MT]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, MHin]] + 
+      MB^2*T[Df[k1, MT]^3*Df[k3, MHin]*Df[k4, MB]])))/(128*Pi^4) - 
+ (DiagMark[MHin, MT, MB]*g[hTTL, 1]*g[hTTR, 1]*(g[HpTBL, 1]*gC[HpTBL, 1] + 
+    g[HpTBR, 1]*gC[HpTBR, 1])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^2*Df[k3, MB]] + 
+    MHin^2*T[Df[k1, MT]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, MB]] + 
+      MHin^2*T[Df[k1, MT]^3*Df[k3, MHin]*Df[k4, MB]])))/(128*Pi^4) + 
+ (DiagMark[MHin, MT, MB]*g[hTTL, 1]*g[hTTR, 1]*(g[HpTBL, 1]*gC[HpTBL, 1] + 
+    g[HpTBR, 1]*gC[HpTBR, 1])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]*Df[k3, MHin]*Df[k4, MB]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MHin]*Df[k4, MB]] + 
+      MT^2*T[Df[k1, MT]^3*Df[k3, MHin]*Df[k4, MB]])))/(128*Pi^4) + 
+ (MB*DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*g[hhStSt, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   MChagl[Index[Chargino, 3]]*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*
+     Df[k4, MB]])/(128*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*g[hhStSt, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]] + 
+    MB^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]]))/(256*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*g[hhStSt, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MB]] + 
+    MChagl[Index[Chargino, 3]]^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]]))/(256*Pi^4) - 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*g[hhStSt, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]] + 
+    MSf[Index[Sfermion, 3], 3, 3]^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]]))/(256*Pi^4) + 
+ (MB*DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[CBStR, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CBStL, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   MChagl[Index[Chargino, 3]]*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*
+     Df[k4, MB]])/(128*Pi^4) + 
+ (MB*DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[CBStR, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 5]] + 
+    g[CBStL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 5]])*
+   MChagl[Index[Chargino, 3]]*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*
+     Df[k4, MB]])/(128*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[CBStL, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]] + 
+    MB^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         3, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]]))/(256*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[CBStL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 5]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 5]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]] + 
+    MB^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         3, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]]))/(256*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[CBStL, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MB]] + 
+    MChagl[Index[Chargino, 3]]^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         3, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]]))/(256*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[CBStL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 5]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 5]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MB]] + 
+    MChagl[Index[Chargino, 3]]^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         3, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]]))/(256*Pi^4) - 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[CBStL, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]] + 
+    MSf[Index[Sfermion, 3], 3, 3]^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         3, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]]))/(256*Pi^4) - 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[CBStL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 5]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 5]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]] + 
+    MSf[Index[Sfermion, 3], 3, 3]^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         3, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]]))/(256*Pi^4) + 
+ (MB*DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 
+     3], MSf[Index[Sfermion, 4], 4, 3]]*g[hhSbSb, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   MNeugl[Index[Neutralino, 3]]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Neutralino, 3], 4]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]])/(128*Pi^4) + 
+ (DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*g[hhSbSb, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]] + 
+    MB^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]]))/(256*Pi^4) + 
+ (DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*g[hhSbSb, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MB]] + 
+    MNeugl[Index[Neutralino, 3]]^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]]))/(256*Pi^4) - 
+ (DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*g[hhSbSb, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]] + 
+    MSf[Index[Sfermion, 3], 4, 3]^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]]))/(256*Pi^4) + 
+ (MB*DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 
+     3], MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   MNeugl[Index[Neutralino, 3]]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Neutralino, 3], 4]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]])/(128*Pi^4) + 
+ (MB*DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 
+     3], MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 5]] + 
+    g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 5]])*
+   MNeugl[Index[Neutralino, 3]]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Neutralino, 3], 4]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]])/(128*Pi^4) + 
+ (DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]] + 
+    MB^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         4, 3]]*Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]]))/
+  (256*Pi^4) + (DiagMark[MB, MNeugl[Index[Neutralino, 3]], 
+    MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 5]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 5]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]] + 
+    MB^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         4, 3]]*Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]]))/
+  (256*Pi^4) + (DiagMark[MB, MNeugl[Index[Neutralino, 3]], 
+    MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MB]] + 
+    MNeugl[Index[Neutralino, 3]]^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         4, 3]]*Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]]))/
+  (256*Pi^4) + (DiagMark[MB, MNeugl[Index[Neutralino, 3]], 
+    MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 5]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 5]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MB]] + 
+    MNeugl[Index[Neutralino, 3]]^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         4, 3]]*Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]]))/
+  (256*Pi^4) - (DiagMark[MB, MNeugl[Index[Neutralino, 3]], 
+    MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]] + 
+    MSf[Index[Sfermion, 3], 4, 3]^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         4, 3]]*Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]]))/
+  (256*Pi^4) - (DiagMark[MB, MNeugl[Index[Neutralino, 3]], 
+    MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3], 
+    MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 5]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 5]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]] + 
+    MSf[Index[Sfermion, 3], 4, 3]^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         4, 3]]*Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]]))/
+  (256*Pi^4) + (MB^4*DiagMark[MHin, MB]*(g[hBBL, 1]^2*g[hBBL, 2]^2 + 
+    g[hBBR, 1]^2*g[hBBR, 2]^2)*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, MHin]])/(128*Pi^4) + 
+ (MB^4*DiagMark[MHin, MB]*(g[hBBL, 1]^2*g[hBBL, 3]^2 + 
+    g[hBBR, 1]^2*g[hBBR, 3]^2)*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, MHin]])/(128*Pi^4) + 
+ (MB^2*DiagMark[MHin, MB]*(g[hBBL, 1]^2*g[hBBL, 2]*g[hBBR, 2] + 
+    g[hBBL, 2]*g[hBBR, 1]^2*g[hBBR, 2] + g[hBBL, 1]*g[hBBR, 1]*
+     (g[hBBL, 2] + g[hBBR, 2])^2)*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, MHin]]))/(64*Pi^4) + 
+ (MB^2*DiagMark[MHin, MB]*(g[hBBL, 1]^2*g[hBBL, 3]*g[hBBR, 3] + 
+    g[hBBL, 3]*g[hBBR, 1]^2*g[hBBR, 3] + g[hBBL, 1]*g[hBBR, 1]*
+     (g[hBBL, 3] + g[hBBR, 3])^2)*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, MHin]]))/(64*Pi^4) - 
+ (MB^2*DiagMark[MHin, MB]*g[hBBL, 2]*(g[hBBL, 1] + g[hBBR, 1])^2*g[hBBR, 2]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, MB]^2] + 
+    MHin^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, MHin]]))/(128*Pi^4) - 
+ (MB^2*DiagMark[MHin, MB]*g[hBBL, 3]*(g[hBBL, 1] + g[hBBR, 1])^2*g[hBBR, 3]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^2*Df[k3, MB]^2] + 
+    MHin^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, MHin]]))/(128*Pi^4) + 
+ (DiagMark[MHin, MB]*(g[hBBL, 2]^2*g[hBBR, 1]^2 + g[hBBL, 1]^2*g[hBBR, 2]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MHin]*Df[k3, MB]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*(T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+      MB^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, MHin]])))/(128*Pi^4) + 
+ (DiagMark[MHin, MB]*(g[hBBL, 3]^2*g[hBBR, 1]^2 + g[hBBL, 1]^2*g[hBBR, 3]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MHin]*Df[k3, MB]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*(T[Df[k1, MB]^2*Df[k3, MHin]*Df[k4, MB]] + 
+      MB^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, MHin]])))/(128*Pi^4) + 
+ (MB^2*MT^2*DiagMark[MHin, MT, MB]*(g[hBBR, 1]*g[HpTBR, 1]*g[hTTR, 1]*
+     gC[HpTBL, 1] + g[hBBL, 1]*g[HpTBL, 1]*g[hTTL, 1]*gC[HpTBR, 1])*
+   SumOver[Index[Colour, 3], Nc]*T[Df[k1, MT]^2*Df[k3, MB]^2*Df[k4, MHin]])/
+  (64*Pi^4) + (MT*DiagMark[MHin, MT, MB]*
+   (g[hBBL, 1]*(MB*g[HpTBL, 1]*(g[hTTL, 1] + g[hTTR, 1])*gC[HpTBL, 1] + 
+      g[HpTBR, 1]*(MB*g[hTTL, 1]*gC[HpTBR, 1] + g[hTTR, 1]*
+         (2*MT*gC[HpTBL, 1] + MB*gC[HpTBR, 1]))) + 
+    g[hBBR, 1]*(MB*g[HpTBR, 1]*(g[hTTL, 1] + g[hTTR, 1])*gC[HpTBR, 1] + 
+      g[HpTBL, 1]*(MB*g[hTTR, 1]*gC[HpTBL, 1] + g[hTTL, 1]*
+         (MB*gC[HpTBL, 1] + 2*MT*gC[HpTBR, 1]))))*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MT]^2*Df[k3, MB]^2*Df[k4, MHin]]))/(128*Pi^4) - 
+ (MB*MT*DiagMark[MHin, MT, MB]*(g[hBBL, 1] + g[hBBR, 1])*
+   (g[hTTL, 1] + g[hTTR, 1])*(g[HpTBL, 1]*gC[HpTBL, 1] + 
+    g[HpTBR, 1]*gC[HpTBR, 1])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^2*Df[k3, MB]^2] + 
+    MHin^2*T[Df[k1, MT]^2*Df[k3, MB]^2*Df[k4, MHin]]))/(128*Pi^4) + 
+ (MB*DiagMark[MHin, MT, MB]*
+   (g[hBBL, 1]*(MT*g[HpTBR, 1]*(g[hTTL, 1] + g[hTTR, 1])*gC[HpTBR, 1] + 
+      g[HpTBL, 1]*(MT*g[hTTL, 1]*gC[HpTBL, 1] + g[hTTR, 1]*
+         (MT*gC[HpTBL, 1] + 2*MB*gC[HpTBR, 1]))) + 
+    g[hBBR, 1]*(MT*g[HpTBL, 1]*(g[hTTL, 1] + g[hTTR, 1])*gC[HpTBL, 1] + 
+      g[HpTBR, 1]*(MT*g[hTTR, 1]*gC[HpTBR, 1] + g[hTTL, 1]*
+         (2*MB*gC[HpTBL, 1] + MT*gC[HpTBR, 1]))))*
+   SumOver[Index[Colour, 3], Nc]*
+   (MT^2*T[Df[k1, MT]^2*Df[k3, MB]^2*Df[k4, MHin]] + 
+    T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, MHin]]))/(128*Pi^4) + 
+ (DiagMark[MHin, MT, MB]*(g[hBBL, 1]*g[HpTBR, 1]*g[hTTL, 1]*gC[HpTBL, 1] + 
+    g[hBBR, 1]*g[HpTBL, 1]*g[hTTR, 1]*gC[HpTBR, 1])*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]*Df[k3, MHin]*Df[k4, MB]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MHin]*Df[k4, MB]] + 
+      MB^2*T[Df[k1, MT]^2*Df[k3, MB]^2*Df[k4, MHin]]) + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, MHin]]))/(128*Pi^4) + 
+ (DiagMark[MHin, MT, MB]*(g[hBBL, 1]*g[HpTBR, 1]*g[hTTL, 1]*gC[HpTBL, 1] + 
+    g[hBBR, 1]*g[HpTBL, 1]*g[hTTR, 1]*gC[HpTBR, 1])*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]*Df[k3, MHin]*Df[k4, MB]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*(MT^2*T[Df[k1, MT]^2*Df[k3, MB]^2*Df[k4, MHin]] + 
+      T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, MHin]])))/(128*Pi^4) + 
+ (MB^3*MT*DiagMark[MHin, MT, MB]*(g[hBBR, 1]^2*g[HpTBR, 1]*gC[HpTBL, 1] + 
+    g[hBBL, 1]^2*g[HpTBL, 1]*gC[HpTBR, 1])*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, MHin]])/(64*Pi^4) + 
+ (MB*DiagMark[MHin, MT, MB]*(g[hBBL, 1]^2*(MB*g[HpTBL, 1]*gC[HpTBL, 1] + 
+      g[HpTBR, 1]*(2*MT*gC[HpTBL, 1] + MB*gC[HpTBR, 1])) + 
+    g[hBBR, 1]^2*(MB*g[HpTBR, 1]*gC[HpTBR, 1] + 
+      g[HpTBL, 1]*(MB*gC[HpTBL, 1] + 2*MT*gC[HpTBR, 1])) + 
+    g[hBBL, 1]*g[hBBR, 1]*(g[HpTBR, 1]*(4*MT*gC[HpTBL, 1] + 
+        MB*gC[HpTBR, 1]) + g[HpTBL, 1]*(MB*gC[HpTBL, 1] + 
+        4*MT*gC[HpTBR, 1])))*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MB^2*T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, MHin]]))/(128*Pi^4) - 
+ (MB^2*DiagMark[MHin, MT, MB]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + 
+    g[hBBR, 1]^2)*(g[HpTBL, 1]*gC[HpTBL, 1] + g[HpTBR, 1]*gC[HpTBR, 1])*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^3*Df[k3, MT]] + 
+    MHin^2*T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, MHin]]))/(128*Pi^4) + 
+ (MB^2*DiagMark[MHin, MT, MB]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + 
+    g[hBBR, 1]^2)*(g[HpTBL, 1]*gC[HpTBL, 1] + g[HpTBR, 1]*gC[HpTBR, 1])*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MB]^3*Df[k3, MHin]] + 
+    MT^2*T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, MHin]]))/(128*Pi^4) + 
+ (DiagMark[MHin, MT, MB]*g[hBBL, 1]*g[hBBR, 1]*(g[HpTBL, 1]*gC[HpTBL, 1] + 
+    g[HpTBR, 1]*gC[HpTBR, 1])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]*Df[k3, MHin]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MB^2*(T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, MHin]] + 
+      MB^2*T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, MHin]])))/(128*Pi^4) - 
+ (DiagMark[MHin, MT, MB]*g[hBBL, 1]*g[hBBR, 1]*(g[HpTBL, 1]*gC[HpTBL, 1] + 
+    g[HpTBR, 1]*gC[HpTBR, 1])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^2*Df[k3, MT]] + 
+    MHin^2*T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, MT]] + 
+      MHin^2*T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, MHin]])))/(128*Pi^4) + 
+ (DiagMark[MHin, MT, MB]*g[hBBL, 1]*g[hBBR, 1]*(g[HpTBL, 1]*gC[HpTBL, 1] + 
+    g[HpTBR, 1]*gC[HpTBR, 1])*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MB]^2*Df[k3, MHin]] + 
+    MT^2*T[Df[k1, MB]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, MHin]] + 
+      MT^2*T[Df[k1, MB]^3*Df[k3, MT]*Df[k4, MHin]])))/(128*Pi^4) + 
+ (MT^4*DiagMark[MHin, MT]*(g[hTTL, 1]^2*g[hTTL, 2]^2 + 
+    g[hTTR, 1]^2*g[hTTR, 2]^2)*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]])/(64*Pi^4) + 
+ (MT^4*DiagMark[MHin, MT]*(g[hTTL, 1]^2*g[hTTL, 3]^2 + 
+    g[hTTR, 1]^2*g[hTTR, 3]^2)*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]])/(64*Pi^4) - 
+ (MT^2*DiagMark[MHin, MT]*g[hTTL, 2]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + 
+    g[hTTR, 1]^2)*g[hTTR, 2]*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^3*Df[k3, MT]] + 
+    MHin^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]]))/(64*Pi^4) - 
+ (MT^2*DiagMark[MHin, MT]*g[hTTL, 3]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + 
+    g[hTTR, 1]^2)*g[hTTR, 3]*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^3*Df[k3, MT]] + 
+    MHin^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]]))/(64*Pi^4) + 
+ (MT^2*DiagMark[MHin, MT]*g[hTTL, 2]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + 
+    g[hTTR, 1]^2)*g[hTTR, 2]*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^3*Df[k3, MHin]] + 
+    MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]]))/(64*Pi^4) + 
+ (MT^2*DiagMark[MHin, MT]*g[hTTL, 3]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + 
+    g[hTTR, 1]^2)*g[hTTR, 3]*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^3*Df[k3, MHin]] + 
+    MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]]))/(64*Pi^4) + 
+ (MT^2*DiagMark[MHin, MT]*(g[hTTL, 2]*g[hTTR, 1]^2*
+     (g[hTTL, 2] + g[hTTR, 2]) + g[hTTL, 1]^2*g[hTTR, 2]*
+     (g[hTTL, 2] + g[hTTR, 2]) + g[hTTL, 1]*g[hTTR, 1]*
+     (2*g[hTTL, 2]^2 + g[hTTL, 2]*g[hTTR, 2] + 2*g[hTTR, 2]^2))*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]]))/(64*Pi^4) + 
+ (MT^2*DiagMark[MHin, MT]*(g[hTTL, 3]*g[hTTR, 1]^2*
+     (g[hTTL, 3] + g[hTTR, 3]) + g[hTTL, 1]^2*g[hTTR, 3]*
+     (g[hTTL, 3] + g[hTTR, 3]) + g[hTTL, 1]*g[hTTR, 1]*
+     (2*g[hTTL, 3]^2 + g[hTTL, 3]*g[hTTR, 3] + 2*g[hTTR, 3]^2))*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]]))/(64*Pi^4) - 
+ (DiagMark[MHin, MT]*g[hTTL, 1]*g[hTTL, 2]*g[hTTR, 1]*g[hTTR, 2]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MT]] + 
+    MHin^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, MT]] + 
+      MHin^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]])))/(64*Pi^4) - 
+ (DiagMark[MHin, MT]*g[hTTL, 1]*g[hTTL, 3]*g[hTTR, 1]*g[hTTR, 3]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MT]] + 
+    MHin^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, MT]] + 
+      MHin^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]])))/(64*Pi^4) + 
+ (DiagMark[MHin, MT]*g[hTTL, 1]*g[hTTL, 2]*g[hTTR, 1]*g[hTTR, 2]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MHin]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, MHin]] + 
+      MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]])))/(64*Pi^4) + 
+ (DiagMark[MHin, MT]*g[hTTL, 1]*g[hTTL, 3]*g[hTTR, 1]*g[hTTR, 3]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MHin]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, MHin]] + 
+      MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]])))/(64*Pi^4) + 
+ (DiagMark[MHin, MT]*g[hTTL, 1]*g[hTTL, 2]*g[hTTR, 1]*g[hTTR, 2]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+      MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]])))/(64*Pi^4) + 
+ (DiagMark[MHin, MT]*g[hTTL, 1]*g[hTTL, 3]*g[hTTR, 1]*g[hTTR, 3]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+      MT^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, MHin]])))/(64*Pi^4) + 
+ (MT^4*DiagMark[MHin, MT]*(g[hTTL, 1]^2*g[hTTL, 2]^2 + 
+    g[hTTR, 1]^2*g[hTTR, 2]^2)*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, MHin]])/(128*Pi^4) + 
+ (MT^4*DiagMark[MHin, MT]*(g[hTTL, 1]^2*g[hTTL, 3]^2 + 
+    g[hTTR, 1]^2*g[hTTR, 3]^2)*SumOver[Index[Colour, 3], Nc]*
+   T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, MHin]])/(128*Pi^4) - 
+ (MT^2*DiagMark[MHin, MT]*g[hTTL, 2]*(g[hTTL, 1] + g[hTTR, 1])^2*g[hTTR, 2]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MT]^2] + 
+    MHin^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, MHin]]))/(128*Pi^4) - 
+ (MT^2*DiagMark[MHin, MT]*g[hTTL, 3]*(g[hTTL, 1] + g[hTTR, 1])^2*g[hTTR, 3]*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]^2*Df[k3, MT]^2] + 
+    MHin^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, MHin]]))/(128*Pi^4) + 
+ (MT^2*DiagMark[MHin, MT]*(g[hTTL, 1]^2*g[hTTL, 2]*g[hTTR, 2] + 
+    g[hTTL, 2]*g[hTTR, 1]^2*g[hTTR, 2] + g[hTTL, 1]*g[hTTR, 1]*
+     (g[hTTL, 2] + g[hTTR, 2])^2)*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, MHin]]))/(64*Pi^4) + 
+ (MT^2*DiagMark[MHin, MT]*(g[hTTL, 1]^2*g[hTTL, 3]*g[hTTR, 3] + 
+    g[hTTL, 3]*g[hTTR, 1]^2*g[hTTR, 3] + g[hTTL, 1]*g[hTTR, 1]*
+     (g[hTTL, 3] + g[hTTR, 3])^2)*SumOver[Index[Colour, 3], Nc]*
+   (T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, MHin]]))/(64*Pi^4) + 
+ (DiagMark[MHin, MT]*(g[hTTL, 2]^2*g[hTTR, 1]^2 + g[hTTL, 1]^2*g[hTTR, 2]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+      MT^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, MHin]])))/(128*Pi^4) + 
+ (DiagMark[MHin, MT]*(g[hTTL, 3]^2*g[hTTR, 1]^2 + g[hTTL, 1]^2*g[hTTR, 3]^2)*
+   SumOver[Index[Colour, 3], Nc]*(T[Df[k1, MT]*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, MHin]] + 
+      MT^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, MHin]])))/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3]]*g[hhStSt, 1, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhStSt, 1, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3]]*g[hhStSt, 1, 3, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhStSt, 1, 3, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 4, 
+     3]]*g[hHpStSb, 1, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   gC[hHpStSb, 1, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MHin]])/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 2, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hStSt, 2, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hhStSt, 1, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 3, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hStSt, 3, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hhStSt, 1, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 4, 3]]*g[HpStSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hhSbSb, 1, 1, Index[Sfermion, 4], 
+    Index[Sfermion, 5]]*gC[HpStSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3]]*g[hhSbSb, 1, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhSbSb, 1, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3]]*g[hhSbSb, 1, 3, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhSbSb, 1, 3, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 3, 3]]*g[HpStSb, 1, Index[Sfermion, 5], 
+    Index[Sfermion, 3]]*g[hhStSt, 1, 1, Index[Sfermion, 5], 
+    Index[Sfermion, 4]]*gC[HpStSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 2, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hSbSb, 2, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hhSbSb, 1, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 3, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hSbSb, 3, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hhSbSb, 1, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 5], 
+    Index[Sfermion, 3]]*g[hStSt, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhStSt, 1, 2, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MHin]])/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hStSt, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hhStSt, 1, 2, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MHin]])/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 5], 
+    Index[Sfermion, 3]]*g[hStSt, 3, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhStSt, 1, 3, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MHin]])/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hStSt, 3, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hhStSt, 1, 3, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MHin]])/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hHpStSb, 1, 1, Index[Sfermion, 4], 
+    Index[Sfermion, 5]]*gC[HpStSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MHin]])/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 4, 3]]*g[HpStSb, 1, Index[Sfermion, 4], 
+    Index[Sfermion, 3]]*g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   gC[hHpStSb, 1, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MHin]])/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 5], 
+    Index[Sfermion, 3]]*g[hHpStSb, 1, 1, Index[Sfermion, 5], 
+    Index[Sfermion, 4]]*gC[HpStSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MHin]])/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 3, 3]]*g[HpStSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+   gC[hHpStSb, 1, 1, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MHin]])/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 5], 
+    Index[Sfermion, 3]]*g[hSbSb, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhSbSb, 1, 2, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MHin]])/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hSbSb, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hhSbSb, 1, 2, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MHin]])/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 5], 
+    Index[Sfermion, 3]]*g[hSbSb, 3, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hhSbSb, 1, 3, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MHin]])/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hSbSb, 3, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hhSbSb, 1, 3, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MHin]])/(128*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 6], Index[Sfermion, 3]]*
+   g[hStSt, 2, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   g[hStSt, 2, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 6]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hStSt, 2, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   g[hStSt, 2, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 6], Index[Sfermion, 3]]*
+   g[hStSt, 3, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   g[hStSt, 3, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 6]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hStSt, 3, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   g[hStSt, 3, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[HpStSb, 1, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   gC[HpStSb, 1, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[HpStSb, 1, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 6], Index[Sfermion, 3]]*
+   gC[HpStSb, 1, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 6]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hStSt, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 2, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 6]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hStSt, 3, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 3, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 3, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[HpStSb, 1, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 6]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   gC[HpStSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 3, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[HpStSb, 1, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 6], Index[Sfermion, 3]]*
+   gC[HpStSb, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[HpStSb, 1, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 6]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   gC[HpStSb, 1, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 6], Index[Sfermion, 3]]*
+   g[hSbSb, 2, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   g[hSbSb, 2, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hSbSb, 2, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   g[hSbSb, 2, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 6], Index[Sfermion, 3]]*
+   g[hSbSb, 3, Index[Sfermion, 4], Index[Sfermion, 5]]*
+   g[hSbSb, 3, Index[Sfermion, 5], Index[Sfermion, 6]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hSbSb, 3, Index[Sfermion, 5], Index[Sfermion, 4]]*
+   g[hSbSb, 3, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 3, 
+     3], MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 3, 3]]*
+   g[HpStSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 6]]*
+   gC[HpStSb, 1, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hSbSb, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 2, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) - 
+ (DiagMark[MHin, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 
+     3], MSf[Index[Sfermion, 5], 4, 3], MSf[Index[Sfermion, 6], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 6]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   g[hSbSb, 3, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 3, Index[Sfermion, 6], Index[Sfermion, 5]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   SumOver[Index[Sfermion, 6], 2]*T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 6], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 5], 4, 3]]*Df[k4, MHin]])/(256*Pi^4) + 
+ (MT*DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*g[hhSbSb, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   MChagl[Index[Chargino, 3]]*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*
+     Df[k4, MT]])/(128*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*g[hhSbSb, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]] + 
+    MT^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]]))/(256*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*g[hhSbSb, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MT]] + 
+    MChagl[Index[Chargino, 3]]^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]]))/(256*Pi^4) - 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*g[hhSbSb, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]] + 
+    MSf[Index[Sfermion, 3], 4, 3]^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]]))/(256*Pi^4) + 
+ (MT*DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[CTSbR, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CTSbL, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   MChagl[Index[Chargino, 3]]*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*
+     Df[k4, MT]])/(128*Pi^4) + 
+ (MT*DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 5]] + 
+    g[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 5]])*
+   MChagl[Index[Chargino, 3]]*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*
+     Df[k4, MT]])/(128*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[CTSbL, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]] + 
+    MT^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         4, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]]))/(256*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 5]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 5]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]] + 
+    MT^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         4, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]]))/(256*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[CTSbL, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MT]] + 
+    MChagl[Index[Chargino, 3]]^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         4, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]]))/(256*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 5]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 5]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MT]] + 
+    MChagl[Index[Chargino, 3]]^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         4, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]]))/(256*Pi^4) - 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[CTSbL, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 5]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]] + 
+    MSf[Index[Sfermion, 3], 4, 3]^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         4, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]]))/(256*Pi^4) - 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 5]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 5]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]] + 
+    MSf[Index[Sfermion, 3], 4, 3]^2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         4, 3]]*Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]]))/(256*Pi^4) + 
+ (MT*DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 
+     3], MSf[Index[Sfermion, 4], 3, 3]]*g[hhStSt, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   MNeugl[Index[Neutralino, 3]]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Neutralino, 3], 4]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]])/(128*Pi^4) + 
+ (DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*g[hhStSt, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]] + 
+    MT^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]]))/(256*Pi^4) + 
+ (DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*g[hhStSt, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MT]] + 
+    MNeugl[Index[Neutralino, 3]]^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]]))/(256*Pi^4) - 
+ (DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*g[hhStSt, 1, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]] + 
+    MSf[Index[Sfermion, 3], 3, 3]^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]]))/(256*Pi^4) + 
+ (MT*DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 
+     3], MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[NTStR, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NTStL, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   MNeugl[Index[Neutralino, 3]]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Neutralino, 3], 4]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]])/(128*Pi^4) + 
+ (MT*DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 
+     3], MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 5]] + 
+    g[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 5]])*
+   MNeugl[Index[Neutralino, 3]]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Neutralino, 3], 4]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+   T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+     Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]])/(128*Pi^4) + 
+ (DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[NTStL, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]] + 
+    MT^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         3, 3]]*Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]]))/
+  (256*Pi^4) + (DiagMark[MT, MNeugl[Index[Neutralino, 3]], 
+    MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 5]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 5]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]] + 
+    MT^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         3, 3]]*Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]]))/
+  (256*Pi^4) + (DiagMark[MT, MNeugl[Index[Neutralino, 3]], 
+    MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[NTStL, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MT]] + 
+    MNeugl[Index[Neutralino, 3]]^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         3, 3]]*Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]]))/
+  (256*Pi^4) + (DiagMark[MT, MNeugl[Index[Neutralino, 3]], 
+    MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 5]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 5]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MT]] + 
+    MNeugl[Index[Neutralino, 3]]^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         3, 3]]*Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]]))/
+  (256*Pi^4) - (DiagMark[MT, MNeugl[Index[Neutralino, 3]], 
+    MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+   (g[NTStL, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 5]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]] + 
+    MSf[Index[Sfermion, 3], 3, 3]^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         3, 3]]*Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]]))/
+  (256*Pi^4) - (DiagMark[MT, MNeugl[Index[Neutralino, 3]], 
+    MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3], 
+    MSf[Index[Sfermion, 5], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 5]]*g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 5]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 5]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]] + 
+    MSf[Index[Sfermion, 3], 3, 3]^2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k1, MSf[Index[Sfermion, 5], 
+         3, 3]]*Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]]))/
+  (256*Pi^4) + (MB^3*DiagMark[MChagl[Index[Chargino, 3]], MB, 
+    MSf[Index[Sfermion, 3], 3, 3]]*
+   (g[hBBR, 1]^2*g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[hBBL, 1]^2*g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   MChagl[Index[Chargino, 3]]*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k4, MChagl[Index[Chargino, 3]]]])/(64*Pi^4) + 
+ (MB*DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3]]*
+   (g[hBBL, 1]^2*(MB*g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+       gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+      g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+       (MB*gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]] + 
+        2*gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+         MChagl[Index[Chargino, 3]])) + g[hBBR, 1]^2*
+     (MB*g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+       gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]] + 
+      g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+       (MB*gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+        2*gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+         MChagl[Index[Chargino, 3]])) + g[hBBL, 1]*g[hBBR, 1]*
+     (g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+       (MB*gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]] + 
+        4*gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+         MChagl[Index[Chargino, 3]]) + g[CBStL, Index[Chargino, 3], 
+        Index[Sfermion, 3]]*(MB*gC[CBStL, Index[Chargino, 3], 
+          Index[Sfermion, 3]] + 4*gC[CBStR, Index[Chargino, 3], 
+          Index[Sfermion, 3]]*MChagl[Index[Chargino, 3]])))*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k4, MChagl[Index[Chargino, 3]]]] + 
+    MB^2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(128*Pi^4) + 
+ (MB^2*DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 
+     3]]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + g[hBBR, 1]^2)*
+   (g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]] + 
+    MChagl[Index[Chargino, 3]]^2*
+     T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(128*Pi^4) - 
+ (MB^2*DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 
+     3]]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + g[hBBR, 1]^2)*
+   (g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MB]^3*Df[k3, MChagl[Index[Chargino, 3]]]] + 
+    MSf[Index[Sfermion, 3], 3, 3]^2*
+     T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(128*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3]]*
+   g[hBBL, 1]*g[hBBR, 1]*(g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]] + 
+    MB^2*(T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+        Df[k4, MChagl[Index[Chargino, 3]]]] + 
+      MB^2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+         Df[k4, MChagl[Index[Chargino, 3]]]])))/(128*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3]]*
+   g[hBBL, 1]*g[hBBR, 1]*(g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]] + 
+    MChagl[Index[Chargino, 3]]^2*
+     T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]] + 
+      MChagl[Index[Chargino, 3]]^2*
+       T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+         Df[k4, MChagl[Index[Chargino, 3]]]])))/(128*Pi^4) - 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3]]*
+   g[hBBL, 1]*g[hBBR, 1]*(g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MChagl[Index[Chargino, 3]]]] + 
+    MSf[Index[Sfermion, 3], 3, 3]^2*
+     T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, MChagl[Index[Chargino, 3]]]] + 
+      MSf[Index[Sfermion, 3], 3, 3]^2*
+       T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+         Df[k4, MChagl[Index[Chargino, 3]]]])))/(128*Pi^4) + 
+ (MT^3*DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 
+     3]]*(g[hTTR, 1]^2*g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[hTTL, 1]^2*g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   MChagl[Index[Chargino, 3]]*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k4, MChagl[Index[Chargino, 3]]]])/(64*Pi^4) + 
+ (MT*DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3]]*
+   (g[hTTL, 1]^2*(MT*g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+       gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+      g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+       (MT*gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]] + 
+        2*gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+         MChagl[Index[Chargino, 3]])) + g[hTTR, 1]^2*
+     (MT*g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+       gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]] + 
+      g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+       (MT*gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+        2*gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+         MChagl[Index[Chargino, 3]])) + g[hTTL, 1]*g[hTTR, 1]*
+     (g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+       (MT*gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]] + 
+        4*gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+         MChagl[Index[Chargino, 3]]) + g[CTSbL, Index[Chargino, 3], 
+        Index[Sfermion, 3]]*(MT*gC[CTSbL, Index[Chargino, 3], 
+          Index[Sfermion, 3]] + 4*gC[CTSbR, Index[Chargino, 3], 
+          Index[Sfermion, 3]]*MChagl[Index[Chargino, 3]])))*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k4, MChagl[Index[Chargino, 3]]]] + 
+    MT^2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(128*Pi^4) + 
+ (MT^2*DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 
+     3]]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + g[hTTR, 1]^2)*
+   (g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]] + 
+    MChagl[Index[Chargino, 3]]^2*
+     T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(128*Pi^4) - 
+ (MT^2*DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 
+     3]]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + g[hTTR, 1]^2)*
+   (g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MT]^3*Df[k3, MChagl[Index[Chargino, 3]]]] + 
+    MSf[Index[Sfermion, 3], 4, 3]^2*
+     T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(128*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3]]*
+   g[hTTL, 1]*g[hTTR, 1]*(g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+        Df[k4, MChagl[Index[Chargino, 3]]]] + 
+      MT^2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+         Df[k4, MChagl[Index[Chargino, 3]]]])))/(128*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3]]*
+   g[hTTL, 1]*g[hTTR, 1]*(g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]] + 
+    MChagl[Index[Chargino, 3]]^2*
+     T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]] + 
+      MChagl[Index[Chargino, 3]]^2*
+       T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+         Df[k4, MChagl[Index[Chargino, 3]]]])))/(128*Pi^4) - 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3]]*
+   g[hTTL, 1]*g[hTTR, 1]*(g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MChagl[Index[Chargino, 3]]]] + 
+    MSf[Index[Sfermion, 3], 4, 3]^2*
+     T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, MChagl[Index[Chargino, 3]]]] + 
+      MSf[Index[Sfermion, 3], 4, 3]^2*
+       T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+         Df[k4, MChagl[Index[Chargino, 3]]]])))/(128*Pi^4) + 
+ (MB^2*DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 
+     3], MSf[Index[Sfermion, 4], 3, 3]]*g[hStSt, 1, Index[Sfermion, 4], 
+    Index[Sfermion, 3]]*(g[hBBR, 1]*g[CBStR, Index[Chargino, 3], 
+      Index[Sfermion, 4]]*gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[hBBL, 1]*g[CBStL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   MChagl[Index[Chargino, 3]]*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*
+   T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k4, MChagl[Index[Chargino, 3]]]])/(128*Pi^4) + 
+ (MB^2*DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 
+     3], MSf[Index[Sfermion, 4], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[hBBR, 1]*g[CBStR, Index[Chargino, 3], 
+      Index[Sfermion, 3]]*gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[hBBL, 1]*g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   MChagl[Index[Chargino, 3]]*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*
+   T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k4, MChagl[Index[Chargino, 3]]]])/(128*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*g[hStSt, 1, Index[Sfermion, 4], 
+    Index[Sfermion, 3]]*
+   (g[hBBL, 1]*(MB*g[CBStL, Index[Chargino, 3], Index[Sfermion, 4]]*
+       gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+      g[CBStR, Index[Chargino, 3], Index[Sfermion, 4]]*
+       (MB*gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]] + 
+        2*gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+         MChagl[Index[Chargino, 3]])) + 
+    g[hBBR, 1]*(MB*g[CBStR, Index[Chargino, 3], Index[Sfermion, 4]]*
+       gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]] + 
+      g[CBStL, Index[Chargino, 3], Index[Sfermion, 4]]*
+       (MB*gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+        2*gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+         MChagl[Index[Chargino, 3]])))*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(256*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*
+   (g[hBBL, 1]*(MB*g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+       gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+      g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+       (MB*gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]] + 
+        2*gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]]*
+         MChagl[Index[Chargino, 3]])) + 
+    g[hBBR, 1]*(MB*g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+       gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]] + 
+      g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+       (MB*gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+        2*gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]]*
+         MChagl[Index[Chargino, 3]])))*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(256*Pi^4) + 
+ (MB*DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*(g[hBBL, 1] + g[hBBR, 1])*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[CBStL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] + MChagl[Index[Chargino, 3]]^2*
+     T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(256*Pi^4) + 
+ (MB*DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*(g[hBBL, 1] + g[hBBR, 1])*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   (g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] + MChagl[Index[Chargino, 3]]^2*
+     T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(256*Pi^4) - 
+ (MB*DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*(g[hBBL, 1] + g[hBBR, 1])*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[CBStL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k4, MChagl[Index[Chargino, 3]]]] + MSf[Index[Sfermion, 3], 3, 3]^2*
+     T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(256*Pi^4) - 
+ (MB*DiagMark[MChagl[Index[Chargino, 3]], MB, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*(g[hBBL, 1] + g[hBBR, 1])*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   (g[CBStL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CBStR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CBStR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k4, MChagl[Index[Chargino, 3]]]] + MSf[Index[Sfermion, 3], 3, 3]^2*
+     T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(256*Pi^4) + 
+ (MT^2*DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 
+     3], MSf[Index[Sfermion, 4], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 4], 
+    Index[Sfermion, 3]]*(g[hTTR, 1]*g[CTSbR, Index[Chargino, 3], 
+      Index[Sfermion, 4]]*gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[hTTL, 1]*g[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   MChagl[Index[Chargino, 3]]*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*
+   T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k4, MChagl[Index[Chargino, 3]]]])/(128*Pi^4) + 
+ (MT^2*DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 
+     3], MSf[Index[Sfermion, 4], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[hTTR, 1]*g[CTSbR, Index[Chargino, 3], 
+      Index[Sfermion, 3]]*gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[hTTL, 1]*g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   MChagl[Index[Chargino, 3]]*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*
+   T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k4, MChagl[Index[Chargino, 3]]]])/(128*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 4], 
+    Index[Sfermion, 3]]*
+   (g[hTTL, 1]*(MT*g[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]]*
+       gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+      g[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]]*
+       (MT*gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]] + 
+        2*gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+         MChagl[Index[Chargino, 3]])) + 
+    g[hTTR, 1]*(MT*g[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]]*
+       gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]] + 
+      g[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]]*
+       (MT*gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+        2*gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+         MChagl[Index[Chargino, 3]])))*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(256*Pi^4) + 
+ (DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*
+   (g[hTTL, 1]*(MT*g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+       gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+      g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+       (MT*gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]] + 
+        2*gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]]*
+         MChagl[Index[Chargino, 3]])) + 
+    g[hTTR, 1]*(MT*g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+       gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]] + 
+      g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+       (MT*gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+        2*gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]]*
+         MChagl[Index[Chargino, 3]])))*SumOver[Index[Chargino, 3], 2]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k3, MChagl[Index[Chargino, 3]]]*Df[k4, MT]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(256*Pi^4) + 
+ (MT*DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*(g[hTTL, 1] + g[hTTR, 1])*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] + MChagl[Index[Chargino, 3]]^2*
+     T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(256*Pi^4) + 
+ (MT*DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*(g[hTTL, 1] + g[hTTR, 1])*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   (g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] + MChagl[Index[Chargino, 3]]^2*
+     T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(256*Pi^4) - 
+ (MT*DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*(g[hTTL, 1] + g[hTTR, 1])*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k4, MChagl[Index[Chargino, 3]]]] + MSf[Index[Sfermion, 3], 4, 3]^2*
+     T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(256*Pi^4) - 
+ (MT*DiagMark[MChagl[Index[Chargino, 3]], MT, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*(g[hTTL, 1] + g[hTTR, 1])*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   (g[CTSbL, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbL, Index[Chargino, 3], Index[Sfermion, 4]] + 
+    g[CTSbR, Index[Chargino, 3], Index[Sfermion, 3]]*
+     gC[CTSbR, Index[Chargino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Chargino, 3], 2]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k4, MChagl[Index[Chargino, 3]]]] + MSf[Index[Sfermion, 3], 4, 3]^2*
+     T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k4, MChagl[Index[Chargino, 3]]]]))/(256*Pi^4) + 
+ (MT^3*DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 
+     3]]*(g[hTTR, 1]^2*g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[hTTL, 1]^2*g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   MNeugl[Index[Neutralino, 3]]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Neutralino, 3], 4]*SumOver[Index[Sfermion, 3], 2]*
+   T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k4, MNeugl[Index[Neutralino, 3]]]])/(64*Pi^4) + 
+ (MT*DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 
+     3]]*(g[hTTL, 1]^2*(MT*g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+      g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       (MT*gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+        2*gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+         MNeugl[Index[Neutralino, 3]])) + g[hTTR, 1]^2*
+     (MT*g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+      g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       (MT*gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+        2*gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+         MNeugl[Index[Neutralino, 3]])) + g[hTTL, 1]*g[hTTR, 1]*
+     (g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       (MT*gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+        4*gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+         MNeugl[Index[Neutralino, 3]]) + g[NTStL, Index[Neutralino, 3], 
+        Index[Sfermion, 3]]*(MT*gC[NTStL, Index[Neutralino, 3], 
+          Index[Sfermion, 3]] + 4*gC[NTStR, Index[Neutralino, 3], 
+          Index[Sfermion, 3]]*MNeugl[Index[Neutralino, 3]])))*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k4, MNeugl[Index[Neutralino, 3]]]] + 
+    MT^2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(128*Pi^4) + 
+ (MT^2*DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 
+     3]]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + g[hTTR, 1]^2)*
+   (g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]] + 
+    MNeugl[Index[Neutralino, 3]]^2*
+     T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(128*Pi^4) - 
+ (MT^2*DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 
+     3]]*(g[hTTL, 1]^2 + g[hTTL, 1]*g[hTTR, 1] + g[hTTR, 1]^2)*
+   (g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MT]^3*Df[k3, MNeugl[Index[Neutralino, 3]]]] + 
+    MSf[Index[Sfermion, 3], 3, 3]^2*
+     T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(128*Pi^4) + 
+ (DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 3]]*
+   g[hTTL, 1]*g[hTTR, 1]*(g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]] + 
+    MT^2*(T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+        Df[k4, MNeugl[Index[Neutralino, 3]]]] + 
+      MT^2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+         Df[k4, MNeugl[Index[Neutralino, 3]]]])))/(128*Pi^4) + 
+ (DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 3]]*
+   g[hTTL, 1]*g[hTTR, 1]*(g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]] + 
+    MNeugl[Index[Neutralino, 3]]^2*
+     T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]] + 
+      MNeugl[Index[Neutralino, 3]]^2*
+       T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+         Df[k4, MNeugl[Index[Neutralino, 3]]]])))/(128*Pi^4) - 
+ (DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 3]]*
+   g[hTTL, 1]*g[hTTR, 1]*(g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MNeugl[Index[Neutralino, 3]]]] + 
+    MSf[Index[Sfermion, 3], 3, 3]^2*
+     T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]] + 
+    MT^2*(T[Df[k1, MT]^3*Df[k3, MNeugl[Index[Neutralino, 3]]]] + 
+      MSf[Index[Sfermion, 3], 3, 3]^2*
+       T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+         Df[k4, MNeugl[Index[Neutralino, 3]]]])))/(128*Pi^4) + 
+ (MB^3*DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 
+     3]]*(g[hBBR, 1]^2*g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[hBBL, 1]^2*g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   MNeugl[Index[Neutralino, 3]]*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Neutralino, 3], 4]*SumOver[Index[Sfermion, 3], 2]*
+   T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k4, MNeugl[Index[Neutralino, 3]]]])/(64*Pi^4) + 
+ (MB*DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 
+     3]]*(g[hBBL, 1]^2*(MB*g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+      g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       (MB*gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+        2*gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+         MNeugl[Index[Neutralino, 3]])) + g[hBBR, 1]^2*
+     (MB*g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+      g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       (MB*gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+        2*gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+         MNeugl[Index[Neutralino, 3]])) + g[hBBL, 1]*g[hBBR, 1]*
+     (g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       (MB*gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+        4*gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+         MNeugl[Index[Neutralino, 3]]) + g[NBSbL, Index[Neutralino, 3], 
+        Index[Sfermion, 3]]*(MB*gC[NBSbL, Index[Neutralino, 3], 
+          Index[Sfermion, 3]] + 4*gC[NBSbR, Index[Neutralino, 3], 
+          Index[Sfermion, 3]]*MNeugl[Index[Neutralino, 3]])))*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k4, MNeugl[Index[Neutralino, 3]]]] + 
+    MB^2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(128*Pi^4) + 
+ (MB^2*DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 
+     3]]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + g[hBBR, 1]^2)*
+   (g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]] + 
+    MNeugl[Index[Neutralino, 3]]^2*
+     T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(128*Pi^4) - 
+ (MB^2*DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 
+     3]]*(g[hBBL, 1]^2 + g[hBBL, 1]*g[hBBR, 1] + g[hBBR, 1]^2)*
+   (g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MB]^3*Df[k3, MNeugl[Index[Neutralino, 3]]]] + 
+    MSf[Index[Sfermion, 3], 4, 3]^2*
+     T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(128*Pi^4) + 
+ (DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 3]]*
+   g[hBBL, 1]*g[hBBR, 1]*(g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]] + 
+    MB^2*(T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+        Df[k4, MNeugl[Index[Neutralino, 3]]]] + 
+      MB^2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+         Df[k4, MNeugl[Index[Neutralino, 3]]]])))/(128*Pi^4) + 
+ (DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 3]]*
+   g[hBBL, 1]*g[hBBR, 1]*(g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]] + 
+    MNeugl[Index[Neutralino, 3]]^2*
+     T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]] + 
+      MNeugl[Index[Neutralino, 3]]^2*
+       T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+         Df[k4, MNeugl[Index[Neutralino, 3]]]])))/(128*Pi^4) - 
+ (DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 3]]*
+   g[hBBL, 1]*g[hBBR, 1]*(g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MNeugl[Index[Neutralino, 3]]]] + 
+    MSf[Index[Sfermion, 3], 4, 3]^2*
+     T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]] + 
+    MB^2*(T[Df[k1, MB]^3*Df[k3, MNeugl[Index[Neutralino, 3]]]] + 
+      MSf[Index[Sfermion, 3], 4, 3]^2*
+       T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+         Df[k4, MNeugl[Index[Neutralino, 3]]]])))/(128*Pi^4) + 
+ (MT^2*DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 
+     3], MSf[Index[Sfermion, 4], 3, 3]]*g[hStSt, 1, Index[Sfermion, 4], 
+    Index[Sfermion, 3]]*(g[hTTR, 1]*g[NTStR, Index[Neutralino, 3], 
+      Index[Sfermion, 4]]*gC[NTStL, Index[Neutralino, 3], 
+      Index[Sfermion, 3]] + g[hTTL, 1]*g[NTStL, Index[Neutralino, 3], 
+      Index[Sfermion, 4]]*gC[NTStR, Index[Neutralino, 3], 
+      Index[Sfermion, 3]])*MNeugl[Index[Neutralino, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k4, MNeugl[Index[Neutralino, 3]]]])/(128*Pi^4) + 
+ (MT^2*DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 
+     3], MSf[Index[Sfermion, 4], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[hTTR, 1]*g[NTStR, Index[Neutralino, 3], 
+      Index[Sfermion, 3]]*gC[NTStL, Index[Neutralino, 3], 
+      Index[Sfermion, 4]] + g[hTTL, 1]*g[NTStL, Index[Neutralino, 3], 
+      Index[Sfermion, 3]]*gC[NTStR, Index[Neutralino, 3], 
+      Index[Sfermion, 4]])*MNeugl[Index[Neutralino, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+     Df[k4, MNeugl[Index[Neutralino, 3]]]])/(128*Pi^4) + 
+ (DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*g[hStSt, 1, Index[Sfermion, 4], 
+    Index[Sfermion, 3]]*
+   (g[hTTL, 1]*(MT*g[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+       gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+      g[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+       (MT*gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+        2*gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+         MNeugl[Index[Neutralino, 3]])) + 
+    g[hTTR, 1]*(MT*g[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+       gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+      g[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+       (MT*gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+        2*gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+         MNeugl[Index[Neutralino, 3]])))*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Neutralino, 3], 4]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(256*Pi^4) + 
+ (DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*g[hStSt, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*
+   (g[hTTL, 1]*(MT*g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+      g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       (MT*gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+        2*gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+         MNeugl[Index[Neutralino, 3]])) + 
+    g[hTTR, 1]*(MT*g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+      g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       (MT*gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+        2*gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+         MNeugl[Index[Neutralino, 3]])))*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Neutralino, 3], 4]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MT]] + 
+    MT^2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(256*Pi^4) + 
+ (MT*DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 
+     3], MSf[Index[Sfermion, 4], 3, 3]]*(g[hTTL, 1] + g[hTTR, 1])*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] + MNeugl[Index[Neutralino, 3]]^2*
+     T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(256*Pi^4) + 
+ (MT*DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 
+     3], MSf[Index[Sfermion, 4], 3, 3]]*(g[hTTL, 1] + g[hTTR, 1])*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   (g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+      Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] + MNeugl[Index[Neutralino, 3]]^2*
+     T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(256*Pi^4) - 
+ (MT*DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 
+     3], MSf[Index[Sfermion, 4], 3, 3]]*(g[hTTL, 1] + g[hTTR, 1])*
+   g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k4, MNeugl[Index[Neutralino, 3]]]] + MSf[Index[Sfermion, 3], 3, 3]^2*
+     T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(256*Pi^4) - 
+ (MT*DiagMark[MT, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 3, 
+     3], MSf[Index[Sfermion, 4], 3, 3]]*(g[hTTL, 1] + g[hTTR, 1])*
+   g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   (g[NTStL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NTStR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NTStR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+      Df[k4, MNeugl[Index[Neutralino, 3]]]] + MSf[Index[Sfermion, 3], 3, 3]^2*
+     T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(256*Pi^4) + 
+ (MB^2*DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 
+     3], MSf[Index[Sfermion, 4], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 4], 
+    Index[Sfermion, 3]]*(g[hBBR, 1]*g[NBSbR, Index[Neutralino, 3], 
+      Index[Sfermion, 4]]*gC[NBSbL, Index[Neutralino, 3], 
+      Index[Sfermion, 3]] + g[hBBL, 1]*g[NBSbL, Index[Neutralino, 3], 
+      Index[Sfermion, 4]]*gC[NBSbR, Index[Neutralino, 3], 
+      Index[Sfermion, 3]])*MNeugl[Index[Neutralino, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k4, MNeugl[Index[Neutralino, 3]]]])/(128*Pi^4) + 
+ (MB^2*DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 
+     3], MSf[Index[Sfermion, 4], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*(g[hBBR, 1]*g[NBSbR, Index[Neutralino, 3], 
+      Index[Sfermion, 3]]*gC[NBSbL, Index[Neutralino, 3], 
+      Index[Sfermion, 4]] + g[hBBL, 1]*g[NBSbL, Index[Neutralino, 3], 
+      Index[Sfermion, 3]]*gC[NBSbR, Index[Neutralino, 3], 
+      Index[Sfermion, 4]])*MNeugl[Index[Neutralino, 3]]*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+     Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+     Df[k4, MNeugl[Index[Neutralino, 3]]]])/(128*Pi^4) + 
+ (DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 4], 
+    Index[Sfermion, 3]]*
+   (g[hBBL, 1]*(MB*g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+       gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+      g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+       (MB*gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+        2*gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+         MNeugl[Index[Neutralino, 3]])) + 
+    g[hBBR, 1]*(MB*g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+       gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+      g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+       (MB*gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+        2*gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+         MNeugl[Index[Neutralino, 3]])))*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Neutralino, 3], 4]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(256*Pi^4) + 
+ (DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*g[hSbSb, 1, Index[Sfermion, 3], 
+    Index[Sfermion, 4]]*
+   (g[hBBL, 1]*(MB*g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+      g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       (MB*gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+        2*gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+         MNeugl[Index[Neutralino, 3]])) + 
+    g[hBBR, 1]*(MB*g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+      g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+       (MB*gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+        2*gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+         MNeugl[Index[Neutralino, 3]])))*SumOver[Index[Colour, 3], Nc]*
+   SumOver[Index[Neutralino, 3], 4]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k3, MNeugl[Index[Neutralino, 3]]]*Df[k4, MB]] + 
+    MB^2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(256*Pi^4) + 
+ (MB*DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 
+     3], MSf[Index[Sfermion, 4], 4, 3]]*(g[hBBL, 1] + g[hBBR, 1])*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] + MNeugl[Index[Neutralino, 3]]^2*
+     T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(256*Pi^4) + 
+ (MB*DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 
+     3], MSf[Index[Sfermion, 4], 4, 3]]*(g[hBBL, 1] + g[hBBR, 1])*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   (g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+      Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] + MNeugl[Index[Neutralino, 3]]^2*
+     T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(256*Pi^4) - 
+ (MB*DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 
+     3], MSf[Index[Sfermion, 4], 4, 3]]*(g[hBBL, 1] + g[hBBR, 1])*
+   g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+   (g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k4, MNeugl[Index[Neutralino, 3]]]] + MSf[Index[Sfermion, 3], 4, 3]^2*
+     T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(256*Pi^4) - 
+ (MB*DiagMark[MB, MNeugl[Index[Neutralino, 3]], MSf[Index[Sfermion, 3], 4, 
+     3], MSf[Index[Sfermion, 4], 4, 3]]*(g[hBBL, 1] + g[hBBR, 1])*
+   g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+   (g[NBSbL, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbL, Index[Neutralino, 3], Index[Sfermion, 4]] + 
+    g[NBSbR, Index[Neutralino, 3], Index[Sfermion, 3]]*
+     gC[NBSbR, Index[Neutralino, 3], Index[Sfermion, 4]])*
+   SumOver[Index[Colour, 3], Nc]*SumOver[Index[Neutralino, 3], 4]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+      Df[k4, MNeugl[Index[Neutralino, 3]]]] + MSf[Index[Sfermion, 3], 4, 3]^2*
+     T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+       Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+       Df[k4, MNeugl[Index[Neutralino, 3]]]]))/(256*Pi^4)

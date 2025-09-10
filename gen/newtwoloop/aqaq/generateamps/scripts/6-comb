@@ -1,0 +1,101 @@
+#! /bin/sh -x
+
+test $# -ne 1 && {
+  cat << _EOF_
+Usage:  $0 se
+puts together the renormalized 'se' 2L self-energy
+env DEBUG=i outputs the coefficient of del^i only
+_EOF_
+  exit 1
+}
+
+out=m/$1/6-comb
+rm -f $out*
+
+time math -run se=\"$1\" \
+          -run out=\"$out\" \
+          -run debug=${DEBUG:-0} << \_EOF_ > $out.log
+AppendTo[$Echo, "stdout"];
+
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FeynArts-3.9"}]]; (* FeynArts path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FormCalc-9.4"}]]; (* FormCalc path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-Projekte", "FC2L", "aqaq"}]];
+
+<< packages`FinalSimp`;
+<< packages`ExpandDel`;
+<< packages`SimplificationDefinitions`;
+
+<< model/MSSMCT.rc2;
+
+get[file_] := Check[(Print["Reading ", file]; Get[file]), Exit[]] /.
+    T[prop__][mass__] :> T[prop][mass][] /.
+    T[prop__][mass__][] :> If[!FreeQ[{prop}, 2 | 5], T[prop][mass][p2], T[prop][mass]];
+
+get[name_, cto_] := get @ ToFileName[{"m", name}, "4-simp." <> ToString[cto]];
+
+getamp[name_] := getamp[name] =
+  TAG[name, 0] get[name, 0] + TAG[name, 1] get[name, 1];
+
+If[ debug === 0,
+  (*TAG[_, i_] := TAG[i];*)
+  _TAG = 1,
+(* else *)
+  inputMA0 = 1;
+  inputMHp = 0;
+  Tadh02 = getamp["h0"];
+  TadHH2 = getamp["HH"];
+  TadA02 = getamp["A0"];
+  SEA0A02 = getamp["A0A0"];
+  SEHmHp2 = getamp["HmHp"]
+];
+
+amp = {
+  TAG[se, 0] get[se, 0],
+  TAG[se, 1] get[se, 1],
+  TAG[se, 2] ct[se]};
+
+Conjugate[DRbarflag] ^= DRbarflag;
+Re[DRbarflag] ^= DRbarflag;
+
+rcs = Get/@ FileNames[ToFileName[{"m", "rc"}, "*.m"]] /. RC[i:0 | 1, x_[ind__]] :> (1 - DRbarflag) RC[i, x[ind]] /; MemberQ[{dMChaOS1, dMf1, dMSfsq1, dMWsq1gl, dMZsq1gl}, x];
+
+amp = amp //. Prepend[Cases[rcs, _Rule, {2}], r_RC :> r];
+
+rct = Drop[amp, 1];
+zrc = Complement[
+  Cases[rct, _RC, Infinity],
+  Cases[Expand[rct], _RC, Infinity] ];
+amp = amp /. Thread[zrc -> 0];
+
+amp = ExpandDel[amp];
+
+amp = Collect[amp, _DiagMark, DelSeries];
+
+p2 = 0;
+
+DC[debug, x_] := x;
+_DC = 0;
+
+ClearAll[SB, CB, SB2, CB2, S2B, C2B];
+
+SB2 = SB^2; CB2 = CB^2; S2B = 2 SB CB; C2B = CB^2 - SB^2;
+
+amp = Collect[amp, {_TAG, _cTAG, _DiagMark, _B0del, _B0fin, Tfin[__][__]}, (V2Simplify @ U2Simplify @ If[ByteCount[#] > 500000, Collect[#, {SB, CB}, MagicSimplify[#, Feedback -> False, SimpSubExpr -> False] &], MagicSimplify[#, Feedback -> False, SimpSubExpr -> False]]) & ];
+
+If[ debug === 0,
+  amp = FinalSimp[amp] (*/. inputMHp -> 1 - inputMA0*),
+(* else *)
+  amp = amp /. Cases[rcs, _Rule, {4}]
+];
+
+Put[amp, out];
+
+CloseKernels[];
+
+
+_EOF_
+
+gzip $out.log
+
+test -f $out
+

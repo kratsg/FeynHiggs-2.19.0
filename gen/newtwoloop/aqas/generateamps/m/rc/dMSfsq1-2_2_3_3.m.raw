@@ -1,0 +1,12 @@
+(Nc^(-1) - Nc)*((Alfas*DiagMark[0, MSf[2, 3, 3]]*
+     ((MSf2[2, 3, 3]*Re[B0i[bb0, MSf2[2, 3, 3], 0, MSf2[2, 3, 3]]])/2 + 
+      (MSf2[2, 3, 3]*Re[B0i[bb1, MSf2[2, 3, 3], 0, MSf2[2, 3, 3]]])/4))/Pi + 
+   (DiagMark[MGl, MT]*
+     (((MGl*MT*(g[GlTStR, 2]*gC[GlTStL, 2] + g[GlTStL, 2]*gC[GlTStR, 2]) + 
+         (g[GlTStL, 2]*gC[GlTStL, 2] + g[GlTStR, 2]*gC[GlTStR, 2])*
+          (MT2 - MSf2[2, 3, 3]))*Re[B0i[bb0, MSf2[2, 3, 3], MGl2, MT2]])/16 + 
+      (g[GlTStL, 2]*gC[GlTStL, 2] + g[GlTStR, 2]*gC[GlTStR, 2])*
+       (Re[A0[MGl2]]/16 - (MSf2[2, 3, 3]*Re[B0i[bb1, MSf2[2, 3, 3], MGl2, 
+            MT2]])/16)))/Pi^2) - ((Nc^(-1) - Nc)*DiagMark[MSf[Sfe3, 3, 3]]*
+   g[StStStStV, Sfe3, 2, 2, Sfe3]*Re[A0[MSf2[Sfe3, 3, 3]]]*SumOver[Sfe3, 2])/
+  (32*Pi^2)

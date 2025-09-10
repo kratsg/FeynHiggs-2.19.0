@@ -1,0 +1,485 @@
+FeynAmpList[Process -> {{S[5], 0, MHin, {-Charge}}} -> 
+    {{S[5], 0, MHin, {-Charge}}}, Model -> {"MSSMCTgl", "Nc"}, 
+  GenericModel -> {"Lorentz"}, AmplitudeLevel -> {Classes}, 
+  ExcludeParticles -> {U, -F[1], F[1], -F[2], F[2], F[11], -F[12], F[12], 
+    -F[1, {1}], F[1, {1}], -F[1, {2}], F[1, {2}], -F[1, {3}], F[1, {3}], 
+    -F[2, {1}], F[2, {1}], -F[2, {2}], F[2, {2}], -F[2, {3}], F[2, {3}], 
+    F[11, {1}], F[11, {2}], F[11, {3}], F[11, {4}], -F[12, {1}], F[12, {1}], 
+    -F[12, {2}], F[12, {2}], S[1], S[2], S[3], S[4], -S[5], S[5], -S[6], 
+    S[6], -S[11], S[11], -S[12], S[12], -S[11, {1}], S[11, {1}], -S[11, {2}], 
+    S[11, {2}], -S[11, {3}], S[11, {3}], -S[12, {1, 1}], S[12, {1, 1}], 
+    -S[12, {1, 2}], S[12, {1, 2}], -S[12, {1, 3}], S[12, {1, 3}], 
+    -S[12, {2, 1}], S[12, {2, 1}], -S[12, {2, 2}], S[12, {2, 2}], 
+    -S[12, {2, 3}], S[12, {2, 3}], -U[1], U[1], -U[2], U[2], -U[3], U[3], 
+    -U[4], U[4], -U[5], U[5], -U[5, {_}], U[5, {_}], V[1], V[2], -V[3], 
+    V[3]}, ExcludeFieldPoints -> {}, LastSelections -> 
+   {S[13 | 14] | F[3 | 4] | F[15, _] | V[5, _]}][
+ FeynAmp[GraphID[Topology == 1, Generic == 1, Classes == 1, Number == 1], k1, 
+  k2, k3, k4, k5, p, (DiagMark[MSf[Index[Sfermion, 3], 4, 3], 
+     MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3], 
+     MSf[Index[Sfermion, 6], 3, 3]]*FeynAmpDenominator[
+     PropagatorDenominator[k4, MSf[Index[Sfermion, 6], 3, 3]]]*
+    FeynAmpDenominator[PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 4, 
+       3]], PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 3, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 5], 3, 3]]]*
+    g[HpStSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+    gC[HpStSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+    SumOver[Index[Colour, 3], Nc]*SumOver[Index[Colour, 4], Nc]*
+    SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+    SumOver[Index[Sfermion, 5], 2]*SumOver[Index[Sfermion, 6], 2]*
+    (g[StStStStV, Index[Sfermion, 5], Index[Sfermion, 4], Index[Sfermion, 6], 
+       Index[Sfermion, 6]]*SUNTSum[Index[Colour, 3], Index[Colour, 3], 
+       Index[Colour, 4], Index[Colour, 4]] + 
+     g[StStStStV, Index[Sfermion, 6], Index[Sfermion, 4], Index[Sfermion, 5], 
+       Index[Sfermion, 6]]*SUNTSum[Index[Colour, 3], Index[Colour, 4], 
+       Index[Colour, 4], Index[Colour, 3]]))/(256*Pi^8)], 
+ FeynAmp[GraphID[Topology == 1, Generic == 1, Classes == 2, Number == 2], k1, 
+  k2, k3, k4, k5, p, (DiagMark[MSf[Index[Sfermion, 3], 3, 3], 
+     MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3], 
+     MSf[Index[Sfermion, 6], 3, 3]]*FeynAmpDenominator[
+     PropagatorDenominator[k4, MSf[Index[Sfermion, 6], 3, 3]]]*
+    FeynAmpDenominator[PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 3, 
+       3]], PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 4, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 5], 4, 3]]]*
+    g[HpStSb, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+    g[StStSbSbV, Index[Sfermion, 6], Index[Sfermion, 6], Index[Sfermion, 4], 
+     Index[Sfermion, 5]]*gC[HpStSb, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 4]]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Sfermion, 3], 2]*
+    SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+    SumOver[Index[Sfermion, 6], 2]*SUNTSum[Index[Colour, 3], 
+     Index[Colour, 3], Index[Colour, 4], Index[Colour, 4]])/(256*Pi^8)], 
+ FeynAmp[GraphID[Topology == 1, Generic == 1, Classes == 3, Number == 3], k1, 
+  k2, k3, k4, k5, p, (DiagMark[MSf[Index[Sfermion, 3], 4, 3], 
+     MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3], 
+     MSf[Index[Sfermion, 6], 4, 3]]*FeynAmpDenominator[
+     PropagatorDenominator[k4, MSf[Index[Sfermion, 6], 4, 3]]]*
+    FeynAmpDenominator[PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 4, 
+       3]], PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 3, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 5], 3, 3]]]*
+    g[HpStSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+    g[StStSbSbV, Index[Sfermion, 5], Index[Sfermion, 4], Index[Sfermion, 6], 
+     Index[Sfermion, 6]]*gC[HpStSb, 1, Index[Sfermion, 4], 
+     Index[Sfermion, 3]]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Sfermion, 3], 2]*
+    SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+    SumOver[Index[Sfermion, 6], 2]*SUNTSum[Index[Colour, 4], 
+     Index[Colour, 4], Index[Colour, 3], Index[Colour, 3]])/(256*Pi^8)], 
+ FeynAmp[GraphID[Topology == 1, Generic == 1, Classes == 4, Number == 4], k1, 
+  k2, k3, k4, k5, p, (DiagMark[MSf[Index[Sfermion, 3], 3, 3], 
+     MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3], 
+     MSf[Index[Sfermion, 6], 4, 3]]*FeynAmpDenominator[
+     PropagatorDenominator[k4, MSf[Index[Sfermion, 6], 4, 3]]]*
+    FeynAmpDenominator[PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 3, 
+       3]], PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 4, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 5], 4, 3]]]*
+    g[HpStSb, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+    gC[HpStSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+    SumOver[Index[Colour, 3], Nc]*SumOver[Index[Colour, 4], Nc]*
+    SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+    SumOver[Index[Sfermion, 5], 2]*SumOver[Index[Sfermion, 6], 2]*
+    (g[SbSbSbSbV, Index[Sfermion, 4], Index[Sfermion, 5], Index[Sfermion, 6], 
+       Index[Sfermion, 6]]*SUNTSum[Index[Colour, 3], Index[Colour, 3], 
+       Index[Colour, 4], Index[Colour, 4]] + 
+     g[SbSbSbSbV, Index[Sfermion, 6], Index[Sfermion, 5], Index[Sfermion, 4], 
+       Index[Sfermion, 6]]*SUNTSum[Index[Colour, 3], Index[Colour, 4], 
+       Index[Colour, 4], Index[Colour, 3]]))/(256*Pi^8)], 
+ FeynAmp[GraphID[Topology == 1, Generic == 2, Classes == 1, Number == 5], k1, 
+  k2, k3, k4, k5, p, (Alfas*DiagMark[0, MSf[Index[Sfermion, 3], 4, 3], 
+     MSf[Index[Sfermion, 4], 3, 3]]*FeynAmpDenominator[
+     PropagatorDenominator[k4, 0]]*FeynAmpDenominator[
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 4, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 3, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 3, 3]]]*
+    g[HpStSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+    gC[HpStSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+    MetricTensor[li1, li2]^2*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Gluon, 3], -1 + Nc^2]*SumOver[Index[Sfermion, 3], 2]*
+    SumOver[Index[Sfermion, 4], 2]*SUNT[Index[Gluon, 3], Index[Gluon, 3], 
+     Index[Colour, 3], Index[Colour, 3]])/(64*Pi^7)], 
+ FeynAmp[GraphID[Topology == 1, Generic == 2, Classes == 2, Number == 6], k1, 
+  k2, k3, k4, k5, p, (Alfas*DiagMark[0, MSf[Index[Sfermion, 3], 3, 3], 
+     MSf[Index[Sfermion, 4], 4, 3]]*FeynAmpDenominator[
+     PropagatorDenominator[k4, 0]]*FeynAmpDenominator[
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 3, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 4, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 4, 3]]]*
+    g[HpStSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+    gC[HpStSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+    MetricTensor[li1, li2]^2*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Gluon, 3], -1 + Nc^2]*SumOver[Index[Sfermion, 3], 2]*
+    SumOver[Index[Sfermion, 4], 2]*SUNT[Index[Gluon, 3], Index[Gluon, 3], 
+     Index[Colour, 3], Index[Colour, 3]])/(64*Pi^7)], 
+ FeynAmp[GraphID[Topology == 2, Generic == 1, Classes == 1, Number == 7], k1, 
+  k2, k3, k4, k5, p, ((I/256)*DiagMark[MGl, MT, MB, 
+     MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 4, 3]]*
+    DiracTrace[(MB + DiracSlash[k1]) . 
+      ((-I)*(ChiralityProjector[1]*gC[HpTBL, 1] + ChiralityProjector[-1]*
+         gC[HpTBR, 1])) . (MT + DiracSlash[k1]) . 
+      ((-I)*(ChiralityProjector[1]*gC[GlTStL, Index[Sfermion, 3]] + 
+        ChiralityProjector[-1]*gC[GlTStR, Index[Sfermion, 3]])*
+       SUNT[Index[Gluon, 3], Index[Colour, 3], Index[Colour, 4]]) . 
+      (MGl + DiracSlash[-k3]) . ((-I)*(ChiralityProjector[-1]*
+         g[GlBSbL, Index[Sfermion, 4]] + ChiralityProjector[1]*
+         g[GlBSbR, Index[Sfermion, 4]])*SUNT[Index[Gluon, 3], 
+        Index[Colour, 4], Index[Colour, 3]])]*FeynAmpDenominator[
+     PropagatorDenominator[k1, MB], PropagatorDenominator[k1, MT], 
+     PropagatorDenominator[k3, MGl], PropagatorDenominator[k4, 
+      MSf[Index[Sfermion, 3], 3, 3]], PropagatorDenominator[k4, 
+      MSf[Index[Sfermion, 4], 4, 3]]]*g[HpStSb, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 4]]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Gluon, 3], -1 + Nc^2]*
+    SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2])/Pi^8], 
+ FeynAmp[GraphID[Topology == 2, Generic == 2, Classes == 1, Number == 8], k1, 
+  k2, k3, k4, k5, p, ((I/256)*DiagMark[MGl, MT, MB, 
+     MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 4, 3]]*
+    DiracTrace[(MB + DiracSlash[-k4]) . 
+      ((-I)*(ChiralityProjector[-1]*g[HpTBL, 1] + ChiralityProjector[1]*
+         g[HpTBR, 1])) . (MT + DiracSlash[-k4]) . 
+      ((-I)*(ChiralityProjector[-1]*g[GlTStL, Index[Sfermion, 3]] + 
+        ChiralityProjector[1]*g[GlTStR, Index[Sfermion, 3]])*
+       SUNT[Index[Gluon, 3], Index[Colour, 3], Index[Colour, 4]]) . 
+      (MGl + DiracSlash[-k3]) . ((-I)*(ChiralityProjector[1]*
+         gC[GlBSbL, Index[Sfermion, 4]] + ChiralityProjector[-1]*
+         gC[GlBSbR, Index[Sfermion, 4]])*SUNT[Index[Gluon, 3], 
+        Index[Colour, 4], Index[Colour, 3]])]*FeynAmpDenominator[
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 3, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 4, 3]], 
+     PropagatorDenominator[k3, MGl], PropagatorDenominator[k4, MB], 
+     PropagatorDenominator[k4, MT]]*gC[HpStSb, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 4]]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Gluon, 3], -1 + Nc^2]*
+    SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2])/Pi^8], 
+ FeynAmp[GraphID[Topology == 2, Generic == 3, Classes == 1, Number == 9], k1, 
+  k2, k3, k4, k5, p, (Alfas*DiagMark[0, MT, MB]*
+    DiracTrace[(MB + DiracSlash[-k4]) . 
+      ((-I)*(ChiralityProjector[-1]*g[HpTBL, 1] + ChiralityProjector[1]*
+         g[HpTBR, 1])) . (MT + DiracSlash[-k4]) . 
+      (I*(DiracMatrix[li2] . ChiralityProjector[-1] + DiracMatrix[li2] . 
+         ChiralityProjector[1])*SUNT[Index[Gluon, 3], Index[Colour, 3], 
+        Index[Colour, 4]]) . (MT + DiracSlash[-k1]) . 
+      ((-I)*(ChiralityProjector[1]*gC[HpTBL, 1] + ChiralityProjector[-1]*
+         gC[HpTBR, 1])) . (MB + DiracSlash[-k1]) . 
+      (I*(DiracMatrix[li1] . ChiralityProjector[-1] + DiracMatrix[li1] . 
+         ChiralityProjector[1])*SUNT[Index[Gluon, 3], Index[Colour, 4], 
+        Index[Colour, 3]])]*FeynAmpDenominator[PropagatorDenominator[k1, MB], 
+     PropagatorDenominator[k1, MT], PropagatorDenominator[k3, 0], 
+     PropagatorDenominator[k4, MB], PropagatorDenominator[k4, MT]]*
+    MetricTensor[li1, li2]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Gluon, 3], -1 + Nc^2])/
+   (64*Pi^7)], FeynAmp[GraphID[Topology == 2, Generic == 4, Classes == 1, 
+   Number == 10], k1, k2, k3, k4, k5, p, 
+  (Alfas*DiagMark[0, MSf[Index[Sfermion, 3], 3, 3], 
+     MSf[Index[Sfermion, 4], 4, 3]]*FeynAmpDenominator[
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 3, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 4, 3]], 
+     PropagatorDenominator[k3, 0], PropagatorDenominator[k4, 
+      MSf[Index[Sfermion, 3], 3, 3]], PropagatorDenominator[k4, 
+      MSf[Index[Sfermion, 4], 4, 3]]]*FourVector[-k1 - k4, li2]*
+    FourVector[k1 + k4, li1]*g[HpStSb, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 4]]*gC[HpStSb, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 4]]*MetricTensor[li1, li2]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Gluon, 3], -1 + Nc^2]*
+    SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+    SUNT[Index[Gluon, 3], Index[Colour, 3], Index[Colour, 4]]*
+    SUNT[Index[Gluon, 3], Index[Colour, 4], Index[Colour, 3]])/(64*Pi^7)], 
+ FeynAmp[GraphID[Topology == 3, Generic == 1, Classes == 1, Number == 11], 
+  k1, k2, k3, k4, k5, p, 
+  -1/256*(DiagMark[MGl, MT, MB, MSf[Index[Sfermion, 3], 3, 3]]*
+     DiracTrace[(MT + DiracSlash[k1]) . 
+       ((-I)*(ChiralityProjector[-1]*g[HpTBL, 1] + ChiralityProjector[1]*
+          g[HpTBR, 1])) . (MB + DiracSlash[k1]) . 
+       ((-I)*(ChiralityProjector[1]*gC[HpTBL, 1] + ChiralityProjector[-1]*
+          gC[HpTBR, 1])) . (MT + DiracSlash[k1]) . 
+       ((-I)*(ChiralityProjector[1]*gC[GlTStL, Index[Sfermion, 3]] + 
+         ChiralityProjector[-1]*gC[GlTStR, Index[Sfermion, 3]])*
+        SUNT[Index[Gluon, 3], Index[Colour, 3], Index[Colour, 4]]) . 
+       (MGl + DiracSlash[k4]) . ((-I)*(ChiralityProjector[-1]*
+          g[GlTStL, Index[Sfermion, 3]] + ChiralityProjector[1]*
+          g[GlTStR, Index[Sfermion, 3]])*SUNT[Index[Gluon, 3], 
+         Index[Colour, 4], Index[Colour, 3]])]*FeynAmpDenominator[
+      PropagatorDenominator[k1, MB], PropagatorDenominator[k1, MT], 
+      PropagatorDenominator[k1, MT], PropagatorDenominator[k3, 
+       MSf[Index[Sfermion, 3], 3, 3]], PropagatorDenominator[k4, MGl]]*
+     SumOver[Index[Colour, 3], Nc]*SumOver[Index[Colour, 4], Nc]*
+     SumOver[Index[Gluon, 3], -1 + Nc^2]*SumOver[Index[Sfermion, 3], 2])/
+    Pi^8], FeynAmp[GraphID[Topology == 3, Generic == 1, Classes == 2, 
+   Number == 12], k1, k2, k3, k4, k5, p, 
+  -1/256*(DiagMark[MGl, MT, MB, MSf[Index[Sfermion, 3], 4, 3]]*
+     DiracTrace[(MB + DiracSlash[k1]) . 
+       ((-I)*(ChiralityProjector[-1]*g[HpTBL, 1] + ChiralityProjector[1]*
+          g[HpTBR, 1])) . (MT + DiracSlash[k1]) . 
+       ((-I)*(ChiralityProjector[1]*gC[HpTBL, 1] + ChiralityProjector[-1]*
+          gC[HpTBR, 1])) . (MB + DiracSlash[k1]) . 
+       ((-I)*(ChiralityProjector[-1]*g[GlBSbL, Index[Sfermion, 3]] + 
+         ChiralityProjector[1]*g[GlBSbR, Index[Sfermion, 3]])*
+        SUNT[Index[Gluon, 3], Index[Colour, 4], Index[Colour, 3]]) . 
+       (MGl + DiracSlash[k4]) . ((-I)*(ChiralityProjector[1]*
+          gC[GlBSbL, Index[Sfermion, 3]] + ChiralityProjector[-1]*
+          gC[GlBSbR, Index[Sfermion, 3]])*SUNT[Index[Gluon, 3], 
+         Index[Colour, 3], Index[Colour, 4]])]*FeynAmpDenominator[
+      PropagatorDenominator[k1, MB], PropagatorDenominator[k1, MB], 
+      PropagatorDenominator[k1, MT], PropagatorDenominator[k3, 
+       MSf[Index[Sfermion, 3], 4, 3]], PropagatorDenominator[k4, MGl]]*
+     SumOver[Index[Colour, 3], Nc]*SumOver[Index[Colour, 4], Nc]*
+     SumOver[Index[Gluon, 3], -1 + Nc^2]*SumOver[Index[Sfermion, 3], 2])/
+    Pi^8], FeynAmp[GraphID[Topology == 3, Generic == 2, Classes == 1, 
+   Number == 13], k1, k2, k3, k4, k5, p, 
+  (DiagMark[MGl, MT, MSf[Index[Sfermion, 3], 4, 3], 
+     MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+    DiracTrace[(MT + DiracSlash[-k4]) . 
+      ((-I)*(ChiralityProjector[-1]*g[GlTStL, Index[Sfermion, 4]] + 
+        ChiralityProjector[1]*g[GlTStR, Index[Sfermion, 4]])*
+       SUNT[Index[Gluon, 3], Index[Colour, 3], Index[Colour, 4]]) . 
+      (MGl + DiracSlash[-k3]) . ((-I)*(ChiralityProjector[1]*
+         gC[GlTStL, Index[Sfermion, 5]] + ChiralityProjector[-1]*
+         gC[GlTStR, Index[Sfermion, 5]])*SUNT[Index[Gluon, 3], 
+        Index[Colour, 4], Index[Colour, 3]])]*FeynAmpDenominator[
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 4, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 3, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 5], 3, 3]], 
+     PropagatorDenominator[k3, MGl], PropagatorDenominator[k4, MT]]*
+    g[HpStSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+    gC[HpStSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+    SumOver[Index[Colour, 3], Nc]*SumOver[Index[Colour, 4], Nc]*
+    SumOver[Index[Gluon, 3], -1 + Nc^2]*SumOver[Index[Sfermion, 3], 2]*
+    SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2])/
+   (256*Pi^8)], FeynAmp[GraphID[Topology == 3, Generic == 2, Classes == 2, 
+   Number == 14], k1, k2, k3, k4, k5, p, 
+  (DiagMark[MGl, MB, MSf[Index[Sfermion, 3], 3, 3], 
+     MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+    DiracTrace[(MB + DiracSlash[-k4]) . 
+      ((-I)*(ChiralityProjector[1]*gC[GlBSbL, Index[Sfermion, 4]] + 
+        ChiralityProjector[-1]*gC[GlBSbR, Index[Sfermion, 4]])*
+       SUNT[Index[Gluon, 3], Index[Colour, 4], Index[Colour, 3]]) . 
+      (MGl + DiracSlash[-k3]) . ((-I)*(ChiralityProjector[-1]*
+         g[GlBSbL, Index[Sfermion, 5]] + ChiralityProjector[1]*
+         g[GlBSbR, Index[Sfermion, 5]])*SUNT[Index[Gluon, 3], 
+        Index[Colour, 3], Index[Colour, 4]])]*FeynAmpDenominator[
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 3, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 4, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 5], 4, 3]], 
+     PropagatorDenominator[k3, MGl], PropagatorDenominator[k4, MB]]*
+    g[HpStSb, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+    gC[HpStSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+    SumOver[Index[Colour, 3], Nc]*SumOver[Index[Colour, 4], Nc]*
+    SumOver[Index[Gluon, 3], -1 + Nc^2]*SumOver[Index[Sfermion, 3], 2]*
+    SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2])/
+   (256*Pi^8)], FeynAmp[GraphID[Topology == 3, Generic == 3, Classes == 1, 
+   Number == 15], k1, k2, k3, k4, k5, p, 
+  (Alfas*DiagMark[0, MT, MB]*DiracTrace[(MT + DiracSlash[k1]) . 
+      ((-I)*(ChiralityProjector[-1]*g[HpTBL, 1] + ChiralityProjector[1]*
+         g[HpTBR, 1])) . (MB + DiracSlash[k1]) . 
+      ((-I)*(ChiralityProjector[1]*gC[HpTBL, 1] + ChiralityProjector[-1]*
+         gC[HpTBR, 1])) . (MT + DiracSlash[k1]) . 
+      ((-I)*(DiracMatrix[li2] . ChiralityProjector[-1] + 
+        DiracMatrix[li2] . ChiralityProjector[1])*SUNT[Index[Gluon, 3], 
+        Index[Colour, 3], Index[Colour, 4]]) . (MT + DiracSlash[k4]) . 
+      ((-I)*(DiracMatrix[li1] . ChiralityProjector[-1] + 
+        DiracMatrix[li1] . ChiralityProjector[1])*SUNT[Index[Gluon, 3], 
+        Index[Colour, 4], Index[Colour, 3]])]*FeynAmpDenominator[
+     PropagatorDenominator[k1, MB], PropagatorDenominator[k1, MT], 
+     PropagatorDenominator[k1, MT], PropagatorDenominator[k3, 0], 
+     PropagatorDenominator[k4, MT]]*MetricTensor[li1, li2]*
+    SumOver[Index[Colour, 3], Nc]*SumOver[Index[Colour, 4], Nc]*
+    SumOver[Index[Gluon, 3], -1 + Nc^2])/(64*Pi^7)], 
+ FeynAmp[GraphID[Topology == 3, Generic == 3, Classes == 2, Number == 16], 
+  k1, k2, k3, k4, k5, p, (Alfas*DiagMark[0, MT, MB]*
+    DiracTrace[(MB + DiracSlash[k1]) . 
+      ((-I)*(ChiralityProjector[-1]*g[HpTBL, 1] + ChiralityProjector[1]*
+         g[HpTBR, 1])) . (MT + DiracSlash[k1]) . 
+      ((-I)*(ChiralityProjector[1]*gC[HpTBL, 1] + ChiralityProjector[-1]*
+         gC[HpTBR, 1])) . (MB + DiracSlash[k1]) . 
+      (I*(DiracMatrix[li2] . ChiralityProjector[-1] + DiracMatrix[li2] . 
+         ChiralityProjector[1])*SUNT[Index[Gluon, 3], Index[Colour, 4], 
+        Index[Colour, 3]]) . (MB + DiracSlash[k4]) . 
+      (I*(DiracMatrix[li1] . ChiralityProjector[-1] + DiracMatrix[li1] . 
+         ChiralityProjector[1])*SUNT[Index[Gluon, 3], Index[Colour, 3], 
+        Index[Colour, 4]])]*FeynAmpDenominator[PropagatorDenominator[k1, MB], 
+     PropagatorDenominator[k1, MB], PropagatorDenominator[k1, MT], 
+     PropagatorDenominator[k3, 0], PropagatorDenominator[k4, MB]]*
+    MetricTensor[li1, li2]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Gluon, 3], -1 + Nc^2])/
+   (64*Pi^7)], FeynAmp[GraphID[Topology == 3, Generic == 4, Classes == 1, 
+   Number == 17], k1, k2, k3, k4, k5, p, 
+  (Alfas*DiagMark[0, MSf[Index[Sfermion, 3], 4, 3], 
+     MSf[Index[Sfermion, 4], 3, 3]]*FeynAmpDenominator[
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 4, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 3, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 3, 3]], 
+     PropagatorDenominator[k3, 0], PropagatorDenominator[k4, 
+      MSf[Index[Sfermion, 4], 3, 3]]]*FourVector[-k1 - k4, li2]*
+    FourVector[k1 + k4, li1]*g[HpStSb, 1, Index[Sfermion, 4], 
+     Index[Sfermion, 3]]*gC[HpStSb, 1, Index[Sfermion, 4], 
+     Index[Sfermion, 3]]*MetricTensor[li1, li2]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Gluon, 3], -1 + Nc^2]*
+    SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+    SUNT[Index[Gluon, 3], Index[Colour, 3], Index[Colour, 4]]*
+    SUNT[Index[Gluon, 3], Index[Colour, 4], Index[Colour, 3]])/(64*Pi^7)], 
+ FeynAmp[GraphID[Topology == 3, Generic == 4, Classes == 2, Number == 18], 
+  k1, k2, k3, k4, k5, p, (Alfas*DiagMark[0, MSf[Index[Sfermion, 3], 3, 3], 
+     MSf[Index[Sfermion, 4], 4, 3]]*FeynAmpDenominator[
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 3, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 4, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 4, 3]], 
+     PropagatorDenominator[k3, 0], PropagatorDenominator[k4, 
+      MSf[Index[Sfermion, 4], 4, 3]]]*FourVector[-k1 - k4, li2]*
+    FourVector[k1 + k4, li1]*g[HpStSb, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 4]]*gC[HpStSb, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 4]]*MetricTensor[li1, li2]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Gluon, 3], -1 + Nc^2]*
+    SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+    SUNT[Index[Gluon, 3], Index[Colour, 3], Index[Colour, 4]]*
+    SUNT[Index[Gluon, 3], Index[Colour, 4], Index[Colour, 3]])/(64*Pi^7)], 
+ FeynAmp[GraphID[Topology == 4, Generic == 1, Classes == 1, Number == 19], 
+  k1, k2, k3, k4, k5, p, (DiagMark[MSf[Index[Sfermion, 3], 3, 3], 
+     MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+    FeynAmpDenominator[PropagatorDenominator[k4, MSf[Index[Sfermion, 5], 3, 
+       3]]]*FeynAmpDenominator[PropagatorDenominator[k1, 
+      MSf[Index[Sfermion, 3], 3, 3]], PropagatorDenominator[k1, 
+      MSf[Index[Sfermion, 4], 3, 3]]]*g[HpHpStSt, 1, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 4]]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Sfermion, 3], 2]*
+    SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+    (g[StStStStV, Index[Sfermion, 4], Index[Sfermion, 3], Index[Sfermion, 5], 
+       Index[Sfermion, 5]]*SUNTSum[Index[Colour, 3], Index[Colour, 3], 
+       Index[Colour, 4], Index[Colour, 4]] + 
+     g[StStStStV, Index[Sfermion, 5], Index[Sfermion, 3], Index[Sfermion, 4], 
+       Index[Sfermion, 5]]*SUNTSum[Index[Colour, 3], Index[Colour, 4], 
+       Index[Colour, 4], Index[Colour, 3]]))/(256*Pi^8)], 
+ FeynAmp[GraphID[Topology == 4, Generic == 1, Classes == 2, Number == 20], 
+  k1, k2, k3, k4, k5, p, (DiagMark[MSf[Index[Sfermion, 3], 3, 3], 
+     MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+    FeynAmpDenominator[PropagatorDenominator[k4, MSf[Index[Sfermion, 5], 4, 
+       3]]]*FeynAmpDenominator[PropagatorDenominator[k1, 
+      MSf[Index[Sfermion, 3], 3, 3]], PropagatorDenominator[k1, 
+      MSf[Index[Sfermion, 4], 3, 3]]]*g[HpHpStSt, 1, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 4]]*g[StStSbSbV, Index[Sfermion, 4], Index[Sfermion, 3], 
+     Index[Sfermion, 5], Index[Sfermion, 5]]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Sfermion, 3], 2]*
+    SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+    SUNTSum[Index[Colour, 4], Index[Colour, 4], Index[Colour, 3], 
+     Index[Colour, 3]])/(256*Pi^8)], 
+ FeynAmp[GraphID[Topology == 4, Generic == 1, Classes == 3, Number == 21], 
+  k1, k2, k3, k4, k5, p, (DiagMark[MSf[Index[Sfermion, 3], 4, 3], 
+     MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+    FeynAmpDenominator[PropagatorDenominator[k4, MSf[Index[Sfermion, 5], 3, 
+       3]]]*FeynAmpDenominator[PropagatorDenominator[k1, 
+      MSf[Index[Sfermion, 3], 4, 3]], PropagatorDenominator[k1, 
+      MSf[Index[Sfermion, 4], 4, 3]]]*g[HpHpSbSb, 1, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 4]]*g[StStSbSbV, Index[Sfermion, 5], Index[Sfermion, 5], 
+     Index[Sfermion, 4], Index[Sfermion, 3]]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Sfermion, 3], 2]*
+    SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+    SUNTSum[Index[Colour, 3], Index[Colour, 3], Index[Colour, 4], 
+     Index[Colour, 4]])/(256*Pi^8)], 
+ FeynAmp[GraphID[Topology == 4, Generic == 1, Classes == 4, Number == 22], 
+  k1, k2, k3, k4, k5, p, (DiagMark[MSf[Index[Sfermion, 3], 4, 3], 
+     MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+    FeynAmpDenominator[PropagatorDenominator[k4, MSf[Index[Sfermion, 5], 4, 
+       3]]]*FeynAmpDenominator[PropagatorDenominator[k1, 
+      MSf[Index[Sfermion, 3], 4, 3]], PropagatorDenominator[k1, 
+      MSf[Index[Sfermion, 4], 4, 3]]]*g[HpHpSbSb, 1, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 4]]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Sfermion, 3], 2]*
+    SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+    (g[SbSbSbSbV, Index[Sfermion, 4], Index[Sfermion, 3], Index[Sfermion, 5], 
+       Index[Sfermion, 5]]*SUNTSum[Index[Colour, 3], Index[Colour, 3], 
+       Index[Colour, 4], Index[Colour, 4]] + 
+     g[SbSbSbSbV, Index[Sfermion, 5], Index[Sfermion, 3], Index[Sfermion, 4], 
+       Index[Sfermion, 5]]*SUNTSum[Index[Colour, 3], Index[Colour, 4], 
+       Index[Colour, 4], Index[Colour, 3]]))/(256*Pi^8)], 
+ FeynAmp[GraphID[Topology == 4, Generic == 2, Classes == 1, Number == 23], 
+  k1, k2, k3, k4, k5, p, (Alfas*DiagMark[0, MSf[Index[Sfermion, 3], 3, 3]]*
+    FeynAmpDenominator[PropagatorDenominator[k4, 0]]*
+    FeynAmpDenominator[PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 3, 
+       3]], PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 3, 3]]]*
+    g[HpHpStSt, 1, 1, Index[Sfermion, 3], Index[Sfermion, 3]]*
+    MetricTensor[li1, li2]^2*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Gluon, 3], -1 + Nc^2]*SumOver[Index[Sfermion, 3], 2]*
+    SUNT[Index[Gluon, 3], Index[Gluon, 3], Index[Colour, 3], 
+     Index[Colour, 3]])/(64*Pi^7)], 
+ FeynAmp[GraphID[Topology == 4, Generic == 2, Classes == 2, Number == 24], 
+  k1, k2, k3, k4, k5, p, (Alfas*DiagMark[0, MSf[Index[Sfermion, 3], 4, 3]]*
+    FeynAmpDenominator[PropagatorDenominator[k4, 0]]*
+    FeynAmpDenominator[PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 4, 
+       3]], PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 4, 3]]]*
+    g[HpHpSbSb, 1, 1, Index[Sfermion, 3], Index[Sfermion, 3]]*
+    MetricTensor[li1, li2]^2*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Gluon, 3], -1 + Nc^2]*SumOver[Index[Sfermion, 3], 2]*
+    SUNT[Index[Gluon, 3], Index[Gluon, 3], Index[Colour, 3], 
+     Index[Colour, 3]])/(64*Pi^7)], 
+ FeynAmp[GraphID[Topology == 5, Generic == 1, Classes == 1, Number == 25], 
+  k1, k2, k3, k4, k5, p, (DiagMark[MSf[Index[Sfermion, 3], 3, 3], 
+     MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 3, 3], 
+     MSf[Index[Sfermion, 6], 4, 3]]*FeynAmpDenominator[
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 3, 3]], 
+     PropagatorDenominator[k1, MSf[Index[Sfermion, 4], 4, 3]]]*
+    FeynAmpDenominator[PropagatorDenominator[k4, MSf[Index[Sfermion, 5], 3, 
+       3]], PropagatorDenominator[k4, MSf[Index[Sfermion, 6], 4, 3]]]*
+    g[HpStSb, 1, Index[Sfermion, 5], Index[Sfermion, 6]]*
+    g[StStSbSbV, Index[Sfermion, 5], Index[Sfermion, 3], Index[Sfermion, 4], 
+     Index[Sfermion, 6]]*gC[HpStSb, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 4]]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Sfermion, 3], 2]*
+    SumOver[Index[Sfermion, 4], 2]*SumOver[Index[Sfermion, 5], 2]*
+    SumOver[Index[Sfermion, 6], 2]*SUNTSum[Index[Colour, 4], 
+     Index[Colour, 3], Index[Colour, 3], Index[Colour, 4]])/(256*Pi^8)], 
+ FeynAmp[GraphID[Topology == 6, Generic == 1, Classes == 1, Number == 26], 
+  k1, k2, k3, k4, k5, p, (DiagMark[MGl, MT, MSf[Index[Sfermion, 3], 3, 3], 
+     MSf[Index[Sfermion, 4], 3, 3]]*DiracTrace[(MT + DiracSlash[-k1]) . 
+      ((-I)*(ChiralityProjector[1]*gC[GlTStL, Index[Sfermion, 4]] + 
+        ChiralityProjector[-1]*gC[GlTStR, Index[Sfermion, 4]])*
+       SUNT[Index[Gluon, 3], Index[Colour, 3], Index[Colour, 4]]) . 
+      (MGl + DiracSlash[-k4]) . ((-I)*(ChiralityProjector[-1]*
+         g[GlTStL, Index[Sfermion, 3]] + ChiralityProjector[1]*
+         g[GlTStR, Index[Sfermion, 3]])*SUNT[Index[Gluon, 3], 
+        Index[Colour, 4], Index[Colour, 3]])]*FeynAmpDenominator[
+     PropagatorDenominator[k1, MT], PropagatorDenominator[k3, 
+      MSf[Index[Sfermion, 3], 3, 3]], PropagatorDenominator[k3, 
+      MSf[Index[Sfermion, 4], 3, 3]], PropagatorDenominator[k4, MGl]]*
+    g[HpHpStSt, 1, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+    SumOver[Index[Colour, 3], Nc]*SumOver[Index[Colour, 4], Nc]*
+    SumOver[Index[Gluon, 3], -1 + Nc^2]*SumOver[Index[Sfermion, 3], 2]*
+    SumOver[Index[Sfermion, 4], 2])/(256*Pi^8)], 
+ FeynAmp[GraphID[Topology == 6, Generic == 1, Classes == 2, Number == 27], 
+  k1, k2, k3, k4, k5, p, (DiagMark[MGl, MB, MSf[Index[Sfermion, 3], 4, 3], 
+     MSf[Index[Sfermion, 4], 4, 3]]*DiracTrace[(MB + DiracSlash[-k1]) . 
+      ((-I)*(ChiralityProjector[1]*gC[GlBSbL, Index[Sfermion, 4]] + 
+        ChiralityProjector[-1]*gC[GlBSbR, Index[Sfermion, 4]])*
+       SUNT[Index[Gluon, 3], Index[Colour, 3], Index[Colour, 4]]) . 
+      (MGl + DiracSlash[-k4]) . ((-I)*(ChiralityProjector[-1]*
+         g[GlBSbL, Index[Sfermion, 3]] + ChiralityProjector[1]*
+         g[GlBSbR, Index[Sfermion, 3]])*SUNT[Index[Gluon, 3], 
+        Index[Colour, 4], Index[Colour, 3]])]*FeynAmpDenominator[
+     PropagatorDenominator[k1, MB], PropagatorDenominator[k3, 
+      MSf[Index[Sfermion, 3], 4, 3]], PropagatorDenominator[k3, 
+      MSf[Index[Sfermion, 4], 4, 3]], PropagatorDenominator[k4, MGl]]*
+    g[HpHpSbSb, 1, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+    SumOver[Index[Colour, 3], Nc]*SumOver[Index[Colour, 4], Nc]*
+    SumOver[Index[Gluon, 3], -1 + Nc^2]*SumOver[Index[Sfermion, 3], 2]*
+    SumOver[Index[Sfermion, 4], 2])/(256*Pi^8)], 
+ FeynAmp[GraphID[Topology == 6, Generic == 2, Classes == 1, Number == 28], 
+  k1, k2, k3, k4, k5, p, (Alfas*DiagMark[0, MSf[Index[Sfermion, 3], 3, 3]]*
+    FeynAmpDenominator[PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 3, 
+       3]], PropagatorDenominator[k3, MSf[Index[Sfermion, 3], 3, 3]], 
+     PropagatorDenominator[k3, MSf[Index[Sfermion, 3], 3, 3]], 
+     PropagatorDenominator[k4, 0]]*FourVector[2*k1 - k4, li2]*
+    FourVector[-2*k1 + k4, li1]*g[HpHpStSt, 1, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 3]]*MetricTensor[li1, li2]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Gluon, 3], -1 + Nc^2]*
+    SumOver[Index[Sfermion, 3], 2]*SUNT[Index[Gluon, 3], Index[Colour, 3], 
+     Index[Colour, 4]]*SUNT[Index[Gluon, 3], Index[Colour, 4], 
+     Index[Colour, 3]])/(64*Pi^7)], 
+ FeynAmp[GraphID[Topology == 6, Generic == 2, Classes == 2, Number == 29], 
+  k1, k2, k3, k4, k5, p, (Alfas*DiagMark[0, MSf[Index[Sfermion, 3], 4, 3]]*
+    FeynAmpDenominator[PropagatorDenominator[k1, MSf[Index[Sfermion, 3], 4, 
+       3]], PropagatorDenominator[k3, MSf[Index[Sfermion, 3], 4, 3]], 
+     PropagatorDenominator[k3, MSf[Index[Sfermion, 3], 4, 3]], 
+     PropagatorDenominator[k4, 0]]*FourVector[2*k1 - k4, li2]*
+    FourVector[-2*k1 + k4, li1]*g[HpHpSbSb, 1, 1, Index[Sfermion, 3], 
+     Index[Sfermion, 3]]*MetricTensor[li1, li2]*SumOver[Index[Colour, 3], Nc]*
+    SumOver[Index[Colour, 4], Nc]*SumOver[Index[Gluon, 3], -1 + Nc^2]*
+    SumOver[Index[Sfermion, 3], 2]*SUNT[Index[Gluon, 3], Index[Colour, 3], 
+     Index[Colour, 4]]*SUNT[Index[Gluon, 3], Index[Colour, 4], 
+     Index[Colour, 3]])/(64*Pi^7)]]

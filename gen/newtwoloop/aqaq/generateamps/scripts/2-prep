@@ -1,0 +1,70 @@
+#! /bin/sh -x
+
+test $# -ne 2 && {
+  cat << _EOF_
+Usage:  $0 se cto
+prepares the 'se' 2L self-energy for TuCalc
+_EOF_
+  exit 1
+}
+
+in=m/$1/1-amps.$2
+test -f $in || exit 1
+out=m/$1/2-prep.$2
+rm -f $out*
+
+time math -run se=\"$1\" \
+          -run cto=$2 \
+          -run in=\"$in\" \
+          -run out=\"$out\" << \_EOF_ > $out.log
+AppendTo[$Echo, "stdout"];
+
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FeynArts-3.9"}]]; (* FeynArts path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FormCalc-9.7"}]]; (* FormCalc path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-Projekte", "FC2L", "aqaqnew"}]];
+
+<< twocalc`SimpSubstFA3`;
+CheckIfkVars[FeynAmp[__, 0]] := True;
+
+<< packages`SimplificationDefinitions`;
+
+<< FormCalc`ModelSpecific`;
+
+IndexDelta[n_, n_] = 1;
+IndexDelta[n_Integer, _Integer] = 0;
+sqrt2 = Sqrt[2];
+
+ampsimp[id_, q_, amp_] := FeynAmp[id, q, MagicSimplify[amp, Feedback -> False]];
+
+amp = Get[in];
+
+amp = If[se == "h0h0p" || se == "HHHHp",
+         amp,
+         amp /. FourMomentum[Incoming | Outgoing, _] -> 0];
+
+If[se == "h0h0p" || se == "HHHHp",
+
+  rmalpha[term_] :=
+    MagicSimplify[
+      Collect[term /.
+        {XAt -> At - CA/SA MUEC, XAtC -> AtC - CA/SA MUE, YAt -> At + SA/CA MUEC, YAtC -> AtC + SA/CA MUE,
+         XAb -> Ab - SA/CA MUEC, XAbC -> AbC - SA/CA MUE, YAb -> Ab + CA/SA MUEC, YAbC -> AbC + CA/SA MUE},
+        {CA, SA}] /.
+      {CA -> 1, CA2 -> 1, SA -> 0, SA2 -> 0, C2A -> 1, S2A -> 0, CAB -> CB, SAB -> SB, CBA -> CB, CBA2 -> CB2, SBA -> SB, SBA2 -> SB2}];
+
+  amp = amp /. FeynAmp[id_, int_, term_] :> FeynAmp[id, int, rmalpha[term]];];
+
+amp = amp /. FeynAmp -> ampsimp;
+
+SimpleSubst[FeynAmpList[___][]] := 0
+
+If[ cto === 0, amp = SimpleSubst[amp]];
+
+Put[amp, out];
+
+_EOF_
+
+gzip $out.log
+
+test -f $out
+

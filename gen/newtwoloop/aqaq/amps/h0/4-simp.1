@@ -1,0 +1,16 @@
+DiagMark[MB]*(-(MB2*Nc*B0[0, MB2, MB2]*dMf1[4, 3]*(g[hBBL, 1] + g[hBBR, 1]))/
+    (4*Pi^2) - (MB2*Nc*B0[0, 0, MB2]*(MB*dg[hBBL, 1] + MB*dg[hBBR, 1] + 
+      dMf1[4, 3]*(g[hBBL, 1] + g[hBBR, 1])))/(8*Pi^2)) + 
+ DiagMark[MT]*(-(MT2*Nc*B0[0, MT2, MT2]*dMf1[3, 3]*(g[hTTL, 1] + g[hTTR, 1]))/
+    (4*Pi^2) - (MT2*Nc*B0[0, 0, MT2]*(MT*dg[hTTL, 1] + MT*dg[hTTR, 1] + 
+      dMf1[3, 3]*(g[hTTL, 1] + g[hTTR, 1])))/(8*Pi^2)) + 
+ (Nc*B0[0, 0, MSf2[Sfe2, 3, 3]]*dg[hStSt, 1, Sfe2, Sfe2]*
+   DiagMark[MSf[Sfe2, 3, 3]]*MSf2[Sfe2, 3, 3]*SumOver[Sfe2, 2])/(16*Pi^2) + 
+ (Nc*B0[0, 0, MSf2[Sfe2, 4, 3]]*dg[hSbSb, 1, Sfe2, Sfe2]*
+   DiagMark[MSf[Sfe2, 4, 3]]*MSf2[Sfe2, 4, 3]*SumOver[Sfe2, 2])/(16*Pi^2) + 
+ (Nc*B0[0, MSf2[Sfe2, 4, 3], MSf2[Sfe3, 4, 3]]*DiagMark[MSf[Sfe2, 4, 3], 
+    MSf[Sfe3, 4, 3]]*dMSfsq1[Sfe3, Sfe2, 4, 3]*g[hSbSb, 1, Sfe3, Sfe2]*
+   SumOver[Sfe2, 2]*SumOver[Sfe3, 2])/(16*Pi^2) + 
+ (Nc*B0[0, MSf2[Sfe2, 3, 3], MSf2[Sfe3, 3, 3]]*DiagMark[MSf[Sfe2, 3, 3], 
+    MSf[Sfe3, 3, 3]]*dMSfsq1[Sfe3, Sfe2, 3, 3]*g[hStSt, 1, Sfe3, Sfe2]*
+   SumOver[Sfe2, 2]*SumOver[Sfe3, 2])/(16*Pi^2)

@@ -1,0 +1,30 @@
+inputMHp*(-(MHin2*dZHiggs1gl[5, 5]) - 
+   (Nc*DiagMark[MT, MB]*
+     (((g[HpTBL, 1]*gC[HpTBL, 1] + g[HpTBR, 1]*gC[HpTBR, 1])*Re[A0[MB2]])/8 + 
+      ((MB*MT*(g[HpTBR, 1]*gC[HpTBL, 1] + g[HpTBL, 1]*gC[HpTBR, 1]) + 
+         MT2*(g[HpTBL, 1]*gC[HpTBL, 1] + g[HpTBR, 1]*gC[HpTBR, 1]))*
+        Re[B0i[bb0, 0, MB2, MT2]])/8))/Pi^2 + 
+   (Nc*(DiagMark[MSf[Sfe3, 3, 3]]*g[HpHpStSt, 1, 1, Sfe3, Sfe3]*
+       Re[A0[MSf2[Sfe3, 3, 3]]] + DiagMark[MSf[Sfe3, 4, 3]]*
+       g[HpHpSbSb, 1, 1, Sfe3, Sfe3]*Re[A0[MSf2[Sfe3, 4, 3]]])*
+     SumOver[Sfe3, 2])/(16*Pi^2) + 
+   (Nc*DiagMark[MSf[Sfe3, 3, 3], MSf[Sfe4, 4, 3]]*g[HpStSb, 1, Sfe3, Sfe4]*
+     gC[HpStSb, 1, Sfe3, Sfe4]*Re[B0i[bb0, 0, MSf2[Sfe3, 3, 3], 
+       MSf2[Sfe4, 4, 3]]]*SumOver[Sfe3, 2]*SumOver[Sfe4, 2])/(16*Pi^2)) + 
+ (1 - inputMHp)*(-(MHin2*dZHiggs1gl[3, 3]) - 
+   (Nc*(DiagMark[MB]*((g[hBBL, 3]*g[hBBR, 3]*Re[A0[MB2]])/4 + 
+        (MB2*(g[hBBL, 3]^2 + 2*g[hBBL, 3]*g[hBBR, 3] + g[hBBR, 3]^2)*
+          Re[B0i[bb0, 0, MB2, MB2]])/8) + DiagMark[MT]*
+       ((g[hTTL, 3]*g[hTTR, 3]*Re[A0[MT2]])/4 + 
+        (MT2*(g[hTTL, 3]^2 + 2*g[hTTL, 3]*g[hTTR, 3] + g[hTTR, 3]^2)*
+          Re[B0i[bb0, 0, MT2, MT2]])/8)))/Pi^2 + 
+   (Nc*(DiagMark[MSf[Sfe3, 3, 3]]*g[hhStSt, 3, 3, Sfe3, Sfe3]*
+       Re[A0[MSf2[Sfe3, 3, 3]]] + DiagMark[MSf[Sfe3, 4, 3]]*
+       g[hhSbSb, 3, 3, Sfe3, Sfe3]*Re[A0[MSf2[Sfe3, 4, 3]]])*
+     SumOver[Sfe3, 2])/(16*Pi^2) + 
+   (Nc*(DiagMark[MSf[Sfe3, 3, 3], MSf[Sfe4, 3, 3]]*g[hStSt, 3, Sfe3, Sfe4]*
+       g[hStSt, 3, Sfe4, Sfe3]*Re[B0i[bb0, 0, MSf2[Sfe3, 3, 3], 
+         MSf2[Sfe4, 3, 3]]] + DiagMark[MSf[Sfe3, 4, 3], MSf[Sfe4, 4, 3]]*
+       g[hSbSb, 3, Sfe3, Sfe4]*g[hSbSb, 3, Sfe4, Sfe3]*
+       Re[B0i[bb0, 0, MSf2[Sfe3, 4, 3], MSf2[Sfe4, 4, 3]]])*SumOver[Sfe3, 2]*
+     SumOver[Sfe4, 2])/(16*Pi^2))

@@ -1,0 +1,52 @@
+#! /bin/sh -x
+
+test $# -ne 2 && {
+  cat << _EOF_
+Usage:  $0 se cto
+simplifies the 'se' 2L self-energy
+_EOF_
+  exit 1
+}
+
+in=m/$1/3-calc.$2
+test -f $in || exit 1
+out=m/$1/4-simp.$2
+rm -f $out*
+
+time math -run cto=$2 \
+          -run in=\"$in\" \
+          -run out=\"$out\" << \_EOF_ > $out.log
+AppendTo[$Echo, "stdout"];
+
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FeynArts-3.9"}]]; (* FeynArts path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FormCalc-9.7"}]]; (* FormCalc path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-Projekte", "FC2L", "aqaqnew"}]];
+
+<< packages`SimplificationDefinitions`;
+<< packages`FCSettings`;
+<< FormCalc`;
+<< FormCalc`ModelSpecific`;
+
+SetOptions[Simplify, TimeConstraint -> 20];
+
+amp = Get[in];
+
+amp = amp /. {
+  A0[m_] :> m B0[0, 0, m],
+  B0[0, 0, 0] -> 0};
+
+amp = Collect[amp, {hb^2, ht^2, hb ht, hb, ht, Alfa, Alfas, _DiagMark, _B0, _T[__], _DT[__]},
+              ColourSimplify[Expand[#, _SumOver | _SUNTSum | _SUNT | IndexDelta] /. IndexDelta[x_, y_]*SumOver[x_, Nc]*SumOver[y_, Nc] -> Nc] &];
+
+simp[x_] := simp[x] = MagicSimplify[x, Feedback -> False, SimpSubExpr -> False];
+
+amp = Collect[amp, {hb^2, ht^2, hb ht, hb, ht, Alfa, Alfas, _DiagMark, _B0, _T[__], _DT[__]}, simp];
+
+Put[amp, out];
+
+_EOF_
+
+gzip $out.log
+
+test -f $out
+

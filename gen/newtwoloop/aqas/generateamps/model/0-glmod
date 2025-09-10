@@ -1,0 +1,88 @@
+#! /bin/sh -x
+
+in=MSSMCT.mod
+test -f $in.in || exit 1
+out=MSSMCTaqas.mod
+rm -f $in $out $0.log*
+
+time math -run in=\"$in\" \
+          -run out=\"$out\" << \_EOF_ > $0.log
+AppendTo[$Echo, "stdout"];
+
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FeynArts-3.9"}]]; (* FeynArts path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FormCalc-8.5"}]]; (* FormCalc path *)
+
+<< FeynArts`;
+<< packages`Mod`;
+<< packages`XtSimplify`;
+<< packages`XbSimplify`;
+
+
+Xtmod[c_ == rhs_, {n_}] := (
+  Print["Xt #", n, ": ", c];
+  c == XtSimplify[rhs]
+) /; !FreeQ[rhs, (Af | AfC)[3, __]];
+
+Xtmod[other_, _] := other;
+
+
+Xbmod[c_ == rhs_, {n_}] := (
+  Print["Xb #", n, ": ", c];
+  c == XbSimplify[rhs]
+) /; !FreeQ[rhs, (Af | AfC)[4, __]];
+
+Xbmod[other_, _] := other;
+
+
+htmod[c_ == rhs_, {n_}] :=
+Block[ {new},
+  new = Map[Modht, rhs, {2}];
+  c == If[ FreeQ[new, ht], rhs,
+    Print["ht #", n, ": ", c];
+    Simplify[new /. ht -> htmt MT] /. htmt -> ht/MT ]
+];
+
+htmod[other_, _] := other;
+
+hbmod[c_ == rhs_, {n_}] :=
+Block[ {new},
+  new = Map[Modhb, rhs, {2}];
+  c == If[ FreeQ[new, hb], rhs,
+    Print["hb #", n, ": ", c];
+    Simplify[new /. hb -> hbmb MB] /. hbmb -> hb/MB ]
+];
+
+hbmod[other_, _] := other;
+
+
+LoadModel[in, ".in"];
+
+M$ClassesDescription = M$ClassesDescription /. {
+  S[4] == d_ :> S[4] == (d /. (Mass -> _) -> (Mass -> MG0)),
+  S[6] == d_ :> S[6] == (d /. (Mass -> _) -> (Mass -> MGp)) };
+
+DumpModel[in];
+
+M$CouplingMatrices = Modify[M$CouplingMatrices];
+M$CouplingMatrices = MapIndexed[Xtmod, M$CouplingMatrices];
+M$CouplingMatrices = MapIndexed[Xbmod, M$CouplingMatrices];
+M$CouplingMatrices = MapIndexed[htmod, M$CouplingMatrices];
+M$CouplingMatrices = MapIndexed[hbmod, M$CouplingMatrices];
+
+M$CouplingMatrices = DeleteCases[M$CouplingMatrices, c_ == _ /; !FreeQ[c, S[11|12, ___]|V[1]|U[___]|F[1|2|11|12, ___]] || FreeQ[c, S[13|14, ___]|F[3|4, ___]]];
+M$CouplingMatrices = DeleteCases[M$CouplingMatrices, _ == {{0..}..}];
+
+M$CouplingMatrices = Map[Collect[# /. TB -> SB/CB /. S2B -> 2 SB CB /. C2B -> CB^2 - SB^2 /. SB2 -> SB^2 /. CB2 -> CB^2 /. SW2 -> SW^2 /. CW2 -> CW^2, {SB, CB}, Simplify] &, M$CouplingMatrices, {2}];
+
+<< ~/Mathematica-PlugIns/FormCalc-8.5/FormCalc/ModelSpecific.m;
+
+M$CouplingMatrices = Map[Collect[#, MW, Simplify] &, M$CouplingMatrices, {2}] /. Alfa -> 0 /. MW -> 0 /. MW2 -> 0;
+
+DumpModel[out];
+
+_EOF_
+
+gzip $0.log
+
+test -f $out
+

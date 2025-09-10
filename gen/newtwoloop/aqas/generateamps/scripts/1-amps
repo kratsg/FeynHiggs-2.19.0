@@ -1,0 +1,67 @@
+#! /bin/sh -x
+
+test $# -ne 2 && {
+  cat << _EOF_
+Usage:  $0 se cto
+generates the 'se' 2L self-energies at counter-term order cto
+se is one of h0h0 h0HH h0A0 HHHH HHA0 A0A0 HmHp h0 HH A0
+_EOF_
+  exit 1
+}
+
+mkdir -p m/$1 || exit 1
+out=m/$1/1-amps.$2
+rm -f $out*
+
+time math -run se=\"$1\" \
+          -run cto=$2 \
+          -run out=\"$out\" << \_EOF_ > $out.log
+AppendTo[$Echo, "stdout"];
+
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FeynArts-3.9"}]]; (* FeynArts path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FormCalc-9.7"}]]; (* FormCalc path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-Projekte", "FC2L", "aqasnew"}]];
+
+<< packages`FASettings`;
+
+(* no further selection required *)
+
+hIns[proc_] := ins[proc][[2]];
+
+
+hAmp[diags_] :=
+Block[ {amps},
+  amps = cfa[diags];
+  amps = ampmod[cto]@@@ amps;
+  Put[amps, out];
+  amps
+];
+
+hPaint[diags_] := (
+  Paint[diags, DisplayFunction -> (Export[out <> ".ps", #]&)];
+  diags
+);
+
+
+proc["h0h0"] = S[1] -> S[1];
+proc["h0HH"] = S[2] -> S[1];
+proc["h0A0"] = S[3] -> S[1];
+proc["HHHH"] = S[2] -> S[2];
+proc["HHA0"] = S[3] -> S[2];
+proc["A0A0"] = S[3] -> S[3];
+proc["HmHp"] = S[5] -> S[5];
+proc["h0"] = S[1] -> {};
+proc["HH"] = S[2] -> {};
+proc["A0"] = S[3] -> {};  
+proc["h0h0p"] = S[1] -> S[1];
+proc["HHHHp"] = S[2] -> S[2];
+_proc := Abort[];
+
+hAmp @ hPaint @ hIns @ proc[se];
+
+_EOF_
+
+gzip $out.log $out.ps
+
+test -f $out
+

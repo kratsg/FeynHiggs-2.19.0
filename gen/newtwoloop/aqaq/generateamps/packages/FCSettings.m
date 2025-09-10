@@ -1,0 +1,50 @@
+loop;
+<< FormCalc`
+
+DownValues[loop]=Select[DownValues[loop], FreeQ[#, a_/b_] &];
+
+RealQ[del] = True;
+RealQ[_DiagMark] = True;
+
+(*
+CW/: CW MZ = MW;
+CW2/: CW2 MZ2 = MW2;
+ *)
+SW2/: SW2/SW = SW;
+SW/: SW/SW2 = 1/SW;
+MW2/: MW2/MW = MW;
+MW/: MW/MW2 = 1/MW;
+MZ2/: MZ2/MZ = MZ;
+MZ/: MZ/MZ2 = 1/MZ;
+MT2/: MT2/MT = MT;
+MB2/: MB2/MB = MB;
+SB/: SB/SB2 = 1/SB;
+CB/: CB/S2B = 1/(2 SB);
+SB/: SB/S2B = 1/(2 CB);
+S2B/: S2B + 2 SB2 TB = 2 TB;
+CB2/: CB2 TB = S2B/2;
+(*
+CB/: CB SB2 = S2B SB/2;
+SB/: SB CB2 = S2B CB/2;
+*)
+CB/: CB S2B = 2 CB2 SB;
+SB/: SB S2B = 2 CB SB2;
+CB2/: CB2 SB2 =.;
+(*
+S2B/: S2B^2 = 4 CB2 SB2;
+*)
+
+SetOptions[CalcFeynAmp,
+  NoExpand -> {USf, USfC, UCSf, UCSfC,
+    UCha, UChaC, VCha, VChaC, ZNeu, ZNeuC},
+  NoBracket -> {USf, USfC, UCSf, UCSfC,
+    UCha, UChaC, VCha, VChaC, ZNeu, ZNeuC},
+  Dimension -> 4,
+  NoCostly -> True,
+  FermionChains -> Chiral]
+
+SetOptions[DeclareProcess,
+  OnShell -> False]
+
+Null
+

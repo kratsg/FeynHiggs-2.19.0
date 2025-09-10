@@ -1,0 +1,4 @@
+dMHiggs2gl[2, 2] + dMHiggs1gl[1, 2]*dZHiggs1gl[1, 2] + 
+ dMHiggs1gl[2, 2]*dZHiggs1gl[2, 2] + dMHiggs1gl[2, 3]*dZHiggs1gl[2, 3] + 
+ dMHiggs1gl[2, 4]*dZHiggs1gl[2, 4] + 
+ (MHin2*(dZHiggs1gl[2, 2]^2 + dZHiggs1gl[2, 3]^2 + 4*dZHiggs2gl[2, 2]))/4

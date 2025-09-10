@@ -1,0 +1,113 @@
+* B0del.F
+* the (D-4)-dimensional part of B0
+* this file is part of FeynHiggs
+* last modified 19 Jan 15 th
+
+#include "externals.h"
+#include "types.h"
+
+
+	ComplexType function B0del(p, m1, m2)
+	implicit none
+	RealType p, m1, m2
+
+#include "lt.h"
+
+	ComplexType B0delq
+	external B0delq
+
+	B0del = B0delq(p, m1, m2, mudim)
+	end
+
+************************************************************************
+
+	ComplexType function B0delq(p, m1, m2, q)
+	implicit none
+	RealType p, m1, m2, q
+
+#include "lt.h"
+
+	ComplexType l1, l2
+	ComplexType x1, x2, y1, y2, r
+	RealType qx, qy, qz
+	RealType mm, mp, x
+
+	RealType EG4Pi
+* EG4Pi = 1 - EulerGamma + Log[4 Pi]
+c	parameter (EG4Pi = 2.9538085820677579323713795041870094D0)
+	parameter (EG4Pi = 1)
+
+	ComplexType spence
+	external spence
+
+	mp = m1 + m2
+	if( abs(p) .gt. zeroeps*mp ) then
+	  mm = m1*m2
+	  if( mm .eq. 0 .and. mp .eq. 0 ) then
+* case B0del(p, 0, 0)
+	    B0delq = .5D0*(4 - zeta2  +
+     &        (1 + EG4Pi + Logc(-q/p))**2)
+	  else if( mm .eq. 0 ) then
+* case B0del(p, 0, m)
+	    l1 = 1 + EG4Pi - log(mp/q)
+	    B0delq = .5D0*(4 + zeta2 + l1**2)
+	    if( abs(p - mp) .gt. diffeps ) then
+	      x = p/(p - mp)
+	      l2 = 1 + EG4Pi + Logc(q/(mp - p))
+	      B0delq = B0delq - ( .5D0*(l1 - l2)*(l1 + l2) +
+     &          spence(0, ToComplex(x), 0D0) )/x
+	    endif
+	  else
+* case B0del(p, m1, m2)
+	    qx = p + m1 - m2
+	    qy = p - m1 + m2
+	    qz = p - m1 - m2
+	    r = Sqrtc(p*qz - m1*qy - m2*qx)
+	    x1 = .5D0*(r + qx)
+	    x2 = .5D0*(r - qx)
+#if 0
+	PRINT *, "a:x1,x2=", x1,x2
+	    if( abs(x2) .gt. abs(x1) ) then
+	      x1 = -p*m1/x2
+	    else if( abs(x1) .gt. abs(x2) ) then
+	      x2 = -p*m1/x1
+	    endif
+	PRINT *, "b:x1,x2=", x1,x2
+#endif
+
+	    y1 = .5D0*(r + qy)
+	    y2 = .5D0*(r - qy)
+#if 0
+	PRINT *, "a:y1,y2=", y1,y2
+	    if( abs(y2) .gt. abs(y1) ) then
+	      y1 = -p*m2/y2
+	    else if( abs(y1) .gt. abs(y2) ) then
+	      y2 = -p*m2/y1
+	    endif
+	PRINT *, "b:y1,y2=", y1,y2
+#endif
+
+	    l1 = 1 + EG4Pi - log(m1/q)
+	    l2 = 1 + EG4Pi - log(m2/q)
+
+	    B0delq = 2 + .5D0*zeta2 + .25D0/p*(
+     &        r*(1 + EG4Pi - 2*log(r/q) + Logc(-p/q))*
+     &          (log(-1/(r + qz)) + log(r - qz)) +
+     &        l1*(qx*l1 - r*(log(x1) - log(x2))) +
+     &        l2*(qy*l2 - r*(log(y1) - log(y2))) -
+     &        2*r*(spence(0, x1/r, 0D0) - spence(0, x2/r, 0D0) +
+     &             spence(0, y1/r, 0D0) - spence(0, y2/r, 0D0)) )
+	  endif
+	else
+	  if( abs(m1 - m2) .lt. diffeps ) then
+* case B0del(0, m, m)
+	    B0delq = .5D0*(zeta2 + (1 - EG4Pi + log(m1/q))**2)
+	  else
+* case B0del(0, m1, m2)
+	    B0delq = .5D0*(1 + zeta2) + .5D0/(m1 - m2)*(
+     &        m1*(EG4Pi - log(m1/q))**2 -
+     &        m2*(EG4Pi - log(m2/q))**2 )
+	  endif
+	endif
+	end
+

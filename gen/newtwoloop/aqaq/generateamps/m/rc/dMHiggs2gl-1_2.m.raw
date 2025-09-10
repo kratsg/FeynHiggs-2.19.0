@@ -1,0 +1,2 @@
+CB2*dMHinsq1*dTB1 + CB2*dTB2*MHin2 - (CB2*dTB1^2*MHin2*S2B)/2 - 
+ (dTHH2 - (dTHH1*dv1)/v)*HoldCode[EL/(2*MW*SW)]

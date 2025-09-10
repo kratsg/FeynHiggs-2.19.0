@@ -1,0 +1,35 @@
+(DiagMark[MHin]*(g[hhStSt, 2, 2, 2, 2] + g[hhStSt, 3, 3, 2, 2] + 
+    2*g[HpHpStSt, 1, 1, 2, 2])*Re[A0[MHin^2]])/(32*Pi^2) - 
+ (DiagMark[MB, MChagl[Cha3]]*
+   ((MB2*(g[CBStL, Cha3, 2]*gC[CBStL, Cha3, 2] + g[CBStR, Cha3, 2]*
+         gC[CBStR, Cha3, 2]) + MB*(g[CBStR, Cha3, 2]*gC[CBStL, Cha3, 2] + 
+        g[CBStL, Cha3, 2]*gC[CBStR, Cha3, 2])*MChagl[Cha3])*
+     Re[B0i[bb0, MSf2[2, 3, 3], MB2, MChagl[Cha3]^2]] + 
+    (g[CBStL, Cha3, 2]*gC[CBStL, Cha3, 2] + g[CBStR, Cha3, 2]*
+       gC[CBStR, Cha3, 2])*(Re[A0[MChagl[Cha3]^2]] + 
+      MSf2[2, 3, 3]*Re[B0i[bb1, MSf2[2, 3, 3], MB2, MChagl[Cha3]^2]]))*
+   SumOver[Cha3, 2])/(8*Pi^2) - 
+ (DiagMark[MT, MNeugl[Neu3]]*
+   ((MT2*(g[NTStL, Neu3, 2]*gC[NTStL, Neu3, 2] + g[NTStR, Neu3, 2]*
+         gC[NTStR, Neu3, 2]) + MT*(g[NTStR, Neu3, 2]*gC[NTStL, Neu3, 2] + 
+        g[NTStL, Neu3, 2]*gC[NTStR, Neu3, 2])*MNeugl[Neu3])*
+     Re[B0i[bb0, MSf2[2, 3, 3], MT2, MNeugl[Neu3]^2]] + 
+    (g[NTStL, Neu3, 2]*gC[NTStL, Neu3, 2] + g[NTStR, Neu3, 2]*
+       gC[NTStR, Neu3, 2])*(Re[A0[MNeugl[Neu3]^2]] + 
+      MSf2[2, 3, 3]*Re[B0i[bb1, MSf2[2, 3, 3], MT2, MNeugl[Neu3]^2]]))*
+   SumOver[Neu3, 4])/(8*Pi^2) + 
+ ((DiagMark[MSf[Sfe3, 3, 3]]*(Nc*g[StStStSt, 2, 2, Sfe3, Sfe3] + 
+      g[StStStSt, Sfe3, 2, 2, Sfe3])*Re[A0[MSf2[Sfe3, 3, 3]]] + 
+    DiagMark[MSf[Sfe3, 4, 3]]*g[StStSbSb, 2, 2, Sfe3, Sfe3]*
+     Re[A0[MSf2[Sfe3, 4, 3]]] + DiagMark[0, MSf[Sfe3, 3, 3]]*
+     (g[hStSt, 1, 2, Sfe3]*g[hStSt, 1, Sfe3, 2] + g[hStSt, 4, 2, Sfe3]*
+       g[hStSt, 4, Sfe3, 2])*Re[B0i[bb0, MSf2[2, 3, 3], 0, 
+       MSf2[Sfe3, 3, 3]]] + DiagMark[0, MSf[Sfe3, 4, 3]]*
+     g[HpStSb, 2, 2, Sfe3]*gC[HpStSb, 2, 2, Sfe3]*
+     Re[B0i[bb0, MSf2[2, 3, 3], 0, MSf2[Sfe3, 4, 3]]] + 
+    DiagMark[MHin, MSf[Sfe3, 3, 3]]*(g[hStSt, 2, 2, Sfe3]*
+       g[hStSt, 2, Sfe3, 2] + g[hStSt, 3, 2, Sfe3]*g[hStSt, 3, Sfe3, 2])*
+     Re[B0i[bb0, MSf2[2, 3, 3], MHin^2, MSf2[Sfe3, 3, 3]]] + 
+    DiagMark[MHin, MSf[Sfe3, 4, 3]]*g[HpStSb, 1, 2, Sfe3]*
+     gC[HpStSb, 1, 2, Sfe3]*Re[B0i[bb0, MSf2[2, 3, 3], MHin^2, 
+       MSf2[Sfe3, 4, 3]]])*SumOver[Sfe3, 2])/(16*Pi^2)

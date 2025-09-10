@@ -1,0 +1,267 @@
+(* needs psdir and rcdir set *)
+
+<< packages`SimplificationDefinitions`;
+<< packages`RCFASettings`;
+<< packages`FinalSimp`;
+<< packages`ExpandDel`;
+
+$PaintSE = psdir
+
+InitializeModel[model]
+
+UVMf1[4, 3] = Identity;
+dMUE1 = 0;
+dMWsq1MW2 = 0;
+dTB1 = 0;
+dTB1gl = 0;
+dSB1 = 0;
+dCB1 = 0;
+dZW1 = 0;
+dZ11H1gl = 0;
+dZ22H1gl = 0;
+dZ12H1gl = 0;
+dZ21H1gl = 0;
+_dZHiggs1gl = 0;
+_dZbarHiggs1gl = 0;
+
+RenConst[dg[hTTL, hid_]] := 
+ Sum[g[hTTL, sumhid] dZHiggs1gl[sumhid, hid]/2, {sumhid, 4}] + dht1/ht g[hTTL, hid]
+
+RenConst[dg[hTTR, hid_]] := 
+ Sum[g[hTTR, sumhid] dZHiggs1gl[sumhid, hid]/2, {sumhid, 4}] + dht1/ht g[hTTR, hid]
+
+RenConst[dg[hBBL, hid_]] := 
+ Sum[g[hBBL, sumhid] dZHiggs1gl[sumhid, hid]/2, {sumhid, 4}] + dhb1/hb g[hBBL, hid]
+
+RenConst[dg[hBBR, hid_]] := 
+ Sum[g[hBBR, sumhid] dZHiggs1gl[sumhid, hid]/2, {sumhid, 4}] + dhb1/hb g[hBBR, hid]
+
+RenConst[dg[HpTBL, hid_]] := 
+ Sum[g[HpTBL, sumhid] dZbarHiggs1gl[sumhid+4, hid+4]/2, {sumhid, 2}] + dht1/ht g[HpTBL, hid]
+
+RenConst[dg[HpTBR, hid_]] := 
+ Sum[g[HpTBR, sumhid] dZbarHiggs1gl[sumhid+4, hid+4]/2, {sumhid, 2}] + dhb1/hb g[HpTBR, hid]
+
+RenConst[dg[hStSt, hid_, s1_, s2_]] := 
+ Sum[g[hStSt, sumhid, s1, s2] dZHiggs1gl[sumhid, hid]/2, {sumhid, 4}] + dht1/Sqrt[2] (USf[s2, 2, 3, 3] USfC[s1, 1, 3, 3] (ZHu[hid] Af[3, 3, 3] - Conjugate[ZHd[hid]] MUEC) + USf[s2, 1, 3, 3] USfC[s1, 2, 3, 3] (Conjugate[ZHu[hid]] AfC[3, 3, 3] - ZHd[hid] MUE) + (ZHu[hid] + Conjugate[ZHu[hid]]) (USf[s2, 1, 3, 3] USfC[s1, 1, 3, 3] + USf[s2, 2, 3, 3] USfC[s1, 2, 3, 3]) Mf[3, 3]) + ht/Sqrt[2] (USf[s2, 2, 3, 3] USfC[s1, 1, 3, 3] (ZHu[hid] dAf1[3, 3, 3] - Conjugate[ZHd[hid]] Conjugate[dMUE1]) + USf[s2, 1, 3, 3] USfC[s1, 2, 3, 3] (Conjugate[ZHu[hid]] Conjugate[dAf1[3, 3, 3]] - ZHd[hid] dMUE1) + (ZHu[hid] + Conjugate[ZHu[hid]]) (USf[s2, 1, 3, 3] USfC[s1, 1, 3, 3] + USf[s2, 2, 3, 3] USfC[s1, 2, 3, 3]) dMf1[3, 3])
+
+RenConst[dg[hSbSb, hid_, s1_, s2_]] := 
+ Sum[g[hSbSb, sumhid, s1, s2] dZHiggs1gl[sumhid, hid]/2, {sumhid, 
+    4}] + dhb1/
+    Sqrt[2] (USf[s2, 2, 4, 3] USfC[s1, 1, 4, 
+       3] (ZHd[hid] Af[4, 3, 3] - Conjugate[ZHu[hid]] MUEC) + 
+     USf[s2, 1, 4, 3] USfC[s1, 2, 4, 
+       3] (Conjugate[ZHd[hid]] AfC[4, 3, 3] - 
+        ZHu[hid] MUE) + (ZHd[hid] + 
+        Conjugate[ZHd[hid]]) (USf[s2, 1, 4, 3] USfC[s1, 1, 4, 3] + 
+        USf[s2, 2, 4, 3] USfC[s1, 2, 4, 3]) Mf[4, 3]) + 
+  hb/Sqrt[2] (USf[s2, 2, 4, 3] USfC[s1, 1, 4, 
+       3] (ZHd[hid] dAf1[4, 3, 3] - 
+        Conjugate[ZHu[hid]] Conjugate[dMUE1]) + 
+     USf[s2, 1, 4, 3] USfC[s1, 2, 4, 
+       3] (Conjugate[ZHd[hid]] Conjugate[dAf1[4, 3, 3]] - 
+        ZHu[hid] dMUE1) + (ZHd[hid] + 
+        Conjugate[ZHd[hid]]) (USf[s2, 1, 4, 3] USfC[s1, 1, 4, 3] + 
+        USf[s2, 2, 4, 3] USfC[s1, 2, 4, 3]) dMf1[4, 3])
+
+RenConst[dg[HpStSb, hid_, s1_, s2_]] := 
+ Sum[g[HpStSb, sumhid, s1, s2] dZbarHiggs1gl[sumhid + 4, hid + 4]/
+     2, {sumhid, 2}] - 
+  dht1 (USf[s1, 2, 3, 3] USfC[s2, 1, 4, 
+       3] (ZPu[hid] Af[3, 3, 3] + ZPd[hid] MUEC) + 
+     ZPu[hid] USf[s1, 1, 3, 3] USfC[s2, 1, 4, 3] Mf[3, 3] + 
+     ZPu[hid] USf[s1, 2, 3, 3] USfC[s2, 2, 4, 3] Mf[4, 3]) - 
+  dhb1 (USf[s1, 1, 3, 3] USfC[s2, 2, 4, 
+       3] (ZPd[hid] AfC[4, 3, 3] + ZPu[hid] MUE) + 
+     ZPd[hid] USf[s1, 1, 3, 3] USfC[s2, 1, 4, 3] Mf[4, 3] + 
+     ZPd[hid] USf[s1, 2, 3, 3] USfC[s2, 2, 4, 3] Mf[3, 3]) - 
+  ht (USf[s1, 2, 3, 3] USfC[s2, 1, 4, 
+       3] (ZPu[hid] dAf1[3, 3, 3] + ZPd[hid] Conjugate[dMUE1]) + 
+     ZPu[hid] USf[s1, 1, 3, 3] USfC[s2, 1, 4, 3] dMf1[3, 3] + 
+     ZPu[hid] USf[s1, 2, 3, 3] USfC[s2, 2, 4, 3] dMf1[4, 3]) - 
+  hb (USf[s1, 1, 3, 3] USfC[s2, 2, 4, 
+       3] (ZPd[hid] Conjugate[dAf1[4, 3, 3]] + ZPu[hid] dMUE1) + 
+     ZPd[hid] USf[s1, 1, 3, 3] USfC[s2, 1, 4, 3] dMf1[4, 3] + 
+     ZPd[hid] USf[s1, 2, 3, 3] USfC[s2, 2, 4, 3] dMf1[3, 3])
+
+RenConst[dg[hhStSt, hid1_, hid2_, s1_, s2_]] := 
+ Sum[g[hhStSt, sumhid1, hid2, s1, s2] dZHiggs1gl[sumhid1, hid1]/
+     2, {sumhid1, 4}] + 
+  Sum[g[hhStSt, hid1, sumhid2, s1, s2] dZHiggs1gl[sumhid2, hid2]/
+     2, {sumhid2, 4}] + 2 dht1/ht g[hhStSt, hid1, hid2, s1, s2]
+
+RenConst[dg[hhSbSb, hid1_, hid2_, s1_, s2_]] := 
+ Sum[g[hhSbSb, sumhid1, hid2, s1, s2] dZHiggs1gl[sumhid1, hid1]/
+     2, {sumhid1, 4}] + 
+  Sum[g[hhSbSb, hid1, sumhid2, s1, s2] dZHiggs1gl[sumhid2, hid2]/
+     2, {sumhid2, 4}] + 2 dhb1/hb g[hhSbSb, hid1, hid2, s1, s2]
+
+RenConst[dg[hHpStSb, hid1_, hid2_, s1_, s2_]] := 
+ Sum[g[hHpStSb, sumhid1, hid2, s1, s2] dZHiggs1gl[sumhid1, hid1]/
+     2, {sumhid1, 4}] + 
+  Sum[g[hHpStSb, hid1, sumhid2, s1, 
+     s2] dZbarHiggs1gl[sumhid2 + 4, hid2 + 4]/2, {sumhid2, 2}] - 
+  Sqrt[2] USf[s1, 1, 3, 3] USfC[s2, 1, 4, 
+    3] (ht Conjugate[ZHu[hid1]] ZPu[hid2] dht1 + 
+     hb ZHd[hid1] ZPd[hid2] dhb1) - 
+  1/Sqrt[2] USf[s1, 2, 3, 3] USfC[s2, 2, 4, 
+    3] (Conjugate[ZHd[hid1]] ZPu[hid2] + 
+     ZHu[hid1] ZPd[hid2]) (hb dht1 + ht dhb1)
+
+RenConst[dg[HpHpStSt, hid1_, hid2_, s1_, s2_]] := 
+ Sum[g[HpHpStSt, sumhid1, hid2, s1, 
+     s2] dZHiggs1gl[sumhid1 + 4, hid1 + 4]/2, {sumhid1, 2}] + 
+  Sum[g[HpHpStSt, hid1, sumhid2, s1, 
+     s2] dZbarHiggs1gl[sumhid2 + 4, hid2 + 4]/2, {sumhid2, 2}] + 
+  2 hb USf[s2, 1, 3, 3] USfC[s1, 1, 3, 3] ZPd[hid1] ZPd[hid2] dhb1 + 
+  2 ht USf[s2, 2, 3, 3] USfC[s1, 2, 3, 3] ZPu[hid1] ZPu[hid2] dht1
+
+RenConst[dg[HpHpSbSb, hid1_, hid2_, s1_, s2_]] := 
+ Sum[g[HpHpSbSb, sumhid1, hid2, s1, 
+     s2] dZHiggs1gl[sumhid1 + 4, hid1 + 4]/2, {sumhid1, 2}] + 
+  Sum[g[HpHpSbSb, hid1, sumhid2, s1, 
+     s2] dZbarHiggs1gl[sumhid2 + 4, hid2 + 4]/2, {sumhid2, 2}] + 
+  2 hb USf[s2, 2, 4, 3] USfC[s1, 2, 4, 3] ZPd[hid1] ZPd[hid2] dhb1 + 
+  2 ht USf[s2, 1, 4, 3] USfC[s1, 1, 4, 3] ZPu[hid1] ZPu[hid2] dht1
+
+RenConst[dg[StStStStV, s1_, s2_, s3_, s4_]] := 
+ 2 dZgs1 g[StStStStV, s1, s2, s3, s4]
+
+RenConst[dg[StStStSt, s1_, s2_, s3_, s4_]] := 
+ 2 dht1/ht g[StStStSt, s1, s2, s3, s4]
+
+RenConst[dg[SbSbSbSbV, s1_, s2_, s3_, s4_]] := 
+ 2 dZgs1 g[SbSbSbSbV, s1, s2, s3, s4]
+
+RenConst[dg[SbSbSbSb, s1_, s2_, s3_, s4_]] := 
+ 2 dhb1/hb g[SbSbSbSb, s1, s2, s3, s4]
+
+RenConst[dg[StStSbSbV, s1_, s2_, s3_, s4_]] := 
+ 2 dZgs1 g[StStSbSbV, s1, s2, s3, s4]
+
+RenConst[dg[StStSbSb, s1_, s2_, s3_, s4_]] := 
+ 2 ht USf[s2, 1, 4, j2] USfC[s1, 1, 4, j1] USf[s4, 2, 3, j4] USfC[s3, 
+    2, 3, j3] dht1 + 
+  2 hb USf[s2, 2, 4, j2] USfC[s1, 2, 4, j1] USf[s4, 1, 3, j4] USfC[s3,
+     1, 3, j3] dhb1
+
+RenConst[dg[GlTStL, s2_]] := (dZGlL1/2 + dZgs1) g[GlTStL, s2]
+
+RenConst[dg[GlTStR, s2_]] := (dZGlR1/2 + dZgs1) g[GlTStR, s2]
+
+RenConst[dg[GlBSbL, s2_]] := (dZGlL1/2 + dZgs1) g[GlBSbL, s2]
+
+RenConst[dg[GlBSbR, s2_]] := (dZGlR1/2 + dZgs1) g[GlBSbR, s2]
+
+RenConst[dg[NTStL, n1_, s2_]] := dht1/ht g[NTStL, n1, s2]
+
+RenConst[dg[NTStR, n1_, s2_]] := dht1/ht g[NTStR, n1, s2]
+
+RenConst[dg[NBSbL, n1_, s2_]] := dhb1/hb g[NBSbL, n1, s2]
+
+RenConst[dg[NBSbR, n1_, s2_]] := dhb1/hb g[NBSbR, n1, s2]
+
+RenConst[dg[CTSbL, c1_, s2_]] := dhb1/hb g[CTSbL, c1, s2]
+
+RenConst[dg[CTSbR, c1_, s2_]] := dht1/ht g[CTSbR, c1, s2]
+
+RenConst[dg[CBStL, c1_, s1_]] := dht1/ht g[CBStL, c1, s1]
+
+RenConst[dg[CBStR, c1_, s1_]] := dhb1/hb g[CBStR, c1, s1]
+
+RenConst[dht1] := 
+ ht (dMf1[3, 3]/MT - dv1/v - dSB1/SB)
+
+RenConst[dhb1] := 
+ hb (dMf1[4, 3]/MB - dv1/v - dCB1/CB)
+
+RenConst[dv1] := 0
+  
+$DiagOn = True;
+$OffDiagOn = True;
+$MHpInput = True;
+<< dMHiggs1gl.mod;
+<< dMHiggs2gl.mod;
+<< dZHiggs1gl.mod;
+<< dZHiggs2gl.mod;
+  
+RenConst[dMHinsq2] := inputMHp (SEHp2[-2]/del^2 + SEHp2[-1]/del + SEHp2[0] -
+				MHin2 dZHiggs2gl[5,5]) +
+    (1 - inputMHp) (SEA02[-2]/del^2 + SEA02[-1]/del + SEA02[0] -
+		    MHin2 dZHiggs2gl[3, 3]);
+
+RenConst[dTh02] := -(Tadh02[-2]/del^2 + Tadh02[-1]/del + Tadh02[0])
+
+RenConst[dTHH2] := -(TadHH2[-2]/del^2 + TadHH2[-1]/del + TadHH2[0])
+
+RenConst[dTA02] := -(TadA02[-2]/del^2 + TadA02[-1]/del + TadA02[0])
+
+expB00[expr_] := expr /. ToOldBRules /.
+  B00[p_, m0_, m1_] :> 1/2/(3 - 2 del) (A0[m1] +
+    2 m0 B0[p, m0, m1] + (m0 - m1 + p) B1[p, m0, m1]) /.
+  A0[m_] :> m B0[0, 0, m] /.
+  B0[0, m_, m_] :> (1 - del) B0[0, 0, m]
+
+glcoup[expr_] := Collect[
+  expr /. {
+    i:PaVeIntegral[__] :> i, d_DiagMark :> d,
+    MT2 -> MTMW^2 MW2,
+    MT -> MTMW MW,
+    m:_MSf2 | _MSq2Diff :> MTMW^2 MW2/MT2 m,
+    m_MSf :> MTMW MW/MT m },
+  ht, MagicSimplify[#, Feedback -> False]& ]
+
+InsertFieldsHook[tops_, proc_] := ins[tops, proc]
+
+CreateFeynAmpHook[diags__] := ampmod[1]@@@ cfa[diags]
+
+name[rc_] := StringReplace[ToString[rc],
+  {" " -> "", "]" -> "", "[" -> "-", "," -> "_"}] <> ".m"
+
+
+rci[i_, rc_[j___]] := rc[i, j]
+
+rci[i_, rc_] := rc[i]
+
+
+RenConstHook[rc_, expr_] :=
+Block[ {file = ToFileName[rcdir, name[rc]], pre},
+  Print["RenConst ", rc];
+  If[ FileType[file] === File,
+    pre = Get[file],
+  (* else *)
+    pre = expr;Put[pre, file<>".raw"];
+    pre = rcmod[rc][pre];
+    pre = rcexp[pre];
+    pre = Reap[rc -> ( pre /. DC[i_, x_] :>
+      ((Sow[# -> x]; RC[i, #])& @ rci[i, rc]) )];
+    pre = pre /. RenConst[0] -> 0;
+    Put[pre, file]
+  ];
+  pre
+]
+
+
+rcexp[x_] :=
+Block[ {pre = x},
+  pre = ExpandDel[pre];
+  (*pre = Collect[pre, _DiagMark, DelSeries];*)
+  pre = pre /. r:Alternatives@@ (rcs /. RenConstList[RenConst][rclist__] :> rclist) :> RC[r];
+  pre = DelSeries[pre];
+  pre = TermCollect[pre];
+  pre
+]
+
+
+(* introduce switches for OS/DRbar *)
+
+rcmod[dMSfsq1[_, _, 3, __]] = osflag[dMSt1OS]
+rcmod[dMSfsq1[_, _, 4, __]] = osflag[dMSb1OS]
+
+rcmod[dMf1[3, __]] = osflag[dMT1OS]
+rcmod[dMf1[4, __]] = osflag[dMB1OS]
+
+_rcmod = Identity
+
+osflag[flag_][rc_] := flag rc + (1 - flag) UVDivergentPart[rc]
+

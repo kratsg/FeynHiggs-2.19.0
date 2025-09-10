@@ -1,0 +1,223 @@
+(MUEC*TB*((DiagMark[MB]*Re[Divergence*hb^2*Nc])/(16*Pi^2) - 
+    (DiagMark[MT]*Re[Divergence*ht^2*Nc])/(16*Pi^2)))/2 + 
+ ((MUEC*TB - Af[4, 3, 3])*
+    (((MB*(Divergence*DiagMark[MB, MHin]*(g[hBBR, 2]^2 + g[hBBR, 3]^2) + 
+           Divergence*DiagMark[0, MB]*(g[hBBR, 1]^2 + g[hBBR, 4]^2)) + 
+         MT*(Divergence*DiagMark[MHin, MT]*g[HpTBR, 1]*gC[HpTBL, 1] + 
+           Divergence*DiagMark[0, MT]*g[HpTBR, 2]*gC[HpTBL, 2]))/(16*Pi^2) + 
+       (Divergence*DiagMark[MChagl[Cha3], MSf[Sfe3, 3, 3]]*
+         g[CBStR, Cha3, Sfe3]*gC[CBStL, Cha3, Sfe3]*MChagl[Cha3]*
+         SumOver[Cha3, 2]*SumOver[Sfe3, 2])/(16*Pi^2) + 
+       (Divergence*DiagMark[MNeugl[Neu3], MSf[Sfe3, 4, 3]]*
+         g[NBSbR, Neu3, Sfe3]*gC[NBSbL, Neu3, Sfe3]*MNeugl[Neu3]*
+         SumOver[Neu3, 4]*SumOver[Sfe3, 2])/(16*Pi^2))/2 + 
+     ((MB*(Divergence*DiagMark[MB, MHin]*(g[hBBL, 2]^2 + g[hBBL, 3]^2) + 
+           Divergence*DiagMark[0, MB]*(g[hBBL, 1]^2 + g[hBBL, 4]^2)) + 
+         MT*(Divergence*DiagMark[MHin, MT]*g[HpTBL, 1]*gC[HpTBR, 1] + 
+           Divergence*DiagMark[0, MT]*g[HpTBL, 2]*gC[HpTBR, 2]))/(16*Pi^2) + 
+       (Divergence*DiagMark[MChagl[Cha3], MSf[Sfe3, 3, 3]]*
+         g[CBStL, Cha3, Sfe3]*gC[CBStR, Cha3, Sfe3]*MChagl[Cha3]*
+         SumOver[Cha3, 2]*SumOver[Sfe3, 2])/(16*Pi^2) + 
+       (Divergence*DiagMark[MNeugl[Neu3], MSf[Sfe3, 4, 3]]*
+         g[NBSbL, Neu3, Sfe3]*gC[NBSbR, Neu3, Sfe3]*MNeugl[Neu3]*
+         SumOver[Neu3, 4]*SumOver[Sfe3, 2])/(16*Pi^2))/2 + 
+     MB*((-1/16*(-1/2*(Divergence*DiagMark[MB, MHin]*(g[hBBL, 2]*g[hBBR, 2] + 
+               g[hBBL, 3]*g[hBBR, 3])) - (Divergence*DiagMark[0, MB]*
+              (g[hBBL, 1]*g[hBBR, 1] + g[hBBL, 4]*g[hBBR, 4]))/2 - 
+            (Divergence*DiagMark[MHin, MT]*g[HpTBL, 1]*gC[HpTBL, 1])/2 - 
+            (Divergence*DiagMark[0, MT]*g[HpTBL, 2]*gC[HpTBL, 2])/2)/Pi^2 + 
+         (Divergence*DiagMark[MChagl[Cha3], MSf[Sfe3, 3, 3]]*
+           g[CBStL, Cha3, Sfe3]*gC[CBStL, Cha3, Sfe3]*SumOver[Cha3, 2]*
+           SumOver[Sfe3, 2])/(32*Pi^2) + (Divergence*DiagMark[MNeugl[Neu3], 
+            MSf[Sfe3, 4, 3]]*g[NBSbL, Neu3, Sfe3]*gC[NBSbL, Neu3, Sfe3]*
+           SumOver[Neu3, 4]*SumOver[Sfe3, 2])/(32*Pi^2))/2 + 
+       (-1/16*(-1/2*(Divergence*DiagMark[MB, MHin]*(g[hBBL, 2]*g[hBBR, 2] + 
+               g[hBBL, 3]*g[hBBR, 3])) - (Divergence*DiagMark[0, MB]*
+              (g[hBBL, 1]*g[hBBR, 1] + g[hBBL, 4]*g[hBBR, 4]))/2 - 
+            (Divergence*DiagMark[MHin, MT]*g[HpTBR, 1]*gC[HpTBR, 1])/2 - 
+            (Divergence*DiagMark[0, MT]*g[HpTBR, 2]*gC[HpTBR, 2])/2)/Pi^2 + 
+         (Divergence*DiagMark[MChagl[Cha3], MSf[Sfe3, 3, 3]]*
+           g[CBStR, Cha3, Sfe3]*gC[CBStR, Cha3, Sfe3]*SumOver[Cha3, 2]*
+           SumOver[Sfe3, 2])/(32*Pi^2) + (Divergence*DiagMark[MNeugl[Neu3], 
+            MSf[Sfe3, 4, 3]]*g[NBSbR, Neu3, Sfe3]*gC[NBSbR, Neu3, Sfe3]*
+           SumOver[Neu3, 4]*SumOver[Sfe3, 2])/(32*Pi^2))/2)) + 
+   ((DiagMark[MHin]*(g[hhSbSb, 2, 2, 1, 1] + g[hhSbSb, 3, 3, 1, 1] + 
+        2*g[HpHpSbSb, 1, 1, 1, 1])*Re[Divergence*MHin^2])/(32*Pi^2) - 
+     (DiagMark[MHin]*(g[hhSbSb, 2, 2, 2, 2] + g[hhSbSb, 3, 3, 2, 2] + 
+        2*g[HpHpSbSb, 1, 1, 2, 2])*Re[Divergence*MHin^2])/(32*Pi^2) - 
+     (DiagMark[MT, MChagl[Cha3]]*
+       (Divergence*(MT2*(g[CTSbL, Cha3, 1]*gC[CTSbL, Cha3, 1] + 
+            g[CTSbR, Cha3, 1]*gC[CTSbR, Cha3, 1]) + 
+          MT*(g[CTSbR, Cha3, 1]*gC[CTSbL, Cha3, 1] + g[CTSbL, Cha3, 1]*
+             gC[CTSbR, Cha3, 1])*MChagl[Cha3]) + 
+        (g[CTSbL, Cha3, 1]*gC[CTSbL, Cha3, 1] + g[CTSbR, Cha3, 1]*
+           gC[CTSbR, Cha3, 1])*(-1/2*(Divergence*MSf2[1, 4, 3]) + 
+          Re[Divergence*MChagl[Cha3]^2]))*SumOver[Cha3, 2])/(8*Pi^2) + 
+     (DiagMark[MT, MChagl[Cha3]]*
+       (Divergence*(MT2*(g[CTSbL, Cha3, 2]*gC[CTSbL, Cha3, 2] + 
+            g[CTSbR, Cha3, 2]*gC[CTSbR, Cha3, 2]) + 
+          MT*(g[CTSbR, Cha3, 2]*gC[CTSbL, Cha3, 2] + g[CTSbL, Cha3, 2]*
+             gC[CTSbR, Cha3, 2])*MChagl[Cha3]) + 
+        (g[CTSbL, Cha3, 2]*gC[CTSbL, Cha3, 2] + g[CTSbR, Cha3, 2]*
+           gC[CTSbR, Cha3, 2])*(-1/2*(Divergence*MSf2[2, 4, 3]) + 
+          Re[Divergence*MChagl[Cha3]^2]))*SumOver[Cha3, 2])/(8*Pi^2) - 
+     (DiagMark[MB, MNeugl[Neu3]]*
+       (Divergence*(MB2*(g[NBSbL, Neu3, 1]*gC[NBSbL, Neu3, 1] + 
+            g[NBSbR, Neu3, 1]*gC[NBSbR, Neu3, 1]) + 
+          MB*(g[NBSbR, Neu3, 1]*gC[NBSbL, Neu3, 1] + g[NBSbL, Neu3, 1]*
+             gC[NBSbR, Neu3, 1])*MNeugl[Neu3]) + 
+        (g[NBSbL, Neu3, 1]*gC[NBSbL, Neu3, 1] + g[NBSbR, Neu3, 1]*
+           gC[NBSbR, Neu3, 1])*(-1/2*(Divergence*MSf2[1, 4, 3]) + 
+          Re[Divergence*MNeugl[Neu3]^2]))*SumOver[Neu3, 4])/(8*Pi^2) + 
+     (DiagMark[MB, MNeugl[Neu3]]*
+       (Divergence*(MB2*(g[NBSbL, Neu3, 2]*gC[NBSbL, Neu3, 2] + 
+            g[NBSbR, Neu3, 2]*gC[NBSbR, Neu3, 2]) + 
+          MB*(g[NBSbR, Neu3, 2]*gC[NBSbL, Neu3, 2] + g[NBSbL, Neu3, 2]*
+             gC[NBSbR, Neu3, 2])*MNeugl[Neu3]) + 
+        (g[NBSbL, Neu3, 2]*gC[NBSbL, Neu3, 2] + g[NBSbR, Neu3, 2]*
+           gC[NBSbR, Neu3, 2])*(-1/2*(Divergence*MSf2[2, 4, 3]) + 
+          Re[Divergence*MNeugl[Neu3]^2]))*SumOver[Neu3, 4])/(8*Pi^2) + 
+     ((Divergence*DiagMark[MHin, MSf[Sfe3, 4, 3]]*
+         (g[hSbSb, 2, 1, Sfe3]*g[hSbSb, 2, Sfe3, 1] + g[hSbSb, 3, 1, Sfe3]*
+           g[hSbSb, 3, Sfe3, 1]) + Divergence*DiagMark[0, MSf[Sfe3, 4, 3]]*
+         (g[hSbSb, 1, 1, Sfe3]*g[hSbSb, 1, Sfe3, 1] + g[hSbSb, 4, 1, Sfe3]*
+           g[hSbSb, 4, Sfe3, 1]) + Divergence*DiagMark[MHin, MSf[Sfe3, 3, 3]]*
+         g[HpStSb, 1, Sfe3, 1]*gC[HpStSb, 1, Sfe3, 1] + 
+        Divergence*DiagMark[0, MSf[Sfe3, 3, 3]]*g[HpStSb, 2, Sfe3, 1]*
+         gC[HpStSb, 2, Sfe3, 1] + Divergence*DiagMark[MSf[Sfe3, 3, 3]]*
+         g[StStSbSb, Sfe3, Sfe3, 1, 1]*MSf2[Sfe3, 3, 3] + 
+        Divergence*DiagMark[MSf[Sfe3, 4, 3]]*
+         (Nc*g[SbSbSbSb, 1, 1, Sfe3, Sfe3] + g[SbSbSbSb, Sfe3, 1, 1, Sfe3])*
+         MSf2[Sfe3, 4, 3])*SumOver[Sfe3, 2])/(16*Pi^2) - 
+     ((Divergence*DiagMark[MHin, MSf[Sfe3, 4, 3]]*
+         (g[hSbSb, 2, 2, Sfe3]*g[hSbSb, 2, Sfe3, 2] + g[hSbSb, 3, 2, Sfe3]*
+           g[hSbSb, 3, Sfe3, 2]) + Divergence*DiagMark[0, MSf[Sfe3, 4, 3]]*
+         (g[hSbSb, 1, 2, Sfe3]*g[hSbSb, 1, Sfe3, 2] + g[hSbSb, 4, 2, Sfe3]*
+           g[hSbSb, 4, Sfe3, 2]) + Divergence*DiagMark[MHin, MSf[Sfe3, 3, 3]]*
+         g[HpStSb, 1, Sfe3, 2]*gC[HpStSb, 1, Sfe3, 2] + 
+        Divergence*DiagMark[0, MSf[Sfe3, 3, 3]]*g[HpStSb, 2, Sfe3, 2]*
+         gC[HpStSb, 2, Sfe3, 2] + Divergence*DiagMark[MSf[Sfe3, 3, 3]]*
+         g[StStSbSb, Sfe3, Sfe3, 2, 2]*MSf2[Sfe3, 3, 3] + 
+        Divergence*DiagMark[MSf[Sfe3, 4, 3]]*
+         (Nc*g[SbSbSbSb, 2, 2, Sfe3, Sfe3] + g[SbSbSbSb, Sfe3, 2, 2, Sfe3])*
+         MSf2[Sfe3, 4, 3])*SumOver[Sfe3, 2])/(16*Pi^2))*USf[1, 1, 4, 3]*
+    USfC[1, 2, 4, 3] + 
+   (((DiagMark[MHin]*(g[hhSbSb, 2, 2, 2, 1] + g[hhSbSb, 3, 3, 2, 1] + 
+         2*g[HpHpSbSb, 1, 1, 2, 1])*Re[Divergence*MHin^2])/(16*Pi^2) - 
+      (DiagMark[MT, MChagl[Cha3]]*
+        (Divergence*(MT2*(g[CTSbL, Cha3, 1]*gC[CTSbL, Cha3, 2] + 
+             g[CTSbR, Cha3, 1]*gC[CTSbR, Cha3, 2]) + 
+           MT*(g[CTSbR, Cha3, 1]*gC[CTSbL, Cha3, 2] + g[CTSbL, Cha3, 1]*
+              gC[CTSbR, Cha3, 2])*MChagl[Cha3]) + 
+         (g[CTSbL, Cha3, 1]*gC[CTSbL, Cha3, 2] + g[CTSbR, Cha3, 1]*
+            gC[CTSbR, Cha3, 2])*(-1/2*(Divergence*MSf2[1, 4, 3]) + 
+           Re[Divergence*MChagl[Cha3]^2]))*SumOver[Cha3, 2])/(8*Pi^2) - 
+      (DiagMark[MT, MChagl[Cha3]]*
+        (Divergence*(MT2*(g[CTSbL, Cha3, 1]*gC[CTSbL, Cha3, 2] + 
+             g[CTSbR, Cha3, 1]*gC[CTSbR, Cha3, 2]) + 
+           MT*(g[CTSbR, Cha3, 1]*gC[CTSbL, Cha3, 2] + g[CTSbL, Cha3, 1]*
+              gC[CTSbR, Cha3, 2])*MChagl[Cha3]) + 
+         (g[CTSbL, Cha3, 1]*gC[CTSbL, Cha3, 2] + g[CTSbR, Cha3, 1]*
+            gC[CTSbR, Cha3, 2])*(-1/2*(Divergence*MSf2[2, 4, 3]) + 
+           Re[Divergence*MChagl[Cha3]^2]))*SumOver[Cha3, 2])/(8*Pi^2) - 
+      (DiagMark[MB, MNeugl[Neu3]]*
+        (Divergence*(MB2*(g[NBSbL, Neu3, 1]*gC[NBSbL, Neu3, 2] + 
+             g[NBSbR, Neu3, 1]*gC[NBSbR, Neu3, 2]) + 
+           MB*(g[NBSbR, Neu3, 1]*gC[NBSbL, Neu3, 2] + g[NBSbL, Neu3, 1]*
+              gC[NBSbR, Neu3, 2])*MNeugl[Neu3]) + 
+         (g[NBSbL, Neu3, 1]*gC[NBSbL, Neu3, 2] + g[NBSbR, Neu3, 1]*
+            gC[NBSbR, Neu3, 2])*(-1/2*(Divergence*MSf2[1, 4, 3]) + 
+           Re[Divergence*MNeugl[Neu3]^2]))*SumOver[Neu3, 4])/(8*Pi^2) - 
+      (DiagMark[MB, MNeugl[Neu3]]*
+        (Divergence*(MB2*(g[NBSbL, Neu3, 1]*gC[NBSbL, Neu3, 2] + 
+             g[NBSbR, Neu3, 1]*gC[NBSbR, Neu3, 2]) + 
+           MB*(g[NBSbR, Neu3, 1]*gC[NBSbL, Neu3, 2] + g[NBSbL, Neu3, 1]*
+              gC[NBSbR, Neu3, 2])*MNeugl[Neu3]) + 
+         (g[NBSbL, Neu3, 1]*gC[NBSbL, Neu3, 2] + g[NBSbR, Neu3, 1]*
+            gC[NBSbR, Neu3, 2])*(-1/2*(Divergence*MSf2[2, 4, 3]) + 
+           Re[Divergence*MNeugl[Neu3]^2]))*SumOver[Neu3, 4])/(8*Pi^2) + 
+      ((Divergence*DiagMark[MHin, MSf[Sfe3, 4, 3]]*
+          (g[hSbSb, 2, 2, Sfe3]*g[hSbSb, 2, Sfe3, 1] + g[hSbSb, 3, 2, Sfe3]*
+            g[hSbSb, 3, Sfe3, 1]) + Divergence*DiagMark[0, MSf[Sfe3, 4, 3]]*
+          (g[hSbSb, 1, 2, Sfe3]*g[hSbSb, 1, Sfe3, 1] + g[hSbSb, 4, 2, Sfe3]*
+            g[hSbSb, 4, Sfe3, 1]) + Divergence*DiagMark[MHin, 
+           MSf[Sfe3, 3, 3]]*g[HpStSb, 1, Sfe3, 2]*gC[HpStSb, 1, Sfe3, 1] + 
+         Divergence*DiagMark[0, MSf[Sfe3, 3, 3]]*g[HpStSb, 2, Sfe3, 2]*
+          gC[HpStSb, 2, Sfe3, 1] + Divergence*DiagMark[MSf[Sfe3, 3, 3]]*
+          g[StStSbSb, Sfe3, Sfe3, 2, 1]*MSf2[Sfe3, 3, 3] + 
+         Divergence*DiagMark[MSf[Sfe3, 4, 3]]*
+          (Nc*g[SbSbSbSb, 2, 1, Sfe3, Sfe3] + g[SbSbSbSb, Sfe3, 1, 2, Sfe3])*
+          MSf2[Sfe3, 4, 3])*SumOver[Sfe3, 2])/(8*Pi^2))*USf[2, 1, 4, 3]*
+     USfC[1, 2, 4, 3])/2 + 
+   (((DiagMark[MHin]*(gC[hhSbSb, 2, 2, 2, 1] + gC[hhSbSb, 3, 3, 2, 1] + 
+         2*gC[HpHpSbSb, 1, 1, 2, 1])*Re[Divergence*MHin^2])/(16*Pi^2) - 
+      (DiagMark[MT, MChagl[Cha3]]*(Divergence*(MT*Conjugate[MChagl[Cha3]]*
+            (g[CTSbR, Cha3, 2]*gC[CTSbL, Cha3, 1] + g[CTSbL, Cha3, 2]*
+              gC[CTSbR, Cha3, 1]) + MT2*(g[CTSbL, Cha3, 2]*gC[CTSbL, Cha3, 
+               1] + g[CTSbR, Cha3, 2]*gC[CTSbR, Cha3, 1])) + 
+         (g[CTSbL, Cha3, 2]*gC[CTSbL, Cha3, 1] + g[CTSbR, Cha3, 2]*
+            gC[CTSbR, Cha3, 1])*(-1/2*(Divergence*MSf2[1, 4, 3]) + 
+           Re[Divergence*MChagl[Cha3]^2]))*SumOver[Cha3, 2])/(8*Pi^2) - 
+      (DiagMark[MT, MChagl[Cha3]]*(Divergence*(MT*Conjugate[MChagl[Cha3]]*
+            (g[CTSbR, Cha3, 2]*gC[CTSbL, Cha3, 1] + g[CTSbL, Cha3, 2]*
+              gC[CTSbR, Cha3, 1]) + MT2*(g[CTSbL, Cha3, 2]*gC[CTSbL, Cha3, 
+               1] + g[CTSbR, Cha3, 2]*gC[CTSbR, Cha3, 1])) + 
+         (g[CTSbL, Cha3, 2]*gC[CTSbL, Cha3, 1] + g[CTSbR, Cha3, 2]*
+            gC[CTSbR, Cha3, 1])*(-1/2*(Divergence*MSf2[2, 4, 3]) + 
+           Re[Divergence*MChagl[Cha3]^2]))*SumOver[Cha3, 2])/(8*Pi^2) - 
+      (DiagMark[MB, MNeugl[Neu3]]*(Divergence*(MB*Conjugate[MNeugl[Neu3]]*
+            (g[NBSbR, Neu3, 2]*gC[NBSbL, Neu3, 1] + g[NBSbL, Neu3, 2]*
+              gC[NBSbR, Neu3, 1]) + MB2*(g[NBSbL, Neu3, 2]*gC[NBSbL, Neu3, 
+               1] + g[NBSbR, Neu3, 2]*gC[NBSbR, Neu3, 1])) + 
+         (g[NBSbL, Neu3, 2]*gC[NBSbL, Neu3, 1] + g[NBSbR, Neu3, 2]*
+            gC[NBSbR, Neu3, 1])*(-1/2*(Divergence*MSf2[1, 4, 3]) + 
+           Re[Divergence*MNeugl[Neu3]^2]))*SumOver[Neu3, 4])/(8*Pi^2) - 
+      (DiagMark[MB, MNeugl[Neu3]]*(Divergence*(MB*Conjugate[MNeugl[Neu3]]*
+            (g[NBSbR, Neu3, 2]*gC[NBSbL, Neu3, 1] + g[NBSbL, Neu3, 2]*
+              gC[NBSbR, Neu3, 1]) + MB2*(g[NBSbL, Neu3, 2]*gC[NBSbL, Neu3, 
+               1] + g[NBSbR, Neu3, 2]*gC[NBSbR, Neu3, 1])) + 
+         (g[NBSbL, Neu3, 2]*gC[NBSbL, Neu3, 1] + g[NBSbR, Neu3, 2]*
+            gC[NBSbR, Neu3, 1])*(-1/2*(Divergence*MSf2[2, 4, 3]) + 
+           Re[Divergence*MNeugl[Neu3]^2]))*SumOver[Neu3, 4])/(8*Pi^2) + 
+      ((Divergence*DiagMark[MHin, MSf[Sfe3, 3, 3]]*g[HpStSb, 1, Sfe3, 1]*
+          gC[HpStSb, 1, Sfe3, 2] + Divergence*DiagMark[0, MSf[Sfe3, 3, 3]]*
+          g[HpStSb, 2, Sfe3, 1]*gC[HpStSb, 2, Sfe3, 2] + 
+         Divergence*DiagMark[MHin, MSf[Sfe3, 4, 3]]*
+          (gC[hSbSb, 2, 2, Sfe3]*gC[hSbSb, 2, Sfe3, 1] + 
+           gC[hSbSb, 3, 2, Sfe3]*gC[hSbSb, 3, Sfe3, 1]) + 
+         Divergence*DiagMark[0, MSf[Sfe3, 4, 3]]*
+          (gC[hSbSb, 1, 2, Sfe3]*gC[hSbSb, 1, Sfe3, 1] + 
+           gC[hSbSb, 4, 2, Sfe3]*gC[hSbSb, 4, Sfe3, 1]) + 
+         Divergence*DiagMark[MSf[Sfe3, 3, 3]]*gC[StStSbSb, Sfe3, Sfe3, 2, 1]*
+          MSf2[Sfe3, 3, 3] + Divergence*DiagMark[MSf[Sfe3, 4, 3]]*
+          (Nc*gC[SbSbSbSb, 2, 1, Sfe3, Sfe3] + gC[SbSbSbSb, Sfe3, 1, 2, 
+            Sfe3])*MSf2[Sfe3, 4, 3])*SumOver[Sfe3, 2])/(8*Pi^2))*
+     USf[1, 1, 4, 3]*USfC[2, 2, 4, 3])/2)/MB + 
+ (TB*(-(((Nc*(Divergence*MB*DiagMark[MB, MSf[Sfe3, 3, 3]]*g[CBStR, 2, Sfe3]*
+           gC[CBStL, 2, Sfe3] + Divergence*MT*DiagMark[MT, MSf[Sfe3, 4, 3]]*
+           g[CTSbR, 2, Sfe3]*gC[CTSbL, 2, Sfe3])*SumOver[Sfe3, 2])/
+        (16*Pi^2) + 
+       (MCha[2]*(-1/16*(Nc*(-1/2*(Divergence*DiagMark[MB, MSf[Sfe3, 3, 3]]*
+                g[CBStR, 2, Sfe3]*gC[CBStR, 2, Sfe3]) - (Divergence*
+                DiagMark[MT, MSf[Sfe3, 4, 3]]*g[CTSbL, 2, Sfe3]*gC[CTSbL, 2, 
+                 Sfe3])/2)*SumOver[Sfe3, 2])/Pi^2 - 
+          (Nc*(-1/2*(Divergence*DiagMark[MB, MSf[Sfe3, 3, 3]]*g[CBStL, 2, 
+                Sfe3]*gC[CBStL, 2, Sfe3]) - (Divergence*DiagMark[MT, 
+                MSf[Sfe3, 4, 3]]*g[CTSbR, 2, Sfe3]*gC[CTSbR, 2, Sfe3])/2)*
+            SumOver[Sfe3, 2])/(16*Pi^2)))/2)*UCha[1, 1]*VCha[1, 1]) + 
+    ((Nc*(Divergence*MB*DiagMark[MB, MSf[Sfe3, 3, 3]]*g[CBStR, 1, Sfe3]*
+          gC[CBStL, 1, Sfe3] + Divergence*MT*DiagMark[MT, MSf[Sfe3, 4, 3]]*
+          g[CTSbR, 1, Sfe3]*gC[CTSbL, 1, Sfe3])*SumOver[Sfe3, 2])/(16*Pi^2) + 
+      (MCha[1]*(-1/16*(Nc*(-1/2*(Divergence*DiagMark[MB, MSf[Sfe3, 3, 3]]*g[
+                CBStR, 1, Sfe3]*gC[CBStR, 1, Sfe3]) - 
+             (Divergence*DiagMark[MT, MSf[Sfe3, 4, 3]]*g[CTSbL, 1, Sfe3]*gC[
+                CTSbL, 1, Sfe3])/2)*SumOver[Sfe3, 2])/Pi^2 - 
+         (Nc*(-1/2*(Divergence*DiagMark[MB, MSf[Sfe3, 3, 3]]*
+              g[CBStL, 1, Sfe3]*gC[CBStL, 1, Sfe3]) - 
+            (Divergence*DiagMark[MT, MSf[Sfe3, 4, 3]]*g[CTSbR, 1, Sfe3]*
+              gC[CTSbR, 1, Sfe3])/2)*SumOver[Sfe3, 2])/(16*Pi^2)))/2)*
+     UCha[2, 1]*VCha[2, 1] - Sqrt[2]*CB2*MW*Conjugate[dTB1]*
+     (SB*(-(UCha[1, 2]*UCha[2, 1]) + UCha[1, 1]*UCha[2, 2])*VCha[1, 1]*
+       VCha[2, 1] + CB*UCha[1, 1]*UCha[2, 1]*(VCha[1, 2]*VCha[2, 1] - 
+        VCha[1, 1]*VCha[2, 2]))))/(UCha[1, 2]*UCha[2, 1]*VCha[1, 2]*
+    VCha[2, 1] - UCha[1, 1]*UCha[2, 2]*VCha[1, 1]*VCha[2, 2])

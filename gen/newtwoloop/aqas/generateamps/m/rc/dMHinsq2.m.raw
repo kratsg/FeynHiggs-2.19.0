@@ -1,0 +1,3 @@
+(1 - inputMHp)*(-(MHin2*dZHiggs2gl[3, 3]) + SEA02[-2]/del^2 + SEA02[-1]/del + 
+   SEA02[0]) + inputMHp*(-(MHin2*dZHiggs2gl[5, 5]) + SEHp2[-2]/del^2 + 
+   SEHp2[-1]/del + SEHp2[0])

@@ -1,0 +1,1 @@
+{dv1 -> (dMWsq1MW2/2 + dSW1/SW)*v, {}}

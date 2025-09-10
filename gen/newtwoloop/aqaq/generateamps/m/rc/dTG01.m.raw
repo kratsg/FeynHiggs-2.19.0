@@ -1,0 +1,6 @@
+(Nc*(MB*DiagMark[MB]*(g[hBBL, 4] + g[hBBR, 4])*Re[A0[MB2]] + 
+    MT*DiagMark[MT]*(g[hTTL, 4] + g[hTTR, 4])*Re[A0[MT2]]))/(8*Pi^2) - 
+ (Nc*(DiagMark[MSf[Sfe2, 3, 3]]*g[hStSt, 4, Sfe2, Sfe2]*
+     Re[A0[MSf2[Sfe2, 3, 3]]] + DiagMark[MSf[Sfe2, 4, 3]]*
+     g[hSbSb, 4, Sfe2, Sfe2]*Re[A0[MSf2[Sfe2, 4, 3]]])*SumOver[Sfe2, 2])/
+  (16*Pi^2)

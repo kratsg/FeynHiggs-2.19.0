@@ -1,0 +1,5 @@
+{dg[hhSbSb, 2, 2, 2, 2] -> ((2*dhb1)/hb + dZHiggs1gl[2, 2])*
+    g[hhSbSb, 2, 2, 2, 2] + 
+   (dZHiggs1gl[1, 2]*(g[hhSbSb, 1, 2, 2, 2] + g[hhSbSb, 2, 1, 2, 2]) + 
+     dZHiggs1gl[3, 2]*(g[hhSbSb, 2, 3, 2, 2] + g[hhSbSb, 3, 2, 2, 2]) + 
+     dZHiggs1gl[4, 2]*(g[hhSbSb, 2, 4, 2, 2] + g[hhSbSb, 4, 2, 2, 2]))/2, {}}

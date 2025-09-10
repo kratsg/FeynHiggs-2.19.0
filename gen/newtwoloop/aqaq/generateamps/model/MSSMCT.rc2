@@ -1,0 +1,199 @@
+ct["h0h0"] := -dMNHiggs2[1, 1] - dMNHiggsZ2[1, 1];
+ct["h0HH"] := -dMNHiggs2[1, 2] - dMNHiggsZ2[1, 2];
+ct["HHHH"] := -dMNHiggs2[2, 2] - dMNHiggsZ2[2, 2];
+ct["h0A0"] := -dMNHiggs2[1, 3] - dMNHiggsZ2[1, 3];
+ct["HHA0"] := -dMNHiggs2[2, 3] - dMNHiggsZ2[2, 3];
+ct["A0A0"] := -dMNHiggs2[3, 3] - dMNHiggsZ2[3, 3];
+ct["HmHp"] := -dMCHiggs2[5, 5] - dMCHiggsZ2[5, 5];
+_ct = 0
+
+Conjugate[cTAG[i_]] ^:= cTAG[i];
+Conjugate[v] ^= v;
+
+Conjugate[MMUE] ^= MMUE;
+Conjugate[MMUE2] ^= MMUE2;
+Unprotect[Power];
+Re[MMUE^2] ^= MMUE2;
+Protect[Power];
+MMUE2 = MMUE^2;
+
+Conjugate[dMSt1OS] ^= dMSt1OS;
+Conjugate[dMSb1OS] ^= dMSb1OS;
+Conjugate[dMT1OS] ^= dMT1OS;
+Conjugate[dMB1OS] ^= dMB1OS;
+
+Conjugate[dMu1OS] ^= dMu1OS;
+
+Conjugate[inputMA0] ^= inputMA0
+inputMA0/: inputMA0^2 = inputMA0;
+inputMHp/: inputMHp^2 = inputMHp;
+inputMA0/: inputMA0 inputMHp = 0;
+inputMA0/: inputMA0 + inputMHp = 1
+
+(*inputMHp = 1 - inputMA0*)
+
+
+dTanB1 = dTB1
+dTanB2 = dTB2
+
+dTadh01 = dTh01
+dTadHH1 = dTHH1
+dTadA01 = dTA01
+dTadG01 = 0
+
+dSW1 = 0
+
+(* neglect field renormalization of inner particles *)
+_dZSf1 = 0;
+_dZSq1 = 0;
+_dZfL1 = 0;
+_dZfR1 = 0;
+_dZbarSf1 = 0;
+_dZbarSq1 = 0;
+_dZbarfL1 = 0;
+_dZbarfR1 = 0
+
+
+setrc[lhs_, rhs_] :=
+  MapThread[(RenConst[#1] := #2)&, Flatten/@ {lhs, rhs}]
+
+
+setrc[ {dTadh02, dTadHH2, dTadA02, dTadG02},
+  -{Tadh02, TadHH2, TadA02, TadG02} -
+    1/2 {dTadh01, dTadHH1, dTadA01, dTadG01} . Array[dZNHiggs1, {4, 4}] ];
+
+
+dMHmat[Msq_, dZ1_, dZ2_, dM1_] :=
+  1/2 (Msq.dZ2 + ConjugateTranspose[dZ2].Msq) +
+  1/2 (ConjugateTranspose[dZ1].dM1 + ConjugateTranspose[dM1].dZ1) +
+  1/4 ConjugateTranspose[dZ1].Msq.dZ1
+
+setmat[dMZ2_, Msq_, dZ1_, dZ2_, dM1_, i__] :=
+  setrc[ Array[dMZ2, i], dMHmat[DiagonalMatrix[Msq],
+    Array[dZ1, i], Array[dZ2, i], Array[dM1, i]] ]
+
+rotmat[sx_, cx_, sy_, cy_] := {{-sx, cx, 0, 0}, {cx, sx, 0, 0}, {0, 0, -sy, cy}, {0, 0, cy, sy}}
+rotmat[sx_, cx_] := {{-sx, cx}, {cx, sx}}
+
+setmat[dMNHiggsZ2, {Mh0tree, MHHtree, MA0tree, MG0}^2,
+  dZNHiggs1, dZNHiggs2, dMNHiggs1, {4, 4}]
+
+setmat[dMCHiggsZ2, {MHptree, MGp}^2,
+  dZCHiggs1, dZCHiggs2, dMCHiggs1, {2, 2}, {5, 5}]
+
+
+setrc[Array[dZNHiggs2, {4, 4}],
+      rotmat[SA, CA, SB, CB].DiagonalMatrix[{dZH12 - 1/4 dZH1^2, dZH22 - 1/4 dZH2^2, dZH12 - 1/4 dZH1^2, dZH22 - 1/4 dZH2^2}].Transpose[rotmat[SA, CA, SB, CB]]]
+
+
+setrc[Array[dZCHiggs2, {2, 2}, {5, 5}],
+      rotmat[SB, CB].DiagonalMatrix[{dZH12 - 1/4 dZH1^2, dZH22 - 1/4 dZH2^2}].Transpose[rotmat[SB, CB]]]
+
+
+RenConst[dTB2] := SB/CB (1/2 (dZH22 - dZH12) - 1/2 dTB1^2/SB^2*CB^2 - dTB1/SB*CB dZH1)
+
+RenConst[dZH12] := 0(*-DSEHHHHp, field rc and dTB2 cancel each other*)
+
+RenConst[dZH22] := 0(*-DSEh0h0p, field rc and dTB2 cancel each other*)
+
+
+RenConst[dMNHiggs2[1, 1]] :=
+  -2 CB^2 CBA SBA dMCHiggs1[5, 5] dTanB1 +
+  1/2 CB^3 SBA (SA + 3 CBA SB + 3 CB SBA) MHptree^2 dTanB1^2 +
+  CBA (CBA dMCHiggs2[5, 5] - 2 CB^2 SBA MHptree^2 dTanB2) +
+  cTAG[Yuk] SBA/(Sqrt[2] v) (
+    CB^2 SBA (CBA dTadh01 - SBA dTadHH1) dTanB1 -
+    (1 + CBA^2) (dTadh02 - dTadh01 (dMWsq1gl/(2 MW^2) + dSW1/SW)) +
+    CBA SBA (dTadHH2 - dTadHH1 (dMWsq1gl/(2 MW^2) + dSW1/SW)) )
+
+RenConst[dMNHiggs2[2, 2]] :=
+  2 CB^2 CBA SBA dMCHiggs1[5, 5] dTanB1 +
+  SBA (2 CB^2 CBA MHptree^2 dTanB2 + SBA dMCHiggs2[5, 5]) +
+  1/2 CB^3 CBA (-CA + 3 CB CBA - 3 SB SBA) MHptree^2 dTanB1^2 +
+  cTAG[Yuk] CBA/(Sqrt[2] v) (
+    CB^2 CBA dTanB1 (CBA dTadh01 - SBA dTadHH1) +
+    CBA SBA dTadh02 - (1 + SBA^2) dTadHH2 +
+    (dTadHH1 - CBA SBA dTadh01 + dTadHH1 SBA^2) (dMWsq1gl/(2 MW^2) + dSW1/SW) )
+
+RenConst[dMNHiggs2[1, 2]] :=
+  -CBA SBA dMCHiggs2[5, 5] +
+  CB^2 (-CBA^2 + SBA^2) (dMCHiggs1[5, 5] dTanB1 + MHptree^2 dTanB2) +
+  1/4 CB^3 (CBA (SA + 3 SB CBA + 6 CB SBA) - SBA (CA + 3 SB SBA)) MHptree^2 dTanB1^2 +
+  cTAG[Yuk]/(Sqrt[2] v) (
+    CB^2 CBA SBA dTanB1 (CBA dTadh01 - dTadHH1 SBA) +
+    CBA^3 (-dTadh02 + dTadh01 (dMWsq1gl/(2 MW^2) + dSW1/SW)) +
+    SBA^3 (-dTadHH2 + dTadHH1 (dMWsq1gl/(2 MW^2) + dSW1/SW)) )
+
+RenConst[dMNHiggs2[3, 3]] := dMCHiggs2[5, 5]
+
+RenConst[dMNHiggs2[1, 3]] :=
+  cTAG[Yuk] SBA/(Sqrt[2] v) (-dTadA02 + dTadA01 (dMWsq1gl/(2 MW^2) + dSW1/SW))
+
+RenConst[dMNHiggs2[2, 3]] :=
+  cTAG[Yuk] CBA/(Sqrt[2] v) (-dTadA02 + dTadA01 (dMWsq1gl/(2 MW^2) + dSW1/SW))
+
+RenConst[dMNHiggs2[j_, i_]] := Conjugate[dMNHiggs2[i, j]] /; j > i
+
+
+RenConst[dMCHiggs2[5, 5]] := inputMA0 dMA0sq2 + inputMHp dMHpsq2
+
+RenConst[dMHpsq2] := SEHmHp2 - dMCHiggsZ2[5, 5]
+
+RenConst[dMA0sq2] := SEA0A02 - dMNHiggsZ2[3, 3]
+
+
+(* and finally some tweaks for the 1L RCs *)
+
+RenConst[dMA0sq1] := ReTilde[SelfEnergy[S[3], 0]] - MA0tree^2 dZNHiggs1[3, 3]
+
+RenConst[dMHpsq1] := ReTilde[SelfEnergy[S[5], 0]] - MHptree^2 dZCHiggs1[5, 5]
+
+RenConst[dMNHiggs1[1, 1]] := (dMNHiggs1[3, 3] CBA^2 + dMZsq1 SAB^2 + 
+   cTAG[Yuk]/(Sqrt[2] v) (dTHH1 CBA SBA^2 - dTh01 SBA (1 + CBA^2)) +
+   2 dTB1 CB^2 (MZ^2 SAB CAB - MA0tree^2 SBA CBA))
+
+RenConst[dMNHiggs1[2, 2]] := (dMNHiggs1[3, 3] SBA^2 + dMZsq1 CAB^2 -
+   cTAG[Yuk]/(Sqrt[2] v) (dTHH1 CBA (1 + SBA^2) - dTh01 SBA CBA^2) -
+   2 dTB1 CB^2 (MZ^2 SAB CAB - MA0tree^2 SBA CBA))
+
+RenConst[dMNHiggs1[1, 2]] := -dMNHiggs1[3, 3] SBA CBA - dMZsq1 SAB CAB -
+   cTAG[Yuk]/(Sqrt[2] v) (dTHH1 SBA^3 + dTh01 CBA^3) -
+   dTB1 CB^2 (MA0tree^2 (CBA^2 - SBA^2) + MZ^2 (CAB^2 - SAB^2))
+
+RenConst[dMNHiggs1[3, 3]] := inputMA0 dMA0sq1 + inputMHp dMHpsq1
+
+RenConst[dMNHiggs1[4, 4]] := -cTAG[Yuk]/(Sqrt[2] v) (dTHH1 CBA + dTh01 SBA)
+
+RenConst[dMNHiggs1[1, 3]] := -cTAG[Yuk]/(Sqrt[2] v) SBA dTA01
+
+RenConst[dMNHiggs1[1, 4]] := +cTAG[Yuk]/(Sqrt[2] v) CBA dTA01
+
+RenConst[dMNHiggs1[2, 3]] := -cTAG[Yuk]/(Sqrt[2] v) CBA dTA01
+
+RenConst[dMNHiggs1[2, 4]] := -cTAG[Yuk]/(Sqrt[2] v) SBA dTA01
+
+RenConst[dMCHiggs1[6, 6]] := dMNHiggs1[4, 4]
+
+RenConst[dMCHiggs1[5, 6]] := cTAG[Yuk]/(Sqrt[2] v) (dTHH1 SBA - dTh01 CBA + I dTA01) - dTB1 CB^2 MHptree^2
+
+RenConst[dMCHiggs1[6, 5]] := Conjugate[dMCHiggs1[5, 6]]
+
+RenConst[dMNHiggs1[3, 4]] :=
+  cTAG[Yuk]/(Sqrt[2] v) (dTadHH1 SBA - dTadh01 CBA) -
+  dTanB1 CB2 (inputMHp (MHptree^2 - MW2) + inputMA0 MA0tree^2)
+
+RenConst[dMNHiggs1[4, 3]] :=
+  cTAG[Yuk]/(Sqrt[2] v) (Conjugate[dTadHH1] SBA - Conjugate[dTadh01] CBA) -
+  dTanB1 CB2 (inputMHp (MHptree^2 - MW2) + inputMA0 MA0tree^2)
+
+RenConst[dMNHiggs1[i_, j_]] := Conjugate[dMNHiggs1[j, i]] /; i > j
+
+
+RenConst[dMCHiggs1[5, 5]] := dMNHiggs1[3, 3]
+
+RenConst[dZCHiggs1[i_, j_]] := dZNHiggs1[i-2, j-2]
+
+RenConst[dZNHiggs1[i_, j_]] := dZHiggs1[i, j]
+
+Null
+

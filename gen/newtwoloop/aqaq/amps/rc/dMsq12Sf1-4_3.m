@@ -1,0 +1,2 @@
+{dMsq12Sf1[4, 3] -> -(MB*(dTB1*MUE + dMUE1*TB - Conjugate[dAf1[4, 3, 3]])) - 
+   (MUE*TB - AfC[4, 3, 3])*dMf1[4, 3], {}}

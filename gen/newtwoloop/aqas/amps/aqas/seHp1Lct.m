@@ -1,0 +1,44 @@
+DiagMark[MT, MB]*
+  (-(Nc*B0[0, MB2, MT2]*(Conjugate[dg[HpTBR, 1]]*(MB*MT*g[HpTBL, 1] + 
+         MB2*g[HpTBR, 1]) + Conjugate[dg[HpTBL, 1]]*(MB2*g[HpTBL, 1] + 
+         MB*MT*g[HpTBR, 1]) + MB2*dg[HpTBL, 1]*gC[HpTBL, 1] + 
+       MB*MT*dg[HpTBR, 1]*gC[HpTBL, 1] + MB*MT*dg[HpTBL, 1]*gC[HpTBR, 1] + 
+       MB2*dg[HpTBR, 1]*gC[HpTBR, 1]))/(8*Pi^2) + 
+   ((-1 + del)*Nc*B0[0, 0, MB2]*dMf1[4, 3]*
+     (g[HpTBR, 1]*(MT*gC[HpTBL, 1] + 2*MB*gC[HpTBR, 1]) + 
+      g[HpTBL, 1]*(2*MB*gC[HpTBL, 1] + MT*gC[HpTBR, 1])))/(8*Pi^2) - 
+   (Nc*B0[0, 0, MT2]*(MT2*(Conjugate[dg[HpTBL, 1]]*g[HpTBL, 1] + 
+        Conjugate[dg[HpTBR, 1]]*g[HpTBR, 1] + dg[HpTBL, 1]*gC[HpTBL, 1] + 
+        dg[HpTBR, 1]*gC[HpTBR, 1]) - (-1 + del)*dMf1[3, 3]*
+       (g[HpTBL, 1]*(2*MT*gC[HpTBL, 1] + MB*gC[HpTBR, 1]) + 
+        g[HpTBR, 1]*(MB*gC[HpTBL, 1] + 2*MT*gC[HpTBR, 1]))))/(8*Pi^2) - 
+   (Nc*(C0i[cc0, 0, 0, 0, MB2, MT2, MT2]*dMf1[3, 3]*
+       (g[HpTBR, 1]*(MB*(MB2 + MT2)*gC[HpTBL, 1] + 2*MB2*MT*gC[HpTBR, 1]) + 
+        g[HpTBL, 1]*(2*MB2*MT*gC[HpTBL, 1] + MB*(MB2 + MT2)*gC[HpTBR, 1])) + 
+      C0i[cc0, 0, 0, 0, MB2, MB2, MT2]*dMf1[4, 3]*
+       (g[HpTBR, 1]*(MT*(MB2 + MT2)*gC[HpTBL, 1] + 2*MB*MT2*gC[HpTBR, 1]) + 
+        g[HpTBL, 1]*(2*MB*MT2*gC[HpTBL, 1] + MT*(MB2 + MT2)*gC[HpTBR, 1]))))/
+    (8*Pi^2)) + (Nc*B0[0, 0, MSf2[Sfe3, 3, 3]]*dg[HpHpStSt, 1, 1, Sfe3, Sfe3]*
+   DiagMark[MSf[Sfe3, 3, 3]]*MSf2[Sfe3, 3, 3]*SumOver[Sfe3, 2])/(16*Pi^2) + 
+ (Nc*B0[0, 0, MSf2[Sfe3, 4, 3]]*dg[HpHpSbSb, 1, 1, Sfe3, Sfe3]*
+   DiagMark[MSf[Sfe3, 4, 3]]*MSf2[Sfe3, 4, 3]*SumOver[Sfe3, 2])/(16*Pi^2) + 
+ (Nc*B0[0, MSf2[Sfe3, 4, 3], MSf2[Sfe4, 4, 3]]*DiagMark[MSf[Sfe3, 4, 3], 
+    MSf[Sfe4, 4, 3]]*dMSfsq1[Sfe4, Sfe3, 4, 3]*g[HpHpSbSb, 1, 1, Sfe4, Sfe3]*
+   SumOver[Sfe3, 2]*SumOver[Sfe4, 2])/(16*Pi^2) + 
+ (Nc*B0[0, MSf2[Sfe3, 3, 3], MSf2[Sfe4, 3, 3]]*DiagMark[MSf[Sfe3, 3, 3], 
+    MSf[Sfe4, 3, 3]]*dMSfsq1[Sfe4, Sfe3, 3, 3]*g[HpHpStSt, 1, 1, Sfe4, Sfe3]*
+   SumOver[Sfe3, 2]*SumOver[Sfe4, 2])/(16*Pi^2) + 
+ (Nc*B0[0, MSf2[Sfe3, 3, 3], MSf2[Sfe4, 4, 3]]*DiagMark[MSf[Sfe3, 3, 3], 
+    MSf[Sfe4, 4, 3]]*(Conjugate[dg[HpStSb, 1, Sfe3, Sfe4]]*
+     g[HpStSb, 1, Sfe3, Sfe4] + dg[HpStSb, 1, Sfe3, Sfe4]*
+     gC[HpStSb, 1, Sfe3, Sfe4])*SumOver[Sfe3, 2]*SumOver[Sfe4, 2])/
+  (16*Pi^2) + (Nc*C0i[cc0, 0, 0, 0, MSf2[Sfe3, 3, 3], MSf2[Sfe4, 3, 3], 
+    MSf2[Sfe5, 4, 3]]*DiagMark[MSf[Sfe3, 3, 3], MSf[Sfe4, 3, 3], 
+    MSf[Sfe5, 4, 3]]*dMSfsq1[Sfe3, Sfe4, 3, 3]*g[HpStSb, 1, Sfe4, Sfe5]*
+   gC[HpStSb, 1, Sfe3, Sfe5]*SumOver[Sfe3, 2]*SumOver[Sfe4, 2]*
+   SumOver[Sfe5, 2])/(16*Pi^2) + 
+ (Nc*C0i[cc0, 0, 0, 0, MSf2[Sfe3, 4, 3], MSf2[Sfe4, 4, 3], MSf2[Sfe5, 3, 3]]*
+   DiagMark[MSf[Sfe3, 4, 3], MSf[Sfe4, 4, 3], MSf[Sfe5, 3, 3]]*
+   dMSfsq1[Sfe4, Sfe3, 4, 3]*g[HpStSb, 1, Sfe5, Sfe4]*
+   gC[HpStSb, 1, Sfe5, Sfe3]*SumOver[Sfe3, 2]*SumOver[Sfe4, 2]*
+   SumOver[Sfe5, 2])/(16*Pi^2)

@@ -1,0 +1,25 @@
+(((-1 + del)*MW2*Nc*cTAG[Yuk]^2*(CB2*hb^2*(1 + 2*CW2 + 2*SW2)^2*DiagMark[MB]*
+      Re[B0[0, 0, MB2]] + ht^2*SB2*(-1 + 4*CW2 + 4*SW2)^2*DiagMark[MT]*
+      Re[B0[0, 0, MT2]]))/(144*CW2*Pi^2) + 
+  (Alfa*Nc*SumOver[Sfe3, 2]*(DiagMark[MSf[Sfe3, 3, 3]]*MSf2[Sfe3, 3, 3]*
+      Re[B0[0, 0, MSf2[Sfe3, 3, 3]]]*((1 - 4*CW2)^2*UCSf[Sfe3, 1, 3, 3] + 
+       16*SW2^2*UCSf[Sfe3, 2, 3, 3]) + DiagMark[MSf[Sfe3, 4, 3]]*
+      MSf2[Sfe3, 4, 3]*Re[B0[0, 0, MSf2[Sfe3, 4, 3]]]*
+      ((1 + 2*CW2)^2*UCSf[Sfe3, 1, 4, 3] + 4*SW2^2*UCSf[Sfe3, 2, 4, 3]) + 
+     (SumOver[Sfe4, 2]*(DiagMark[MSf[Sfe3, 3, 3], MSf[Sfe4, 3, 3]]*
+         (MSf2[Sfe4, 3, 3]*Re[B0[0, 0, MSf2[Sfe4, 3, 3]]] + 
+          2*MSf2[Sfe3, 3, 3]*Re[B0[0, MSf2[Sfe3, 3, 3], MSf2[Sfe4, 3, 3]]] + 
+          (MSf2[Sfe3, 3, 3] - MSf2[Sfe4, 3, 3])*Re[B1[0, MSf2[Sfe3, 3, 3], 
+             MSf2[Sfe4, 3, 3]]])*((1 - 4*CW2)*USf[Sfe4, 1, 3, 3]*
+           USfC[Sfe3, 1, 3, 3] + 4*SW2*USf[Sfe4, 2, 3, 3]*USfC[Sfe3, 2, 3, 
+            3])*((1 - 4*CW2)*USf[Sfe3, 1, 3, 3]*USfC[Sfe4, 1, 3, 3] + 
+          4*SW2*USf[Sfe3, 2, 3, 3]*USfC[Sfe4, 2, 3, 3]) + 
+        DiagMark[MSf[Sfe3, 4, 3], MSf[Sfe4, 4, 3]]*
+         (MSf2[Sfe4, 4, 3]*Re[B0[0, 0, MSf2[Sfe4, 4, 3]]] + 
+          2*MSf2[Sfe3, 4, 3]*Re[B0[0, MSf2[Sfe3, 4, 3], MSf2[Sfe4, 4, 3]]] + 
+          (MSf2[Sfe3, 4, 3] - MSf2[Sfe4, 4, 3])*Re[B1[0, MSf2[Sfe3, 4, 3], 
+             MSf2[Sfe4, 4, 3]]])*((1 + 2*CW2)*USf[Sfe4, 1, 4, 3]*
+           USfC[Sfe3, 1, 4, 3] - 2*SW2*USf[Sfe4, 2, 4, 3]*USfC[Sfe3, 2, 4, 
+            3])*((1 + 2*CW2)*USf[Sfe3, 1, 4, 3]*USfC[Sfe4, 1, 4, 3] - 
+          2*SW2*USf[Sfe3, 2, 4, 3]*USfC[Sfe4, 2, 4, 3])))/(-3 + 2*del)))/
+   (72*CW2*Pi*SW2))/MZ2

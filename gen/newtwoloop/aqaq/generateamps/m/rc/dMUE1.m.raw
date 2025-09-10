@@ -1,0 +1,10 @@
+(-(dMChaOS1[2]*UChaC[1, 1]*VChaC[1, 1]) + dMChaOS1[1]*UChaC[2, 1]*
+   VChaC[2, 1] - Sqrt[2]*CB2*dTB1*MW*
+   (SB*(-(UChaC[1, 2]*UChaC[2, 1]) + UChaC[1, 1]*UChaC[2, 2])*VChaC[1, 1]*
+     VChaC[2, 1] + CB*UChaC[1, 1]*UChaC[2, 1]*(VChaC[1, 2]*VChaC[2, 1] - 
+      VChaC[1, 1]*VChaC[2, 2])) + 
+  (dMWsq1*(CB*(-(UChaC[1, 2]*UChaC[2, 1]) + UChaC[1, 1]*UChaC[2, 2])*
+      VChaC[1, 1]*VChaC[2, 1] - SB*UChaC[1, 1]*UChaC[2, 1]*
+      (VChaC[1, 2]*VChaC[2, 1] - VChaC[1, 1]*VChaC[2, 2])))/(Sqrt[2]*MW))/
+ (UChaC[1, 2]*UChaC[2, 1]*VChaC[1, 2]*VChaC[2, 1] - 
+  UChaC[1, 1]*UChaC[2, 2]*VChaC[1, 1]*VChaC[2, 2])

@@ -1,0 +1,15 @@
+(dZbarHiggs1gl[5, 5]*g[HpStSb, 1, 2, 1])/2 + 
+ (dZbarHiggs1gl[6, 5]*g[HpStSb, 2, 2, 1])/2 - 
+ hb*(dMf1[4, 3]*USf[2, 1, 3, 3]*USfC[1, 1, 4, 3]*ZPd[1] + 
+   dMf1[3, 3]*USf[2, 2, 3, 3]*USfC[1, 2, 4, 3]*ZPd[1] + 
+   USf[2, 1, 3, 3]*USfC[1, 2, 4, 3]*(Conjugate[dAf1[4, 3, 3]]*ZPd[1] + 
+     dMUE1*ZPu[1])) - dhb1*(MB*USf[2, 1, 3, 3]*USfC[1, 1, 4, 3]*ZPd[1] + 
+   MT*USf[2, 2, 3, 3]*USfC[1, 2, 4, 3]*ZPd[1] + 
+   USf[2, 1, 3, 3]*USfC[1, 2, 4, 3]*(AfC[4, 3, 3]*ZPd[1] + MUE*ZPu[1])) - 
+ dht1*(MT*USf[2, 1, 3, 3]*USfC[1, 1, 4, 3]*ZPu[1] + 
+   MB*USf[2, 2, 3, 3]*USfC[1, 2, 4, 3]*ZPu[1] + 
+   USf[2, 2, 3, 3]*USfC[1, 1, 4, 3]*(MUEC*ZPd[1] + Af[3, 3, 3]*ZPu[1])) - 
+ ht*(dMf1[3, 3]*USf[2, 1, 3, 3]*USfC[1, 1, 4, 3]*ZPu[1] + 
+   dMf1[4, 3]*USf[2, 2, 3, 3]*USfC[1, 2, 4, 3]*ZPu[1] + 
+   USf[2, 2, 3, 3]*USfC[1, 1, 4, 3]*(Conjugate[dMUE1]*ZPd[1] + 
+     dAf1[3, 3, 3]*ZPu[1]))

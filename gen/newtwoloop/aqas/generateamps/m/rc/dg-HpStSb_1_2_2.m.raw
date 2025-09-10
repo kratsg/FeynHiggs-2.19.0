@@ -1,0 +1,11 @@
+-(dht1*(CB*MT*USf[2, 1, 3, 3]*USfC[2, 1, 4, 3] + (MUEC*SB + CB*Af[3, 3, 3])*
+     USf[2, 2, 3, 3]*USfC[2, 1, 4, 3] + CB*MB*USf[2, 2, 3, 3]*
+     USfC[2, 2, 4, 3])) - dhb1*(MB*SB*USf[2, 1, 3, 3]*USfC[2, 1, 4, 3] + 
+   (CB*MUE + SB*AfC[4, 3, 3])*USf[2, 1, 3, 3]*USfC[2, 2, 4, 3] + 
+   MT*SB*USf[2, 2, 3, 3]*USfC[2, 2, 4, 3]) - 
+ hb*(SB*dMf1[4, 3]*USf[2, 1, 3, 3]*USfC[2, 1, 4, 3] + 
+   SB*Conjugate[dAf1[4, 3, 3]]*USf[2, 1, 3, 3]*USfC[2, 2, 4, 3] + 
+   SB*dMf1[3, 3]*USf[2, 2, 3, 3]*USfC[2, 2, 4, 3]) - 
+ ht*(CB*dMf1[3, 3]*USf[2, 1, 3, 3]*USfC[2, 1, 4, 3] + 
+   CB*dAf1[3, 3, 3]*USf[2, 2, 3, 3]*USfC[2, 1, 4, 3] + 
+   CB*dMf1[4, 3]*USf[2, 2, 3, 3]*USfC[2, 2, 4, 3])

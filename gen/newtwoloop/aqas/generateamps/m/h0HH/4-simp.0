@@ -1,0 +1,857 @@
+Alfas*
+  (-1/4*(DiagMark[0, MB]*(g[hBBR, 2]*(MB2*g[hBBR, 1]*
+          (2*T[Df[k1, MB]^3*Df[k3, MB]] + T[Df[k1, MB]^2*Df[k3, MB]^2] + 
+           4*T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, 0]] + 
+           4*MB2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, 0]] + 
+           2*MB2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, 0]]) + 
+         g[hBBL, 1]*(T[Df[k1, MB]^2*Df[k3, MB]] + 
+           2*MB2*T[Df[k1, MB]^3*Df[k3, MB]] + 
+           MB2*T[Df[k1, MB]^2*Df[k3, MB]^2] + T[Df[k1, MB]*Df[k3, MB]*
+             Df[k4, 0]] + 6*MB2*T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, 0]] + 
+           4*MB2^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, 0]] + 
+           2*MB2^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, 0]])) + 
+       g[hBBL, 2]*(MB2*g[hBBL, 1]*(2*T[Df[k1, MB]^3*Df[k3, MB]] + 
+           T[Df[k1, MB]^2*Df[k3, MB]^2] + 4*T[Df[k1, MB]^2*Df[k3, MB]*
+              Df[k4, 0]] + 4*MB2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, 0]] + 
+           2*MB2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, 0]]) + 
+         g[hBBR, 1]*(T[Df[k1, MB]^2*Df[k3, MB]] + 
+           2*MB2*T[Df[k1, MB]^3*Df[k3, MB]] + 
+           MB2*T[Df[k1, MB]^2*Df[k3, MB]^2] + T[Df[k1, MB]*Df[k3, MB]*
+             Df[k4, 0]] + 6*MB2*T[Df[k1, MB]^2*Df[k3, MB]*Df[k4, 0]] + 
+           4*MB2^2*T[Df[k1, MB]^3*Df[k3, MB]*Df[k4, 0]] + 
+           2*MB2^2*T[Df[k1, MB]^2*Df[k3, MB]^2*Df[k4, 0]]))))/Pi^3 - 
+   (DiagMark[0, MT]*(g[hTTR, 2]*(MT2*g[hTTR, 1]*
+         (2*T[Df[k1, MT]^3*Df[k3, MT]] + T[Df[k1, MT]^2*Df[k3, MT]^2] + 
+          4*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, 0]] + 
+          4*MT2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, 0]] + 
+          2*MT2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, 0]]) + 
+        g[hTTL, 1]*(T[Df[k1, MT]^2*Df[k3, MT]] + 
+          2*MT2*T[Df[k1, MT]^3*Df[k3, MT]] + 
+          MT2*T[Df[k1, MT]^2*Df[k3, MT]^2] + T[Df[k1, MT]*Df[k3, MT]*
+            Df[k4, 0]] + 6*MT2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, 0]] + 
+          4*MT2^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, 0]] + 
+          2*MT2^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, 0]])) + 
+      g[hTTL, 2]*(MT2*g[hTTL, 1]*(2*T[Df[k1, MT]^3*Df[k3, MT]] + 
+          T[Df[k1, MT]^2*Df[k3, MT]^2] + 4*T[Df[k1, MT]^2*Df[k3, MT]*
+             Df[k4, 0]] + 4*MT2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, 0]] + 
+          2*MT2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, 0]]) + 
+        g[hTTR, 1]*(T[Df[k1, MT]^2*Df[k3, MT]] + 
+          2*MT2*T[Df[k1, MT]^3*Df[k3, MT]] + 
+          MT2*T[Df[k1, MT]^2*Df[k3, MT]^2] + T[Df[k1, MT]*Df[k3, MT]*
+            Df[k4, 0]] + 6*MT2*T[Df[k1, MT]^2*Df[k3, MT]*Df[k4, 0]] + 
+          4*MT2^2*T[Df[k1, MT]^3*Df[k3, MT]*Df[k4, 0]] + 
+          2*MT2^2*T[Df[k1, MT]^2*Df[k3, MT]^2*Df[k4, 0]]))))/(4*Pi^3) - 
+   (DiagMark[0, MSf[Index[Sfermion, 3], 3, 3]]*g[hhStSt, 1, 2, 
+      Index[Sfermion, 3], Index[Sfermion, 3]]*SumOver[Index[Sfermion, 3], 2]*
+     (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]^2*
+        Df[k3, MSf[Index[Sfermion, 3], 3, 3]]] - 
+      2*(T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+          Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, 0]] + 
+        2*MSf2[Index[Sfermion, 3], 3, 3]*
+         T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]^2*
+           Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, 0]])))/(16*Pi^3) - 
+   (DiagMark[0, MSf[Index[Sfermion, 3], 4, 3]]*g[hhSbSb, 1, 2, 
+      Index[Sfermion, 3], Index[Sfermion, 3]]*SumOver[Index[Sfermion, 3], 2]*
+     (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]^2*
+        Df[k3, MSf[Index[Sfermion, 3], 4, 3]]] - 
+      2*(T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+          Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, 0]] + 
+        2*MSf2[Index[Sfermion, 3], 4, 3]*
+         T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]^2*
+           Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, 0]])))/(16*Pi^3) - 
+   (DiagMark[0, MSf[Index[Sfermion, 3], 3, 3], MSf[Index[Sfermion, 4], 3, 3]]*
+     SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+     (g[hStSt, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+       g[hStSt, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+       (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 3, 3]]^2*
+          Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] - 
+        2*(T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]^2*
+            Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 0]] + 
+          (MSf2[Index[Sfermion, 3], 3, 3] + MSf2[Index[Sfermion, 4], 3, 3])*
+           T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+             Df[k1, MSf[Index[Sfermion, 4], 3, 3]]^2*
+             Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 0]])) + 
+      g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+       g[hStSt, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+       (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 3, 3]]^2*
+          Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] + 
+        T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+          Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+          Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] - 
+        2*(2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+             Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MSf[Index[Sfermion, 
+                4], 3, 3]]*Df[k4, 0]] + 
+          T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]^2*
+            Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 0]] + 
+          MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 
+               3]]*Df[k1, MSf[Index[Sfermion, 4], 3, 3]]^2*
+             Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 0]] + 
+          MSf2[Index[Sfermion, 4], 3, 3]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 
+               3]]*Df[k1, MSf[Index[Sfermion, 4], 3, 3]]^2*
+             Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 0]] + 
+          2*MSf2[Index[Sfermion, 3], 3, 3]*
+           T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[Index[Sfermion, 
+                4], 3, 3]]*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+             Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 0]]))))/(16*Pi^3) - 
+   (DiagMark[0, MSf[Index[Sfermion, 3], 4, 3], MSf[Index[Sfermion, 4], 4, 3]]*
+     SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+     (g[hSbSb, 1, Index[Sfermion, 4], Index[Sfermion, 3]]*
+       g[hSbSb, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+       (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 4, 3]]^2*
+          Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] - 
+        2*(T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]^2*
+            Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 0]] + 
+          (MSf2[Index[Sfermion, 3], 4, 3] + MSf2[Index[Sfermion, 4], 4, 3])*
+           T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+             Df[k1, MSf[Index[Sfermion, 4], 4, 3]]^2*
+             Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 0]])) + 
+      g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 4]]*
+       g[hSbSb, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+       (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 4, 3]]^2*
+          Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] + 
+        T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+          Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+          Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] - 
+        2*(2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+             Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MSf[Index[Sfermion, 
+                4], 4, 3]]*Df[k4, 0]] + 
+          T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]^2*
+            Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 0]] + 
+          MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 
+               3]]*Df[k1, MSf[Index[Sfermion, 4], 4, 3]]^2*
+             Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 0]] + 
+          MSf2[Index[Sfermion, 4], 4, 3]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 
+               3]]*Df[k1, MSf[Index[Sfermion, 4], 4, 3]]^2*
+             Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 0]] + 
+          2*MSf2[Index[Sfermion, 3], 4, 3]*
+           T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[Index[Sfermion, 
+                4], 4, 3]]*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+             Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 0]]))))/
+    (16*Pi^3)) + (DiagMark[MGl, MB, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3], MSf[Index[Sfermion, 5], 4, 3]]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+     g[hSbSb, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+     (g[GlBSbL, Index[Sfermion, 5]]*gC[GlBSbL, Index[Sfermion, 4]]*
+       (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MB]] + 
+        T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MGl]] - 
+        T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MGl]*Df[k4, MB]]) + 
+      g[GlBSbR, Index[Sfermion, 5]]*gC[GlBSbR, Index[Sfermion, 4]]*
+       (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MB]] + 
+        T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MGl]] - 
+        T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MGl]*Df[k4, MB]])) + 
+    g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+     g[hSbSb, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+     (g[GlBSbL, Index[Sfermion, 4]]*gC[GlBSbL, Index[Sfermion, 5]]*
+       (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MB]] + 
+        T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MGl]] - 
+        T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MGl]*Df[k4, MB]]) + 
+      g[GlBSbR, Index[Sfermion, 4]]*gC[GlBSbR, Index[Sfermion, 5]]*
+       (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MB]] + 
+        T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MGl]] - 
+        T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MGl]*Df[k4, MB]])) + 
+    (g[hSbSb, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+       g[hSbSb, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+       (gC[GlBSbL, Index[Sfermion, 5]]*
+         (2*MB*MGl*g[GlBSbR, Index[Sfermion, 4]] + 
+          g[GlBSbL, Index[Sfermion, 4]]*(MB2 + MGl2 - 
+            MSf2[Index[Sfermion, 3], 4, 3])) + gC[GlBSbR, Index[Sfermion, 5]]*
+         (2*MB*MGl*g[GlBSbL, Index[Sfermion, 4]] + 
+          g[GlBSbR, Index[Sfermion, 4]]*(MB2 + MGl2 - 
+            MSf2[Index[Sfermion, 3], 4, 3]))) + 
+      g[hSbSb, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+       g[hSbSb, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+       (gC[GlBSbL, Index[Sfermion, 4]]*
+         (2*MB*MGl*g[GlBSbR, Index[Sfermion, 5]] + 
+          g[GlBSbL, Index[Sfermion, 5]]*(MB2 + MGl2 - 
+            MSf2[Index[Sfermion, 3], 4, 3])) + gC[GlBSbR, Index[Sfermion, 4]]*
+         (2*MB*MGl*g[GlBSbL, Index[Sfermion, 5]] + 
+          g[GlBSbR, Index[Sfermion, 5]]*(MB2 + MGl2 - 
+            MSf2[Index[Sfermion, 3], 4, 3]))))*
+     T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[Index[Sfermion, 4], 
+         4, 3]]*Df[k1, MSf[Index[Sfermion, 5], 4, 3]]*Df[k3, MGl]*
+       Df[k4, MB]]))/(64*Pi^4) + 
+ (DiagMark[MGl, MT, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3], MSf[Index[Sfermion, 5], 3, 3]]*
+   SumOver[Index[Sfermion, 3], 2]*SumOver[Index[Sfermion, 4], 2]*
+   SumOver[Index[Sfermion, 5], 2]*
+   (g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+     g[hStSt, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+     (g[GlTStL, Index[Sfermion, 5]]*gC[GlTStL, Index[Sfermion, 4]]*
+       (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MGl]] + 
+        T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MT]] - 
+        T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MT]*Df[k4, MGl]]) + 
+      g[GlTStR, Index[Sfermion, 5]]*gC[GlTStR, Index[Sfermion, 4]]*
+       (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MGl]] + 
+        T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MT]] - 
+        T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MT]*Df[k4, MGl]])) + 
+    g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+     g[hStSt, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+     (g[GlTStL, Index[Sfermion, 4]]*gC[GlTStL, Index[Sfermion, 5]]*
+       (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MGl]] + 
+        T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MT]] - 
+        T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MT]*Df[k4, MGl]]) + 
+      g[GlTStR, Index[Sfermion, 4]]*gC[GlTStR, Index[Sfermion, 5]]*
+       (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MGl]] + 
+        T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MT]] - 
+        T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*
+          Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MT]*Df[k4, MGl]])) + 
+    (g[hStSt, 1, Index[Sfermion, 3], Index[Sfermion, 5]]*
+       g[hStSt, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+       (gC[GlTStL, Index[Sfermion, 5]]*
+         (2*MGl*MT*g[GlTStR, Index[Sfermion, 4]] + 
+          g[GlTStL, Index[Sfermion, 4]]*(MGl2 + MT2 - 
+            MSf2[Index[Sfermion, 3], 3, 3])) + gC[GlTStR, Index[Sfermion, 5]]*
+         (2*MGl*MT*g[GlTStL, Index[Sfermion, 4]] + 
+          g[GlTStR, Index[Sfermion, 4]]*(MGl2 + MT2 - 
+            MSf2[Index[Sfermion, 3], 3, 3]))) + 
+      g[hStSt, 1, Index[Sfermion, 5], Index[Sfermion, 3]]*
+       g[hStSt, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+       (gC[GlTStL, Index[Sfermion, 4]]*
+         (2*MGl*MT*g[GlTStR, Index[Sfermion, 5]] + 
+          g[GlTStL, Index[Sfermion, 5]]*(MGl2 + MT2 - 
+            MSf2[Index[Sfermion, 3], 3, 3])) + gC[GlTStR, Index[Sfermion, 4]]*
+         (2*MGl*MT*g[GlTStL, Index[Sfermion, 5]] + 
+          g[GlTStR, Index[Sfermion, 5]]*(MGl2 + MT2 - 
+            MSf2[Index[Sfermion, 3], 3, 3]))))*
+     T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[Index[Sfermion, 4], 
+         3, 3]]*Df[k1, MSf[Index[Sfermion, 5], 3, 3]]*Df[k3, MT]*
+       Df[k4, MGl]]))/(64*Pi^4) + 
+ (DiagMark[MGl, MT, MSf[Index[Sfermion, 3], 3, 3]]*
+   SumOver[Index[Sfermion, 3], 2]*(g[GlTStL, Index[Sfermion, 3]]*
+     (g[hTTR, 2]*(2*g[hTTR, 1]*(2*MGl*MT*gC[GlTStR, Index[Sfermion, 3]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k4, MGl]] + MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k4, MGl]]) + 
+          MT2*gC[GlTStL, Index[Sfermion, 3]]*(-T[Df[k1, MT]^3*Df[k3, MGl]] + 
+            T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]] + 
+            T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k4, MGl]] + MT2*T[Df[k1, MT]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]])) + 
+        g[hTTL, 1]*(4*MGl*MT*gC[GlTStR, Index[Sfermion, 3]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k4, MGl]] + MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k4, MGl]]) + gC[GlTStL, Index[Sfermion, 3]]*
+           (-T[Df[k1, MT]^2*Df[k3, MGl]] - 2*MT2*T[Df[k1, MT]^3*Df[k3, 
+                MGl]] + T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                3]]] + 2*MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]] + T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, MT]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k4, MGl]] + 3*MT2*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] + 
+            2*MGl2*MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+               Df[k4, MGl]] + 2*MT2^2*T[Df[k1, MT]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] - 
+            2*MT2*MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]]))) + 
+      g[hTTL, 2]*(2*MT2*g[hTTL, 1]*(2*MGl*MT*gC[GlTStR, Index[Sfermion, 3]]*
+           T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+             Df[k4, MGl]] + gC[GlTStL, Index[Sfermion, 3]]*
+           (-T[Df[k1, MT]^3*Df[k3, MGl]] + T[Df[k1, MT]^3*Df[k3, MSf[
+                Index[Sfermion, 3], 3, 3]]] + T[Df[k1, MT]^2*
+              Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] + 
+            MGl2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, 
+                MGl]] + MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]*Df[k4, MGl]] - MSf2[Index[Sfermion, 3], 3, 3]*
+             T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, 
+                MGl]])) + g[hTTR, 1]*(4*MGl*MT*gC[GlTStR, Index[Sfermion, 3]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k4, MGl]] + MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k4, MGl]]) + gC[GlTStL, Index[Sfermion, 3]]*
+           (-T[Df[k1, MT]^2*Df[k3, MGl]] - 2*MT2*T[Df[k1, MT]^3*Df[k3, 
+                MGl]] + T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                3]]] + 2*MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]] + T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, MT]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k4, MGl]] + 3*MT2*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] + 
+            2*MGl2*MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+               Df[k4, MGl]] + 2*MT2^2*T[Df[k1, MT]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] - 
+            2*MT2*MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]])))) + 
+    g[GlTStR, Index[Sfermion, 3]]*
+     (g[hTTR, 2]*(2*MT2*g[hTTR, 1]*(2*MGl*MT*gC[GlTStL, Index[Sfermion, 3]]*
+           T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+             Df[k4, MGl]] + gC[GlTStR, Index[Sfermion, 3]]*
+           (-T[Df[k1, MT]^3*Df[k3, MGl]] + T[Df[k1, MT]^3*Df[k3, MSf[
+                Index[Sfermion, 3], 3, 3]]] + T[Df[k1, MT]^2*
+              Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] + 
+            MGl2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, 
+                MGl]] + MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]*Df[k4, MGl]] - MSf2[Index[Sfermion, 3], 3, 3]*
+             T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, 
+                MGl]])) + g[hTTL, 1]*(4*MGl*MT*gC[GlTStL, Index[Sfermion, 3]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k4, MGl]] + MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k4, MGl]]) + gC[GlTStR, Index[Sfermion, 3]]*
+           (-T[Df[k1, MT]^2*Df[k3, MGl]] - 2*MT2*T[Df[k1, MT]^3*Df[k3, 
+                MGl]] + T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                3]]] + 2*MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]] + T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, MT]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k4, MGl]] + 3*MT2*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] + 
+            2*MGl2*MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+               Df[k4, MGl]] + 2*MT2^2*T[Df[k1, MT]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] - 
+            2*MT2*MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]]))) + 
+      g[hTTL, 2]*(2*g[hTTL, 1]*(2*MGl*MT*gC[GlTStL, Index[Sfermion, 3]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k4, MGl]] + MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k4, MGl]]) + 
+          MT2*gC[GlTStR, Index[Sfermion, 3]]*(-T[Df[k1, MT]^3*Df[k3, MGl]] + 
+            T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]] + 
+            T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k4, MGl]] + MT2*T[Df[k1, MT]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]])) + 
+        g[hTTR, 1]*(4*MGl*MT*gC[GlTStL, Index[Sfermion, 3]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k4, MGl]] + MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k4, MGl]]) + gC[GlTStR, Index[Sfermion, 3]]*
+           (-T[Df[k1, MT]^2*Df[k3, MGl]] - 2*MT2*T[Df[k1, MT]^3*Df[k3, 
+                MGl]] + T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                3]]] + 2*MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]] + T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, MT]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k4, MGl]] + 3*MT2*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] + 
+            2*MGl2*MT2*T[Df[k1, MT]^3*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+               Df[k4, MGl]] + 2*MT2^2*T[Df[k1, MT]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]] - 
+            2*MT2*MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k4, MGl]]))))))/(64*Pi^4) + 
+ (DiagMark[MGl, MB, MSf[Index[Sfermion, 3], 4, 3]]*
+   SumOver[Index[Sfermion, 3], 2]*(g[GlBSbL, Index[Sfermion, 3]]*
+     (g[hBBR, 2]*(2*g[hBBR, 1]*(2*MB*MGl*gC[GlBSbR, Index[Sfermion, 3]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k4, MGl]]) + 
+          MB2*gC[GlBSbL, Index[Sfermion, 3]]*(-T[Df[k1, MB]^3*Df[k3, MGl]] + 
+            T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]] + 
+            T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k4, MGl]] + MGl2*T[Df[k1, MB]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]])) + 
+        g[hBBL, 1]*(4*MB*MGl*gC[GlBSbR, Index[Sfermion, 3]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k4, MGl]]) + gC[GlBSbL, Index[Sfermion, 3]]*
+           (-T[Df[k1, MB]^2*Df[k3, MGl]] - 2*MB2*T[Df[k1, MB]^3*Df[k3, 
+                MGl]] + T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                3]]] + 2*MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]] + T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, MGl]*
+              Df[k4, MB]] + 3*MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k4, MGl]] + MGl2*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] + 
+            2*MB2^2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[
+                k4, MGl]] + 2*MB2*MGl2*T[Df[k1, MB]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] - 
+            2*MB2*MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]]))) + 
+      g[hBBL, 2]*(2*MB2*g[hBBL, 1]*(2*MB*MGl*gC[GlBSbR, Index[Sfermion, 3]]*
+           T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+             Df[k4, MGl]] + gC[GlBSbL, Index[Sfermion, 3]]*
+           (-T[Df[k1, MB]^3*Df[k3, MGl]] + T[Df[k1, MB]^3*Df[k3, MSf[
+                Index[Sfermion, 3], 4, 3]]] + T[Df[k1, MB]^2*
+              Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] + 
+            MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, 
+                MGl]] + MGl2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]*Df[k4, MGl]] - MSf2[Index[Sfermion, 3], 4, 3]*
+             T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, 
+                MGl]])) + g[hBBR, 1]*(4*MB*MGl*gC[GlBSbR, Index[Sfermion, 3]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k4, MGl]]) + gC[GlBSbL, Index[Sfermion, 3]]*
+           (-T[Df[k1, MB]^2*Df[k3, MGl]] - 2*MB2*T[Df[k1, MB]^3*Df[k3, 
+                MGl]] + T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                3]]] + 2*MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]] + T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, MGl]*
+              Df[k4, MB]] + 3*MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k4, MGl]] + MGl2*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] + 
+            2*MB2^2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[
+                k4, MGl]] + 2*MB2*MGl2*T[Df[k1, MB]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] - 
+            2*MB2*MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]])))) + 
+    g[GlBSbR, Index[Sfermion, 3]]*
+     (g[hBBR, 2]*(2*MB2*g[hBBR, 1]*(2*MB*MGl*gC[GlBSbL, Index[Sfermion, 3]]*
+           T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+             Df[k4, MGl]] + gC[GlBSbR, Index[Sfermion, 3]]*
+           (-T[Df[k1, MB]^3*Df[k3, MGl]] + T[Df[k1, MB]^3*Df[k3, MSf[
+                Index[Sfermion, 3], 4, 3]]] + T[Df[k1, MB]^2*
+              Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] + 
+            MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, 
+                MGl]] + MGl2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]*Df[k4, MGl]] - MSf2[Index[Sfermion, 3], 4, 3]*
+             T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, 
+                MGl]])) + g[hBBL, 1]*(4*MB*MGl*gC[GlBSbL, Index[Sfermion, 3]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k4, MGl]]) + gC[GlBSbR, Index[Sfermion, 3]]*
+           (-T[Df[k1, MB]^2*Df[k3, MGl]] - 2*MB2*T[Df[k1, MB]^3*Df[k3, 
+                MGl]] + T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                3]]] + 2*MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]] + T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, MGl]*
+              Df[k4, MB]] + 3*MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k4, MGl]] + MGl2*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] + 
+            2*MB2^2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[
+                k4, MGl]] + 2*MB2*MGl2*T[Df[k1, MB]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] - 
+            2*MB2*MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]]))) + 
+      g[hBBL, 2]*(2*g[hBBL, 1]*(2*MB*MGl*gC[GlBSbL, Index[Sfermion, 3]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k4, MGl]]) + 
+          MB2*gC[GlBSbR, Index[Sfermion, 3]]*(-T[Df[k1, MB]^3*Df[k3, MGl]] + 
+            T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]] + 
+            T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k4, MGl]] + MGl2*T[Df[k1, MB]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]])) + 
+        g[hBBR, 1]*(4*MB*MGl*gC[GlBSbL, Index[Sfermion, 3]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k4, MGl]]) + gC[GlBSbR, Index[Sfermion, 3]]*
+           (-T[Df[k1, MB]^2*Df[k3, MGl]] - 2*MB2*T[Df[k1, MB]^3*Df[k3, 
+                MGl]] + T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                3]]] + 2*MB2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]] + T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, MGl]*
+              Df[k4, MB]] + 3*MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k4, MGl]] + MGl2*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] + 
+            2*MB2^2*T[Df[k1, MB]^3*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[
+                k4, MGl]] + 2*MB2*MGl2*T[Df[k1, MB]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]] - 
+            2*MB2*MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^3*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k4, MGl]]))))))/(64*Pi^4) + 
+ (DiagMark[MGl, MT, MSf[Index[Sfermion, 3], 3, 3], 
+    MSf[Index[Sfermion, 4], 3, 3]]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*(g[GlTStL, Index[Sfermion, 3]]*
+     (g[hhStSt, 1, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+       (2*MGl*MT*gC[GlTStR, Index[Sfermion, 4]]*
+         T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+           Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] + 
+        gC[GlTStL, Index[Sfermion, 4]]*
+         (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+            Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MGl]] + 
+          T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+            Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MT]] - 
+          T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] + 
+          MGl2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+             Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] + 
+          MT2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+             Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] - 
+          MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 
+               3]]*Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*
+             Df[k4, MGl]])) + g[hStSt, 1, Index[Sfermion, 3], 
+        Index[Sfermion, 4]]*
+       (g[hTTL, 2]*(2*MGl*MT2*gC[GlTStR, Index[Sfermion, 4]]*
+           T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+             Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]] + 
+          MT*gC[GlTStL, Index[Sfermion, 4]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] - 
+            T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 
+                MGl]] + MT2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 3, 3]]*Df[k4, MGl]])) + g[hTTR, 2]*
+         (2*MGl*gC[GlTStR, Index[Sfermion, 4]]*
+           (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] + 
+            MT2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, 
+                MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]]) + 
+          MT*gC[GlTStL, Index[Sfermion, 4]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] - 
+            T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 
+                MGl]] + MT2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 3, 3]]*Df[k4, MGl]])))) + 
+    g[hStSt, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+     (g[GlTStL, Index[Sfermion, 4]]*
+       (g[hTTL, 1]*(2*MGl*MT2*gC[GlTStR, Index[Sfermion, 3]]*
+           T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+             Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]] + 
+          MT*gC[GlTStL, Index[Sfermion, 3]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] - 
+            T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 
+                MGl]] + MT2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 3, 3]]*Df[k4, MGl]])) + g[hTTR, 1]*
+         (2*MGl*gC[GlTStR, Index[Sfermion, 3]]*
+           (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] + 
+            MT2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, 
+                MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]]) + 
+          MT*gC[GlTStL, Index[Sfermion, 3]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] - 
+            T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 
+                MGl]] + MT2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 3, 3]]*Df[k4, MGl]]))) + g[GlTStR, Index[Sfermion, 4]]*
+       (g[hTTR, 1]*(2*MGl*MT2*gC[GlTStL, Index[Sfermion, 3]]*
+           T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+             Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]] + 
+          MT*gC[GlTStR, Index[Sfermion, 3]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] - 
+            T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 
+                MGl]] + MT2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 3, 3]]*Df[k4, MGl]])) + g[hTTL, 1]*
+         (2*MGl*gC[GlTStL, Index[Sfermion, 3]]*
+           (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] + 
+            MT2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, 
+                MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]]) + 
+          MT*gC[GlTStR, Index[Sfermion, 3]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] - 
+            T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 
+                MGl]] + MT2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 3, 3]]*Df[k4, MGl]])))) + g[GlTStR, Index[Sfermion, 3]]*
+     (g[hhStSt, 1, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+       (2*MGl*MT*gC[GlTStL, Index[Sfermion, 4]]*
+         T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+           Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] + 
+        gC[GlTStR, Index[Sfermion, 4]]*
+         (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+            Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MGl]] + 
+          T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+            Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MT]] - 
+          T[Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] + 
+          MGl2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+             Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] + 
+          MT2*T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*
+             Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] - 
+          MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MSf[Index[Sfermion, 3], 3, 
+               3]]*Df[k1, MSf[Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*
+             Df[k4, MGl]])) + g[hStSt, 1, Index[Sfermion, 3], 
+        Index[Sfermion, 4]]*
+       (g[hTTR, 2]*(2*MGl*MT2*gC[GlTStL, Index[Sfermion, 4]]*
+           T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+             Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]] + 
+          MT*gC[GlTStR, Index[Sfermion, 4]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] - 
+            T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 
+                MGl]] + MT2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 3, 3]]*Df[k4, MGl]])) + g[hTTL, 2]*
+         (2*MGl*gC[GlTStL, Index[Sfermion, 4]]*
+           (T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] + 
+            MT2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, 
+                MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]]) + 
+          MT*gC[GlTStR, Index[Sfermion, 4]]*
+           (T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 3, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 3, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 3, 3]]*Df[k3, MT]*Df[k4, MGl]] - 
+            T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*
+              Df[k4, MGl]] + MGl2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, 
+                MGl]] + MT2*T[Df[k1, MT]^2*Df[k3, MSf[Index[Sfermion, 3], 3, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 3, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 3, 3]*T[Df[k1, MT]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 3, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 3, 3]]*Df[k4, MGl]]))))))/(64*Pi^4) + 
+ (DiagMark[MGl, MB, MSf[Index[Sfermion, 3], 4, 3], 
+    MSf[Index[Sfermion, 4], 4, 3]]*SumOver[Index[Sfermion, 3], 2]*
+   SumOver[Index[Sfermion, 4], 2]*(g[GlBSbL, Index[Sfermion, 3]]*
+     (g[hhSbSb, 1, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+       (2*MB*MGl*gC[GlBSbR, Index[Sfermion, 4]]*
+         T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+           Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] + 
+        gC[GlBSbL, Index[Sfermion, 4]]*
+         (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+            Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MB]] + 
+          T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+            Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]] - 
+          T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] + 
+          MB2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+             Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] + 
+          MGl2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+             Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] - 
+          MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 
+               3]]*Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*
+             Df[k4, MB]])) + g[hSbSb, 1, Index[Sfermion, 3], 
+        Index[Sfermion, 4]]*
+       (g[hBBL, 2]*(2*MB2*MGl*gC[GlBSbR, Index[Sfermion, 4]]*
+           T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+             Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]] + 
+          MB*gC[GlBSbL, Index[Sfermion, 4]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] - 
+            T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 
+                MGl]] + MGl2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 4, 3]]*Df[k4, MGl]])) + g[hBBR, 2]*
+         (2*MGl*gC[GlBSbR, Index[Sfermion, 4]]*
+           (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] + 
+            MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, 
+                MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]]) + 
+          MB*gC[GlBSbL, Index[Sfermion, 4]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] - 
+            T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 
+                MGl]] + MGl2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 4, 3]]*Df[k4, MGl]])))) + 
+    g[hSbSb, 2, Index[Sfermion, 4], Index[Sfermion, 3]]*
+     (g[GlBSbL, Index[Sfermion, 4]]*
+       (g[hBBL, 1]*(2*MB2*MGl*gC[GlBSbR, Index[Sfermion, 3]]*
+           T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+             Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]] + 
+          MB*gC[GlBSbL, Index[Sfermion, 3]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] - 
+            T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 
+                MGl]] + MGl2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 4, 3]]*Df[k4, MGl]])) + g[hBBR, 1]*
+         (2*MGl*gC[GlBSbR, Index[Sfermion, 3]]*
+           (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] + 
+            MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, 
+                MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]]) + 
+          MB*gC[GlBSbL, Index[Sfermion, 3]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] - 
+            T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 
+                MGl]] + MGl2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 4, 3]]*Df[k4, MGl]]))) + g[GlBSbR, Index[Sfermion, 4]]*
+       (g[hBBR, 1]*(2*MB2*MGl*gC[GlBSbL, Index[Sfermion, 3]]*
+           T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+             Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]] + 
+          MB*gC[GlBSbR, Index[Sfermion, 3]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] - 
+            T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 
+                MGl]] + MGl2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 4, 3]]*Df[k4, MGl]])) + g[hBBL, 1]*
+         (2*MGl*gC[GlBSbL, Index[Sfermion, 3]]*
+           (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] + 
+            MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, 
+                MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]]) + 
+          MB*gC[GlBSbR, Index[Sfermion, 3]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] - 
+            T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 
+                MGl]] + MGl2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 4, 3]]*Df[k4, MGl]])))) + g[GlBSbR, Index[Sfermion, 3]]*
+     (g[hhSbSb, 1, 2, Index[Sfermion, 3], Index[Sfermion, 4]]*
+       (2*MB*MGl*gC[GlBSbL, Index[Sfermion, 4]]*
+         T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+           Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] + 
+        gC[GlBSbR, Index[Sfermion, 4]]*
+         (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+            Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MB]] + 
+          T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+            Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]] - 
+          T[Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] + 
+          MB2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+             Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] + 
+          MGl2*T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*
+             Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] - 
+          MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MSf[Index[Sfermion, 3], 4, 
+               3]]*Df[k1, MSf[Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*
+             Df[k4, MB]])) + g[hSbSb, 1, Index[Sfermion, 3], 
+        Index[Sfermion, 4]]*
+       (g[hBBR, 2]*(2*MB2*MGl*gC[GlBSbL, Index[Sfermion, 4]]*
+           T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+             Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]] + 
+          MB*gC[GlBSbR, Index[Sfermion, 4]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] - 
+            T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 
+                MGl]] + MGl2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 4, 3]]*Df[k4, MGl]])) + g[hBBL, 2]*
+         (2*MGl*gC[GlBSbL, Index[Sfermion, 4]]*
+           (T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] + 
+            MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, 
+                MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]]) + 
+          MB*gC[GlBSbR, Index[Sfermion, 4]]*
+           (T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 3]]*
+              Df[k3, MSf[Index[Sfermion, 4], 4, 3]]] + 
+            T[Df[k1, MSf[Index[Sfermion, 3], 4, 3]]*Df[k1, MSf[
+                Index[Sfermion, 4], 4, 3]]*Df[k3, MGl]*Df[k4, MB]] - 
+            T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*
+              Df[k4, MGl]] + MB2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 
+                  3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, 
+                MGl]] + MGl2*T[Df[k1, MB]^2*Df[k3, MSf[Index[Sfermion, 3], 4, 
+                 3]]*Df[k3, MSf[Index[Sfermion, 4], 4, 3]]*Df[k4, MGl]] - 
+            MSf2[Index[Sfermion, 3], 4, 3]*T[Df[k1, MB]^2*Df[k3, 
+                MSf[Index[Sfermion, 3], 4, 3]]*Df[k3, MSf[Index[Sfermion, 4], 
+                 4, 3]]*Df[k4, MGl]]))))))/(64*Pi^4)

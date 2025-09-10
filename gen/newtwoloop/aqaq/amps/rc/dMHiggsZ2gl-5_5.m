@@ -1,0 +1,3 @@
+{dMHiggsZ2gl[5, 5] -> dMHiggs2gl[5, 5] + dMHiggs1gl[5, 5]*dZHiggs1gl[5, 5] + 
+   (dMHiggs1gl[6, 5]*dZHiggs1gl[5, 6] + dMHiggs1gl[5, 6]*dZHiggs1gl[6, 5])/
+    2 + MHin2*(dZHiggs1gl[5, 5]^2/4 + dZHiggs2gl[5, 5]), {}}

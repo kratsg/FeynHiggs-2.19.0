@@ -1,0 +1,6 @@
+(dZbarHiggs1gl[5, 5]*g[HpHpStSt, 1, 1, 1, 2])/2 + 
+ (dZHiggs1gl[5, 5]*g[HpHpStSt, 1, 1, 1, 2])/2 + 
+ (dZbarHiggs1gl[6, 5]*g[HpHpStSt, 1, 2, 1, 2])/2 + 
+ (dZHiggs1gl[6, 5]*g[HpHpStSt, 2, 1, 1, 2])/2 + 
+ 2*dhb1*hb*USf[2, 1, 3, 3]*USfC[1, 1, 3, 3]*ZPd[1]^2 + 
+ 2*dht1*ht*USf[2, 2, 3, 3]*USfC[1, 2, 3, 3]*ZPu[1]^2

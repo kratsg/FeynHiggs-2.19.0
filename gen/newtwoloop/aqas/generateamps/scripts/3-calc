@@ -1,0 +1,165 @@
+#! /bin/sh -x
+
+test $# -ne 2 && {
+  cat << _EOF_
+Usage:  $0 se cto
+calculates the 'se' 2L self-energy with TuCalc/FormCalc
+_EOF_
+  exit 1
+}
+
+in=m/$1/2-prep.$2
+test -f $in || exit 1
+out=m/$1/3-calc.$2
+rm -f $out*
+
+case $2 in
+0)	# calculation of the 2L self-energies with TuCalc
+time math11.1 -run se=\"$1\" \
+          -run in=\"$in\" \
+          -run out=\"$out\" << \_EOF_ > $out.log
+AppendTo[$Echo, "stdout"];
+$Path = Flatten[{
+  ToFileName[{"twocalc"}],
+  ToFileName[{"twocalc", "work"}],
+  ToFileName[{"twocalc", "TuCalc", "Code"}],
+  $Path }];
+
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FeynArts-3.9"}]]; (* FeynArts path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FormCalc-9.7"}]]; (* FormCalc path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-Projekte", "FC2L", "aqasnew"}]];
+
+SEPart = 8;
+
+<< TuCalc`;
+$VeryVerbose = 0;
+SetOptions[TwoLoop,
+  CollectFunction -> 0,
+  Dimension -> $D,
+  DimReduction -> True];
+SetOptions[TwoLoopSum,
+  CollectFunction -> 0,
+  SelfEnergyPart -> SEPart];
+TwoLoopSum[0] = 0;
+
+SetOptions[Simplify, TimeConstraint -> 10];
+
+GG[s_][cto_][fi__][kin_] := GG[s][cto][fi][kin] = Coupling[Unique[]];
+
+amp = TwoLoopSum[Get[in] /. G -> GG];
+
+<< packages`UseSimplePackage`;
+<< packages`USfSimplify`;
+
+generalints[exp_] := 
+ Union[exp /. Y[Den[dfs__] Num[ks__]] :> T[dfs Df[k6, Num[ks]]] //. 
+  T[Df[ki_, mi_]^ni_. Dfs_., Dfl_: {}] :> 
+   T[Dfs, Sort[Append[Dfl, {ki, mi, ni}], 
+    If[#1[[1]] === #2[[1]], 
+     If[#1[[3]] === #2[[3]], #1[[2]] < #2[[2]], #1[[3]] > #2[[3]]],
+     #1[[1]] < #2[[1]]] &]] /. 
+  T[1, l_] :> Function[x, (T @@ Flatten[MapThread[PadLeft[{}, #3, 
+   ToExpression[StringReplace[ToString[#1], "k" -> ""]]] &, x]]) @@ 
+   Flatten[MapThread[PadLeft[{}, #3, #2^2] &, x]]][Transpose[l, {2, 1}]] /. 
+  T[i__][m__] :> (T[i][m] /. Flatten[MapThread[{#1 -> 
+   ToExpression[StringJoin["m", ToString[#2]]]} &, {#, Range[Length[#]]}] &[
+    Select[DeleteDuplicates[{m}], FreeQ[#, 0 | _Num] &]]]) /. 
+  T[i__, 6][m__, Num[k__]^2] :> Y[Den[i][m], Num[k]]] /. 
+  Y[Den[ind__][mass__], num_] :> Y[Den[Times @@ MapThread[
+   Df[ToExpression[StringJoin["k", ToString[#1]]], #2] &,
+   {{ind}, {mass}}]] num] /. 
+  T[ind__][mass__] :> T[Times @@ MapThread[
+   Df[ToExpression[StringJoin["k", ToString[#1]]], #2] &, {{ind}, {mass}}]];
+
+sortfunc[x_] :=
+ Sum[2^((16 - sumind)
+  Count[x, Df[ToExpression[StringJoin["k", ToString[sumind]]], 0], 
+  Infinity]), {sumind, 5}] + 
+ Sum[2^(10 - sumind1 - sumind2)
+  Boole[(Times @@ Cases[x, 
+   Df[ToExpression[StringJoin["k", ToString[sumind1]]], m_] :> m, Infinity]) ===
+        (Times @@ Cases[x, 
+   Df[ToExpression[StringJoin["k", ToString[sumind2]]], m_] :> m, Infinity])],
+  {sumind1, 4}, {sumind2, sumind1 + 1, 5}];
+
+UseSimplePackage[x];
+amp = amp /. T->Tsymm /. {
+  T[Df[k1, m1_] Df[k3, m2_] Df[k3, m3_]] :>
+   T[Df[k3, m1] Df[k1, m2] Df[k1, m3]],
+  T[Df[k1, m1_] Df[k3, m2_] Df[k3, m3_] Df[k3, m4_]] :>
+   T[Df[k3, m1] Df[k1, m2] Df[k1, m3] Df[k1, m4]],
+  T[Df[k1, m1_] Df[k2, m2_] Df[k2, m3_] Df[k3, m4_]] :> 
+   T[Df[k2, m1] Df[k1, m2] Df[k1, m3] Df[k3, m4]], 
+  T[Df[k1, m1_] Df[k3, m2_] Df[k4, m3_] Df[k4, m4_]] :> 
+   T[Df[k4, m1] Df[k3, m2] Df[k1, m3] Df[k1, m4]],
+  T[Df[k1, m1_] Df[k3, m2_] Df[k3, m3_] Df[k4, m4_]] :> 
+   T[Df[k3, m1] Df[k1, m2] Df[k1, m3] Df[k4, m4]]} /.
+  int:_T :> (If[#===0,#,int]&[UseSimplePackage[UseSimplePackage[int]]]);
+
+ints = Check[Get["ints.list"], {}];
+intsNew = generalints[Cases[amp, _T | _Y, {0, Infinity}]];
+intsNew = Complement[intsNew, ints];
+Put[Sort[Join[ints, intsNew], sortfunc[#1[[1]]] > sortfunc[#2[[1]]] &],
+ "ints.list"];
+
+amp = amp /. Pair[Momentum[p], Momentum[p]] -> ExtMomSq /. p2 -> ExtMomSq /. B0[0, 0, 0] -> 0 /. A0[0] -> 0;
+
+Derivative[1, __][T][ExtMomSq, Dfs_] ^:= DT[Dfs];
+Derivative[1, __][B0][ExtMomSq, m__] ^:= DB0[ExtMomSq, m];
+Derivative[1, __][B1][ExtMomSq, m__] ^:= DB1[ExtMomSq, m];
+
+amp =
+ If[se == "h0h0p" || se == "HHHHp",
+  D[amp /. T[Dfs_] :> T[ExtMomSq, Dfs] /; !FreeQ[Dfs, k2 | k5], ExtMomSq] /.
+   T[ExtMomSq, Dfs_] :> T[Dfs],
+  amp];
+
+ExtMomSq = Piecewise[{{0, se == "h0h0p"}, {0, se == "HHHHp"}}, 0];
+
+amp = USfSimplify @ amp;
+
+amp = amp /. {$D | dim -> 4 - 2 del};
+
+Put[amp, out];
+
+_EOF_
+;;
+
+1)	# calculation of the 1L counterterm diagrams with FormCalc
+time math -run se=\"$1\" \
+          -run in=\"$in\" \
+          -run out=\"$out\" << \_EOF_ > $out.log
+AppendTo[$Echo, "stdout"];
+
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FeynArts-3.9"}]]; (* FeynArts path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-PlugIns", "FormCalc-9.7"}]]; (* FormCalc path *)
+PrependTo[$Path, ToFileName[{$HomeDirectory, "Mathematica-Projekte", "FC2L", "aqasnew"}]];
+
+<< packages`FCSettings`;
+
+amp = Plus@@ CalcFeynAmp[Get[in]];
+
+amp = amp //. Join[Subexpr[], Abbr[]] /.
+  Pair[_k, _k] -> ExtMomSq /. Pair[_e | _ec, _k] -> 0 /. Pair[_e, _ec] -> -1 /. SUNT[_, _] -> 1 /. SUNT[_, _, 0, 0] -> 1/2 /.
+  B0[0, 0, 0] -> 0 /. A0[0] -> 0 /. ToOldBRules;
+
+Derivative[1, __][B0][ExtMomSq, m__] ^:= DB0[ExtMomSq, m];
+Derivative[1, __][B1][ExtMomSq, m__] ^:= DB1[ExtMomSq, m];
+
+amp = If[se == "h0h0p" || se == "HHHHp",
+         D[amp, ExtMomSq],
+         amp];
+
+ExtMomSq = Piecewise[{{0, se == "h0h0p"}, {0, se == "HHHHp"}}, 0];
+
+Put[amp, out];
+
+Uninstall[$ReadFormHandle];
+_EOF_
+;;
+esac
+
+gzip $out.log
+
+test -f $out
+

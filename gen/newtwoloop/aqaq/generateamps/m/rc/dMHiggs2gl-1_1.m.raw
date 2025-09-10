@@ -1,0 +1,2 @@
+-((dTh02 - (dTh01*dv1)/v)*HoldCode[EL/(2*MW*SW)]) + 
+ CB2*dTB1*(CB2*dTB1*MHin2 - dTHH1*HoldCode[EL/(2*MW*SW)])

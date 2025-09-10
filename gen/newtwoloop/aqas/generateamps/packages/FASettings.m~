@@ -1,0 +1,82 @@
+<< FeynArts`;
+<< packages`Mod`;
+<< packages`USfSimplify`;
+<< FormCalc`ModelSpecific`;
+
+$ShapeDataDir = "ShapeData"
+
+If[ !ValueQ[model], model = {"MSSMCTaqas","Nc"} ]
+
+SetOptions[InsertFields, Model -> model];
+CKM = CKMC = IndexDelta;
+_dCKM1 = 0
+
+SetOptions[Paint, PaintLevel -> Particles (*Classes*)]
+
+
+top[io_] := CreateTopologies[2 - cto, io,
+  CTOrder -> cto,
+  ExcludeTopologies -> Internal]
+
+
+ins[proc_] := ins[top[Length/@ proc], proc]
+
+ins[top_, proc_] := {top, InsertFields[top, proc,
+  InsertionLevel -> Particles,
+  ExcludeParticles -> {V[1 | 2 | 3], U, S[1 | 2 | 3 | 4 | 5 | 6 | 11 | 12], S[13 | 14, {_, 1 | 2, _}], F[1 | 2 | 11 | 12], F[3 | 4, {1 | 2, _}]},
+  LastSelections -> {S[13 | 14, {_, 3, _}] | F[3 | 4, {3, _}] | F[15, _] | V[5, _]}
+]}
+
+
+urulz = If[ Environment["USFDIAG"] === $Failed, {},
+  Print["setting diagonal sfermion mixing"];
+  { USf[__][i_,i_] -> 1, USf[__][__] -> 0,
+    (USf|USfC)[i_,i_,__] -> 1, _USf|_USfC -> 0,
+    Xb | XbC | Xt | XtC -> 0 } ]
+
+glamp = Modify
+
+cfa[diags__] := PickLevel[Particles][
+  glamp[CreateFeynAmp[diags] /. urulz] /.
+    i:Insertions[Particles][__] :> Map[csimp, i, {2}] ]
+
+csimp[c_] := csimp[c] =
+  USfSimplify @ c
+
+
+
+Attributes[tAnd] = {HoldAll}
+
+tAnd[a__] := And[a]&
+
+
+Attributes[athr] = {Listable}
+
+athr[a_And] := Level[a, {2}, tAnd]
+
+athr[other_] := other
+
+
+(* no further selection required for alfaq alfas contributions *)
+
+diagsel::nopatt = "No pattern defined for ``."
+
+diagsel[_, patt_sel] :=
+  (Message[diagsel::nopatt, patt]; Abort[])
+
+diagsel[{_, h_[]}, _] := h[]
+
+diagsel[{_[top__], h_[ins__]}, patt_] :=
+Block[ {sel},
+  (sel[#1] = #2)&@@@ Thread[{top} -> athr[patt]];
+  Join@@ (DiagramSelect[h[#], sel[Most/@ #[[1]]]]&)/@ {ins}
+]
+
+
+selectAlfas[c_] := If[cto == 0, Alfas Coefficient[c, Alfas], c]
+
+ampmod[_][id_, q_, amp_] := FeynAmp[id, q,
+  (DiagMark@@ Union[Cases[amp, PropagatorDenominator[_, m_] :> m, Infinity]]) *
+  Collect[Simplify[amp] //. (trname : MatrixTrace | FermionChain)[a___, Times[b1___, GS, b2___], c___] :> GS trname[a, Times[b1, b2], c],
+	  _MatrixTrace,
+	  selectAlfas]]
