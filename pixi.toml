@@ -1,0 +1,40 @@
+[workspace]
+channels = ["conda-forge"]
+name = "feynhiggs-build"
+platforms = ["linux-64", "linux-aarch64", "osx-64", "osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+download = """
+rm -f FeynHiggs-2.19.0.tar.gz && \
+rm -rf FeynHiggs-2.19.0 && \
+curl -skLO https://wwwth.mpp.mpg.de/members/heinemey/feynhiggs/newversion/FeynHiggs-2.19.0.tar.gz && \
+tar -xzf FeynHiggs-2.19.0.tar.gz
+"""
+
+build = """
+cd FeynHiggs-2.19.0 && \
+./configure --prefix=$CONDA_PREFIX --debug && \
+make clean && \
+make && \
+make install && \
+mv $CONDA_PREFIX/lib64/libFH.a $CONDA_PREFIX/lib64/
+"""
+
+test = """
+FeynHiggs FeynHiggs-2.19.0/example/SLHA/TestEXTPAR.spc
+"""
+
+[tasks.start]
+depends-on = ["download", "build"]
+
+
+[dependencies]
+cxx-compiler = ">=1.11.0,<2"
+fortran-compiler = ">=1.11.0,<2"
+make = ">=4.4.1,<5"
+curl = ">=8.14.1,<9"
+sed = ">=4.9,<5"
+gawk = ">=5.3.1,<6"
+tar = ">=1.35,<2"
+gdb = ">=16.3,<17"

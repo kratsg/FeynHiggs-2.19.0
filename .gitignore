@@ -1,0 +1,6 @@
+build/
+CLAUDE.md
+
+# pixi environments
+.pixi
+*.egg-info
