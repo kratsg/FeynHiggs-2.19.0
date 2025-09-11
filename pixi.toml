@@ -28,6 +28,13 @@ cmake --build build --clean-first --parallel "$(nproc --ignore=4)" &&\
 cmake --install build
 """
 
+cmake-build-debug = """
+rm -rf build_debug && \
+cmake -DCMAKE_INSTALL_PREFIX="$CONDA_PREFIX" -DCMAKE_BUILD_TYPE=Debug -S . -B build_debug && \
+cmake build_debug -LH && \
+cmake --build build_debug --clean-first --parallel "$(nproc --ignore=4)"
+"""
+
 test = """
 FeynHiggs FeynHiggs-2.19.0/example/SLHA/TestEXTPAR.spc
 """
