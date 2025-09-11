@@ -43,6 +43,11 @@ cmake-test = """
 FeynHiggs ./example/SLHA/TestEXTPAR.spc &> TestEXTPAR.out
 """
 
+cmake-test-debug = """
+rm -f TestEXTPAR.out && \
+./build_debug/src/FeynHiggs ./example/SLHA/TestEXTPAR.spc &> TestEXTPAR.out
+"""
+
 [tasks.start]
 depends-on = ["download", "build"]
 
