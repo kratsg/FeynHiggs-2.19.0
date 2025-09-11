@@ -4,44 +4,41 @@
 function(check_fortran_underscore result_var)
     message(STATUS "Checking Fortran underscore convention...")
     
-    set(TEST_UNDERSCORE_C_CODE "
-int uscore_ = 95;
-int uscore = 59;
-")
+    # Create test files in a subdirectory to avoid conflicts
+    set(TEST_DIR ${CMAKE_BINARY_DIR}/CMakeFiles/underscore_test)
+    file(MAKE_DIRECTORY ${TEST_DIR})
+    
+    # C code that defines both underscore variants
+    set(TEST_UNDERSCORE_C_CODE "int uscore_ = 95;\nint uscore = 59;\n")
+    
+    # Fortran code that references the common block
+    set(TEST_UNDERSCORE_F_CODE "      program test\n      integer i\n      common /uscore/ i\n      call exit(i)\n      end\n")
 
-    set(TEST_UNDERSCORE_F_CODE "
-      program test
-      integer i
-      common /uscore/ i
-      call exit(i)
-      end
-")
+    file(WRITE ${TEST_DIR}/test_underscore.c "${TEST_UNDERSCORE_C_CODE}")
+    file(WRITE ${TEST_DIR}/test_underscore.f "${TEST_UNDERSCORE_F_CODE}")
 
-    file(WRITE ${CMAKE_BINARY_DIR}/test_underscore.c ${TEST_UNDERSCORE_C_CODE})
-    file(WRITE ${CMAKE_BINARY_DIR}/test_underscore.f ${TEST_UNDERSCORE_F_CODE})
-
-    try_compile(UNDERSCORE_COMPILE_SUCCESS
-        ${CMAKE_BINARY_DIR}/underscore_test
-        SOURCES ${CMAKE_BINARY_DIR}/test_underscore.c ${CMAKE_BINARY_DIR}/test_underscore.f
-        OUTPUT_VARIABLE UNDERSCORE_OUTPUT
+    # Try to compile and run the mixed Fortran/C program directly
+    try_run(UNDERSCORE_RUN_RESULT UNDERSCORE_COMPILE_SUCCESS
+        ${TEST_DIR}
+        SOURCES ${TEST_DIR}/test_underscore.f ${TEST_DIR}/test_underscore.c
+        COMPILE_OUTPUT_VARIABLE UNDERSCORE_COMPILE_OUTPUT
+        RUN_OUTPUT_VARIABLE UNDERSCORE_RUN_OUTPUT
     )
 
-    set(${result_var} 0 PARENT_SCOPE)
-    if(UNDERSCORE_COMPILE_SUCCESS)
-        try_run(UNDERSCORE_RUN_RESULT UNDERSCORE_RUN_SUCCESS
-            ${CMAKE_BINARY_DIR}/underscore_test
-            ${CMAKE_BINARY_DIR}/test_underscore.c ${CMAKE_BINARY_DIR}/test_underscore.f
-            RUN_OUTPUT_VARIABLE UNDERSCORE_RUN_OUTPUT
-        )
-        
-        if(UNDERSCORE_RUN_SUCCESS AND UNDERSCORE_RUN_RESULT EQUAL 59)
-            message(STATUS "Fortran compiler does not append underscores")
-            set(${result_var} 1 PARENT_SCOPE)
-        else()
-            message(STATUS "Fortran compiler appends underscores")
-            set(${result_var} 0 PARENT_SCOPE)
-        endif()
+    if(NOT UNDERSCORE_COMPILE_SUCCESS)
+        message(STATUS "Failed to compile Fortran+C test")
+        message(STATUS "Compile output: ${UNDERSCORE_COMPILE_OUTPUT}")
+        message(WARNING "Could not determine Fortran underscore convention, assuming underscores are appended")
+        set(${result_var} 0 PARENT_SCOPE)
+    elseif(UNDERSCORE_RUN_RESULT EQUAL 95)
+        message(STATUS "Fortran compiler appends underscores")
+        set(${result_var} 0 PARENT_SCOPE)
+    elseif(UNDERSCORE_RUN_RESULT EQUAL 59)
+        message(STATUS "Fortran compiler does not append underscores")
+        set(${result_var} 1 PARENT_SCOPE)
     else()
+        message(STATUS "Unexpected test result: ${UNDERSCORE_RUN_RESULT}")
+        message(STATUS "Run output: ${UNDERSCORE_RUN_OUTPUT}")
         message(WARNING "Could not determine Fortran underscore convention, assuming underscores are appended")
         set(${result_var} 0 PARENT_SCOPE)
     endif()
